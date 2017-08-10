@@ -10,6 +10,10 @@
 		B755554D1F3C5823008D0D01 /* GXHome.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B75555431F3C5823008D0D01 /* GXHome.framework */; };
 		B75555521F3C5823008D0D01 /* GXHomeTests.m in Sources */ = {isa = PBXBuildFile; fileRef = B75555511F3C5823008D0D01 /* GXHomeTests.m */; };
 		B75555541F3C5823008D0D01 /* GXHome.h in Headers */ = {isa = PBXBuildFile; fileRef = B75555461F3C5823008D0D01 /* GXHome.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		B755556C1F3C604A008D0D01 /* GXHomeDefine.h in Headers */ = {isa = PBXBuildFile; fileRef = B755556A1F3C604A008D0D01 /* GXHomeDefine.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		B755556D1F3C604A008D0D01 /* GXHomeDefine.m in Sources */ = {isa = PBXBuildFile; fileRef = B755556B1F3C604A008D0D01 /* GXHomeDefine.m */; };
+		B75555701F3C616C008D0D01 /* GXHomeManager.h in Headers */ = {isa = PBXBuildFile; fileRef = B755556E1F3C616C008D0D01 /* GXHomeManager.h */; };
+		B75555711F3C616C008D0D01 /* GXHomeManager.m in Sources */ = {isa = PBXBuildFile; fileRef = B755556F1F3C616C008D0D01 /* GXHomeManager.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -29,6 +33,10 @@
 		B755554C1F3C5823008D0D01 /* GXHomeTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GXHomeTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		B75555511F3C5823008D0D01 /* GXHomeTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GXHomeTests.m; sourceTree = "<group>"; };
 		B75555531F3C5823008D0D01 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B755556A1F3C604A008D0D01 /* GXHomeDefine.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GXHomeDefine.h; sourceTree = "<group>"; };
+		B755556B1F3C604A008D0D01 /* GXHomeDefine.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GXHomeDefine.m; sourceTree = "<group>"; };
+		B755556E1F3C616C008D0D01 /* GXHomeManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GXHomeManager.h; sourceTree = "<group>"; };
+		B755556F1F3C616C008D0D01 /* GXHomeManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GXHomeManager.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -71,7 +79,13 @@
 		B75555451F3C5823008D0D01 /* GXHome */ = {
 			isa = PBXGroup;
 			children = (
+				B75555911F3C637D008D0D01 /* GXHome */,
+				B75555921F3C637D008D0D01 /* Resources */,
 				B75555461F3C5823008D0D01 /* GXHome.h */,
+				B755556A1F3C604A008D0D01 /* GXHomeDefine.h */,
+				B755556B1F3C604A008D0D01 /* GXHomeDefine.m */,
+				B755556E1F3C616C008D0D01 /* GXHomeManager.h */,
+				B755556F1F3C616C008D0D01 /* GXHomeManager.m */,
 				B75555471F3C5823008D0D01 /* Info.plist */,
 			);
 			path = GXHome;
@@ -86,6 +100,20 @@
 			path = GXHomeTests;
 			sourceTree = "<group>";
 		};
+		B75555911F3C637D008D0D01 /* GXHome */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = GXHome;
+			sourceTree = "<group>";
+		};
+		B75555921F3C637D008D0D01 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
@@ -94,6 +122,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				B75555541F3C5823008D0D01 /* GXHome.h in Headers */,
+				B75555701F3C616C008D0D01 /* GXHomeManager.h in Headers */,
+				B755556C1F3C604A008D0D01 /* GXHomeDefine.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -197,6 +227,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B755556D1F3C604A008D0D01 /* GXHomeDefine.m in Sources */,
+				B75555711F3C616C008D0D01 /* GXHomeManager.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -394,6 +426,7 @@
 				B75555591F3C5823008D0D01 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		B755555A1F3C5823008D0D01 /* Build configuration list for PBXNativeTarget "GXHomeTests" */ = {
 			isa = XCConfigurationList;
@@ -402,6 +435,7 @@
 				B755555C1F3C5823008D0D01 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

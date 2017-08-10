@@ -16,4 +16,4 @@ FOUNDATION_EXPORT const unsigned char GXHomeVersionString[];
 
 // In this header, you should import all the public headers of your framework using statements like #import <GXHome/PublicHeader.h>
 
-
+#import <GXHome/GXHomeDefine.h>
