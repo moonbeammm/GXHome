@@ -14,6 +14,10 @@
 		B755556D1F3C604A008D0D01 /* GXHomeDefine.m in Sources */ = {isa = PBXBuildFile; fileRef = B755556B1F3C604A008D0D01 /* GXHomeDefine.m */; };
 		B75555701F3C616C008D0D01 /* GXHomeManager.h in Headers */ = {isa = PBXBuildFile; fileRef = B755556E1F3C616C008D0D01 /* GXHomeManager.h */; };
 		B75555711F3C616C008D0D01 /* GXHomeManager.m in Sources */ = {isa = PBXBuildFile; fileRef = B755556F1F3C616C008D0D01 /* GXHomeManager.m */; };
+		B7CCDC6F1F3DBD7E00B06BB3 /* GXHomeBus.h in Headers */ = {isa = PBXBuildFile; fileRef = B7CCDC6D1F3DBD7E00B06BB3 /* GXHomeBus.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		B7CCDC701F3DBD7E00B06BB3 /* GXHomeBus.m in Sources */ = {isa = PBXBuildFile; fileRef = B7CCDC6E1F3DBD7E00B06BB3 /* GXHomeBus.m */; };
+		B7CCDC7B1F3DC21D00B06BB3 /* GXHomeBusTestVC.h in Headers */ = {isa = PBXBuildFile; fileRef = B7CCDC791F3DC21D00B06BB3 /* GXHomeBusTestVC.h */; };
+		B7CCDC7C1F3DC21D00B06BB3 /* GXHomeBusTestVC.m in Sources */ = {isa = PBXBuildFile; fileRef = B7CCDC7A1F3DC21D00B06BB3 /* GXHomeBusTestVC.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -23,6 +27,27 @@
 			proxyType = 1;
 			remoteGlobalIDString = B75555421F3C5823008D0D01;
 			remoteInfo = GXHome;
+		};
+		B7CCDC671F3DBD6200B06BB3 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B7CCDC621F3DBD6200B06BB3 /* GXRuler.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = B755569A1F3C71E1008D0D01;
+			remoteInfo = GXRuler;
+		};
+		B7CCDC691F3DBD6200B06BB3 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B7CCDC621F3DBD6200B06BB3 /* GXRuler.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = B75556A31F3C71E2008D0D01;
+			remoteInfo = GXRulerTests;
+		};
+		B7CCDC6B1F3DBD6E00B06BB3 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B7CCDC621F3DBD6200B06BB3 /* GXRuler.xcodeproj */;
+			proxyType = 1;
+			remoteGlobalIDString = B75556991F3C71E1008D0D01;
+			remoteInfo = GXRuler;
 		};
 /* End PBXContainerItemProxy section */
 
@@ -37,6 +62,11 @@
 		B755556B1F3C604A008D0D01 /* GXHomeDefine.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GXHomeDefine.m; sourceTree = "<group>"; };
 		B755556E1F3C616C008D0D01 /* GXHomeManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GXHomeManager.h; sourceTree = "<group>"; };
 		B755556F1F3C616C008D0D01 /* GXHomeManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GXHomeManager.m; sourceTree = "<group>"; };
+		B7CCDC621F3DBD6200B06BB3 /* GXRuler.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = GXRuler.xcodeproj; path = ../../GXFC/GXRuler/GXRuler.xcodeproj; sourceTree = "<group>"; };
+		B7CCDC6D1F3DBD7E00B06BB3 /* GXHomeBus.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GXHomeBus.h; sourceTree = "<group>"; };
+		B7CCDC6E1F3DBD7E00B06BB3 /* GXHomeBus.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GXHomeBus.m; sourceTree = "<group>"; };
+		B7CCDC791F3DC21D00B06BB3 /* GXHomeBusTestVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GXHomeBusTestVC.h; sourceTree = "<group>"; };
+		B7CCDC7A1F3DC21D00B06BB3 /* GXHomeBusTestVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GXHomeBusTestVC.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -79,9 +109,12 @@
 		B75555451F3C5823008D0D01 /* GXHome */ = {
 			isa = PBXGroup;
 			children = (
+				B7CCDC611F3DBD2000B06BB3 /* Dependencies */,
 				B75555911F3C637D008D0D01 /* GXHome */,
 				B75555921F3C637D008D0D01 /* Resources */,
 				B75555461F3C5823008D0D01 /* GXHome.h */,
+				B7CCDC6D1F3DBD7E00B06BB3 /* GXHomeBus.h */,
+				B7CCDC6E1F3DBD7E00B06BB3 /* GXHomeBus.m */,
 				B755556A1F3C604A008D0D01 /* GXHomeDefine.h */,
 				B755556B1F3C604A008D0D01 /* GXHomeDefine.m */,
 				B755556E1F3C616C008D0D01 /* GXHomeManager.h */,
@@ -103,6 +136,7 @@
 		B75555911F3C637D008D0D01 /* GXHome */ = {
 			isa = PBXGroup;
 			children = (
+				B7CCDC771F3DC20F00B06BB3 /* Business */,
 			);
 			path = GXHome;
 			sourceTree = "<group>";
@@ -114,6 +148,40 @@
 			path = Resources;
 			sourceTree = "<group>";
 		};
+		B7CCDC611F3DBD2000B06BB3 /* Dependencies */ = {
+			isa = PBXGroup;
+			children = (
+				B7CCDC621F3DBD6200B06BB3 /* GXRuler.xcodeproj */,
+			);
+			name = Dependencies;
+			sourceTree = "<group>";
+		};
+		B7CCDC631F3DBD6200B06BB3 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				B7CCDC681F3DBD6200B06BB3 /* GXRuler.framework */,
+				B7CCDC6A1F3DBD6200B06BB3 /* GXRulerTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		B7CCDC771F3DC20F00B06BB3 /* Business */ = {
+			isa = PBXGroup;
+			children = (
+				B7CCDC781F3DC20F00B06BB3 /* BusTest */,
+			);
+			path = Business;
+			sourceTree = "<group>";
+		};
+		B7CCDC781F3DC20F00B06BB3 /* BusTest */ = {
+			isa = PBXGroup;
+			children = (
+				B7CCDC791F3DC21D00B06BB3 /* GXHomeBusTestVC.h */,
+				B7CCDC7A1F3DC21D00B06BB3 /* GXHomeBusTestVC.m */,
+			);
+			path = BusTest;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
@@ -123,7 +191,9 @@
 			files = (
 				B75555541F3C5823008D0D01 /* GXHome.h in Headers */,
 				B75555701F3C616C008D0D01 /* GXHomeManager.h in Headers */,
+				B7CCDC7B1F3DC21D00B06BB3 /* GXHomeBusTestVC.h in Headers */,
 				B755556C1F3C604A008D0D01 /* GXHomeDefine.h in Headers */,
+				B7CCDC6F1F3DBD7E00B06BB3 /* GXHomeBus.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -142,6 +212,7 @@
 			buildRules = (
 			);
 			dependencies = (
+				B7CCDC6C1F3DBD6E00B06BB3 /* PBXTargetDependency */,
 			);
 			name = GXHome;
 			productName = GXHome;
@@ -197,6 +268,12 @@
 			mainGroup = B75555391F3C5823008D0D01;
 			productRefGroup = B75555441F3C5823008D0D01 /* Products */;
 			projectDirPath = "";
+			projectReferences = (
+				{
+					ProductGroup = B7CCDC631F3DBD6200B06BB3 /* Products */;
+					ProjectRef = B7CCDC621F3DBD6200B06BB3 /* GXRuler.xcodeproj */;
+				},
+			);
 			projectRoot = "";
 			targets = (
 				B75555421F3C5823008D0D01 /* GXHome */,
@@ -204,6 +281,23 @@
 			);
 		};
 /* End PBXProject section */
+
+/* Begin PBXReferenceProxy section */
+		B7CCDC681F3DBD6200B06BB3 /* GXRuler.framework */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.framework;
+			path = GXRuler.framework;
+			remoteRef = B7CCDC671F3DBD6200B06BB3 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		B7CCDC6A1F3DBD6200B06BB3 /* GXRulerTests.xctest */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.cfbundle;
+			path = GXRulerTests.xctest;
+			remoteRef = B7CCDC691F3DBD6200B06BB3 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+/* End PBXReferenceProxy section */
 
 /* Begin PBXResourcesBuildPhase section */
 		B75555411F3C5823008D0D01 /* Resources */ = {
@@ -228,7 +322,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				B755556D1F3C604A008D0D01 /* GXHomeDefine.m in Sources */,
+				B7CCDC701F3DBD7E00B06BB3 /* GXHomeBus.m in Sources */,
 				B75555711F3C616C008D0D01 /* GXHomeManager.m in Sources */,
+				B7CCDC7C1F3DC21D00B06BB3 /* GXHomeBusTestVC.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -247,6 +343,11 @@
 			isa = PBXTargetDependency;
 			target = B75555421F3C5823008D0D01 /* GXHome */;
 			targetProxy = B755554E1F3C5823008D0D01 /* PBXContainerItemProxy */;
+		};
+		B7CCDC6C1F3DBD6E00B06BB3 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = GXRuler;
+			targetProxy = B7CCDC6B1F3DBD6E00B06BB3 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
