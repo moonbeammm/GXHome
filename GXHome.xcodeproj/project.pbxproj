@@ -14,10 +14,11 @@
 		B755556D1F3C604A008D0D01 /* GXHomeDefine.m in Sources */ = {isa = PBXBuildFile; fileRef = B755556B1F3C604A008D0D01 /* GXHomeDefine.m */; };
 		B75555701F3C616C008D0D01 /* GXHomeManager.h in Headers */ = {isa = PBXBuildFile; fileRef = B755556E1F3C616C008D0D01 /* GXHomeManager.h */; };
 		B75555711F3C616C008D0D01 /* GXHomeManager.m in Sources */ = {isa = PBXBuildFile; fileRef = B755556F1F3C616C008D0D01 /* GXHomeManager.m */; };
+		B7B685321F41B2CC00306EF5 /* GXHomeViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = B7B685301F41B2CC00306EF5 /* GXHomeViewController.h */; };
+		B7B685331F41B2CC00306EF5 /* GXHomeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B7B685311F41B2CC00306EF5 /* GXHomeViewController.m */; };
+		B7B685351F41B3D100306EF5 /* GXHome.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B7B685341F41B3D100306EF5 /* GXHome.xcassets */; };
 		B7CCDC6F1F3DBD7E00B06BB3 /* GXHomeBus.h in Headers */ = {isa = PBXBuildFile; fileRef = B7CCDC6D1F3DBD7E00B06BB3 /* GXHomeBus.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		B7CCDC701F3DBD7E00B06BB3 /* GXHomeBus.m in Sources */ = {isa = PBXBuildFile; fileRef = B7CCDC6E1F3DBD7E00B06BB3 /* GXHomeBus.m */; };
-		B7CCDC7B1F3DC21D00B06BB3 /* GXHomeBusTestVC.h in Headers */ = {isa = PBXBuildFile; fileRef = B7CCDC791F3DC21D00B06BB3 /* GXHomeBusTestVC.h */; };
-		B7CCDC7C1F3DC21D00B06BB3 /* GXHomeBusTestVC.m in Sources */ = {isa = PBXBuildFile; fileRef = B7CCDC7A1F3DC21D00B06BB3 /* GXHomeBusTestVC.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -63,10 +64,11 @@
 		B755556E1F3C616C008D0D01 /* GXHomeManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GXHomeManager.h; sourceTree = "<group>"; };
 		B755556F1F3C616C008D0D01 /* GXHomeManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GXHomeManager.m; sourceTree = "<group>"; };
 		B7B6848D1F41A9AB00306EF5 /* GXRuler.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = GXRuler.xcodeproj; path = ../../GXRuler/GXRuler.xcodeproj; sourceTree = "<group>"; };
+		B7B685301F41B2CC00306EF5 /* GXHomeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GXHomeViewController.h; sourceTree = "<group>"; };
+		B7B685311F41B2CC00306EF5 /* GXHomeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GXHomeViewController.m; sourceTree = "<group>"; };
+		B7B685341F41B3D100306EF5 /* GXHome.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = GXHome.xcassets; sourceTree = "<group>"; };
 		B7CCDC6D1F3DBD7E00B06BB3 /* GXHomeBus.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GXHomeBus.h; sourceTree = "<group>"; };
 		B7CCDC6E1F3DBD7E00B06BB3 /* GXHomeBus.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GXHomeBus.m; sourceTree = "<group>"; };
-		B7CCDC791F3DC21D00B06BB3 /* GXHomeBusTestVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GXHomeBusTestVC.h; sourceTree = "<group>"; };
-		B7CCDC7A1F3DC21D00B06BB3 /* GXHomeBusTestVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GXHomeBusTestVC.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -136,6 +138,7 @@
 		B75555911F3C637D008D0D01 /* GXHome */ = {
 			isa = PBXGroup;
 			children = (
+				B7B6852B1F41B2A700306EF5 /* Home */,
 				B7CCDC771F3DC20F00B06BB3 /* Business */,
 			);
 			path = GXHome;
@@ -144,6 +147,7 @@
 		B75555921F3C637D008D0D01 /* Resources */ = {
 			isa = PBXGroup;
 			children = (
+				B7B685341F41B3D100306EF5 /* GXHome.xcassets */,
 			);
 			path = Resources;
 			sourceTree = "<group>";
@@ -157,6 +161,15 @@
 			name = Products;
 			sourceTree = "<group>";
 		};
+		B7B6852B1F41B2A700306EF5 /* Home */ = {
+			isa = PBXGroup;
+			children = (
+				B7B685301F41B2CC00306EF5 /* GXHomeViewController.h */,
+				B7B685311F41B2CC00306EF5 /* GXHomeViewController.m */,
+			);
+			path = Home;
+			sourceTree = "<group>";
+		};
 		B7CCDC611F3DBD2000B06BB3 /* Dependencies */ = {
 			isa = PBXGroup;
 			children = (
@@ -168,18 +181,8 @@
 		B7CCDC771F3DC20F00B06BB3 /* Business */ = {
 			isa = PBXGroup;
 			children = (
-				B7CCDC781F3DC20F00B06BB3 /* BusTest */,
 			);
 			path = Business;
-			sourceTree = "<group>";
-		};
-		B7CCDC781F3DC20F00B06BB3 /* BusTest */ = {
-			isa = PBXGroup;
-			children = (
-				B7CCDC791F3DC21D00B06BB3 /* GXHomeBusTestVC.h */,
-				B7CCDC7A1F3DC21D00B06BB3 /* GXHomeBusTestVC.m */,
-			);
-			path = BusTest;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -191,9 +194,9 @@
 			files = (
 				B75555541F3C5823008D0D01 /* GXHome.h in Headers */,
 				B75555701F3C616C008D0D01 /* GXHomeManager.h in Headers */,
-				B7CCDC7B1F3DC21D00B06BB3 /* GXHomeBusTestVC.h in Headers */,
 				B755556C1F3C604A008D0D01 /* GXHomeDefine.h in Headers */,
 				B7CCDC6F1F3DBD7E00B06BB3 /* GXHomeBus.h in Headers */,
+				B7B685321F41B2CC00306EF5 /* GXHomeViewController.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -304,6 +307,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B7B685351F41B3D100306EF5 /* GXHome.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -322,9 +326,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				B755556D1F3C604A008D0D01 /* GXHomeDefine.m in Sources */,
+				B7B685331F41B2CC00306EF5 /* GXHomeViewController.m in Sources */,
 				B7CCDC701F3DBD7E00B06BB3 /* GXHomeBus.m in Sources */,
 				B75555711F3C616C008D0D01 /* GXHomeManager.m in Sources */,
-				B7CCDC7C1F3DC21D00B06BB3 /* GXHomeBusTestVC.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

@@ -7,7 +7,7 @@
 //
 
 #import "GXHomeBus.h"
-#import "GXHomeBusTestVC.h"
+#import "GXHomeViewController.h"
 
 @implementation GXHomeBus
 
@@ -21,7 +21,7 @@
 {
     GXBusModel *resultModel = nil;
     function = [function lowercaseString];
-    if ([function isEqualToString:@"home/bus_test_vc"]) {
+    if ([function isEqualToString:@"home/home_vc"]) {
         
         GXBusValidator *validator = [GXBusValidator new];
         // [validator setViewModelValidationForKey:@"info_viewModel"];
@@ -32,7 +32,7 @@
             NSString *from = (NSString *)[model stringValueForKey:@"from"];
             NSLog(@"GXPhoneBus-callFunction-url:%@,from:%@",function,from);
             // 创建vc
-            UIViewController *vc = [[GXHomeBusTestVC alloc] init];
+            UIViewController *vc = [[GXHomeViewController alloc] init];
             // 通过vc和params创建保存vc的busModel
             resultModel = [GXBusModel new];
             [resultModel setControllerValue:vc forKey:@"vc"];
