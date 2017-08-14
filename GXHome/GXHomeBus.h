@@ -8,6 +8,6 @@
 
 #import <GXRuler/GXBus.h>
 
-@interface GXHomeBus : BFCBus
+@interface GXHomeBus : GXBus
 
 @end
