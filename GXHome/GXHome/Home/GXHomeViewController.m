@@ -9,7 +9,7 @@
 #import "GXHomeViewController.h"
 #import <GXRuler/GXImageManager.h>
 #import <GXRuler/UIView+Frame.h>
-
+#import "GXHomeRouter.h"
 
 @interface GXHomeViewController ()
 
@@ -38,6 +38,8 @@
     
     [self.view addSubview:self.btn];
     self.btn.frame = CGRectMake(0, 200, self.view.viewWidth, 100);
+    
+    
 }
 
 - (void)viewWillAppear:(BOOL)animated
@@ -50,9 +52,16 @@
     if (_btn == nil) {
         _btn = [[UIButton alloc] init];
         [_btn setTitle:@"我是GXHome库的HomeVC.我跨库拉!" forState:UIControlStateNormal];
+        [_btn addTarget:self action:@selector(btnClick) forControlEvents:UIControlEventTouchUpInside];
         [_btn setTitleColor:[UIColor blackColor] forState:UIControlStateNormal];
     }
     return _btn;
 }
+
+- (void)btnClick
+{
+    [GXHomeRouter pushUrl:@"main/business/protectvc" animated:YES];
+}
+
 
 @end
