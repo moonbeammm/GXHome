@@ -7,14 +7,20 @@
 //
 
 #import "GXHomeViewController.h"
-#import <GXRuler/GXImageManager.h>
-#import "GXHomeRouter.h"
+
 #import <GXPageView/GXPageView.h>
+#import "GXHomeRecommendVC.h"
+#import "GXHomeLiveVC.h"
+#import "GXHomeBangumiVC.h"
+
+#import <GXRuler/GXImageManager.h>
 
 @interface GXHomeViewController () <GXPageContainerChildVCDelegate>
 
 @property (nonatomic, strong) GXPageContainerView *pageContainerView;
-@property (nonatomic, strong) UIButton *btn;
+@property (nonatomic, strong) GXHomeRecommendVC *recommendVC;
+@property (nonatomic, strong) GXHomeLiveVC *liveVC;
+@property (nonatomic, strong) GXHomeBangumiVC *bangumiVC;
 
 @end
 
@@ -38,14 +44,15 @@
 
 - (void)viewWillAppear:(BOOL)animated
 {
-    [self.navigationController setNavigationBarHidden:YES animated:YES];
+    [super viewWillAppear:animated];
+    [self.navigationController setNavigationBarHidden:YES animated:NO];
 }
 
 #pragma mark - Public Method
 
-#pragma mark - Private Method
-
 #pragma mark - Event Response
+
+#pragma mark - Private Method
 
 #pragma mark - GXPageContainerChildVCDelegate
 
@@ -53,12 +60,15 @@
 {
     UIViewController *vc = (UIViewController *)childVC;
     if (!vc) {
-        vc = [[UIViewController alloc] init];
-    }
-    if (index%2==0) {
-        vc.view.backgroundColor = [UIColor orangeColor];
-    } else {
-        vc.view.backgroundColor = [UIColor blueColor];
+        if (index == 0) {
+            vc = self.liveVC;
+        } else if (index == 1) {
+            vc = self.recommendVC;
+        } else if (index == 2) {
+            vc = self.bangumiVC;
+        } else {
+            vc = [[UIViewController alloc] init];
+        }
     }
     return vc;
 }
@@ -75,10 +85,35 @@
     if (_pageContainerView == nil) {
         GXContainerTopBarStyle *style = [[GXContainerTopBarStyle alloc] init];
         style.titles = @[@"直播",@"推荐",@"番剧"];
-        _pageContainerView = [[GXPageContainerView alloc] initWithFrame:self.view.bounds topBarStyle:style parentVC:self];
+        CGRect rect = CGRectMake(0, 0, self.view.frame.size.width, self.view.frame.size.height - 49);
+        _pageContainerView = [[GXPageContainerView alloc] initWithFrame:rect topBarStyle:style parentVC:self];
         _pageContainerView.childVCDelegate = self;
     }
     return _pageContainerView;
+}
+
+- (GXHomeRecommendVC *)recommendVC
+{
+    if (_recommendVC == nil) {
+        _recommendVC = [[GXHomeRecommendVC alloc] init];
+    }
+    return _recommendVC;
+}
+
+- (GXHomeLiveVC *)liveVC
+{
+    if (_liveVC == nil) {
+        _liveVC = [[GXHomeLiveVC alloc] init];
+    }
+    return _liveVC;
+}
+
+- (GXHomeBangumiVC *)bangumiVC
+{
+    if (_bangumiVC == nil) {
+        _bangumiVC = [[GXHomeBangumiVC alloc] init];
+    }
+    return _bangumiVC;
 }
 
 @end
