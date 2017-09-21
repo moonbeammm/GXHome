@@ -8,7 +8,6 @@
 
 #import "GXHomeViewController.h"
 #import <GXRuler/GXImageManager.h>
-#import <GXRuler/UIView+Frame.h>
 #import "GXHomeRouter.h"
 
 @interface GXHomeViewController ()

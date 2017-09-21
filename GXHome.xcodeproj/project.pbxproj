@@ -14,6 +14,7 @@
 		B755556D1F3C604A008D0D01 /* GXHomeDefine.m in Sources */ = {isa = PBXBuildFile; fileRef = B755556B1F3C604A008D0D01 /* GXHomeDefine.m */; };
 		B75555701F3C616C008D0D01 /* GXHomeManager.h in Headers */ = {isa = PBXBuildFile; fileRef = B755556E1F3C616C008D0D01 /* GXHomeManager.h */; };
 		B75555711F3C616C008D0D01 /* GXHomeManager.m in Sources */ = {isa = PBXBuildFile; fileRef = B755556F1F3C616C008D0D01 /* GXHomeManager.m */; };
+		B780484A1F7367D5004B5E5B /* GXHomePCH.pch in Headers */ = {isa = PBXBuildFile; fileRef = B78048491F7367D5004B5E5B /* GXHomePCH.pch */; };
 		B7B685321F41B2CC00306EF5 /* GXHomeViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = B7B685301F41B2CC00306EF5 /* GXHomeViewController.h */; };
 		B7B685331F41B2CC00306EF5 /* GXHomeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B7B685311F41B2CC00306EF5 /* GXHomeViewController.m */; };
 		B7B685351F41B3D100306EF5 /* GXHome.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B7B685341F41B3D100306EF5 /* GXHome.xcassets */; };
@@ -30,6 +31,27 @@
 			proxyType = 1;
 			remoteGlobalIDString = B75555421F3C5823008D0D01;
 			remoteInfo = GXHome;
+		};
+		B78048511F736820004B5E5B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B780484C1F73681F004B5E5B /* GXPageView.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = B744959E1F56B0A80018CC0F;
+			remoteInfo = GXPageView;
+		};
+		B78048531F736820004B5E5B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B780484C1F73681F004B5E5B /* GXPageView.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = B77B4C7B1F5D6904009FBFF0;
+			remoteInfo = GXPageViewShell;
+		};
+		B78048551F73682D004B5E5B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B780484C1F73681F004B5E5B /* GXPageView.xcodeproj */;
+			proxyType = 1;
+			remoteGlobalIDString = B744959D1F56B0A80018CC0F;
+			remoteInfo = GXPageView;
 		};
 		B79003DE1F42A4D800EA6247 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
@@ -65,6 +87,8 @@
 		B755556B1F3C604A008D0D01 /* GXHomeDefine.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GXHomeDefine.m; sourceTree = "<group>"; };
 		B755556E1F3C616C008D0D01 /* GXHomeManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GXHomeManager.h; sourceTree = "<group>"; };
 		B755556F1F3C616C008D0D01 /* GXHomeManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GXHomeManager.m; sourceTree = "<group>"; };
+		B78048491F7367D5004B5E5B /* GXHomePCH.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GXHomePCH.pch; sourceTree = "<group>"; };
+		B780484C1F73681F004B5E5B /* GXPageView.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = GXPageView.xcodeproj; path = ../../GXPageView/GXPageView.xcodeproj; sourceTree = "<group>"; };
 		B7B6848D1F41A9AB00306EF5 /* GXRuler.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = GXRuler.xcodeproj; path = ../../GXRuler/GXRuler.xcodeproj; sourceTree = "<group>"; };
 		B7B685301F41B2CC00306EF5 /* GXHomeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GXHomeViewController.h; sourceTree = "<group>"; };
 		B7B685311F41B2CC00306EF5 /* GXHomeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GXHomeViewController.m; sourceTree = "<group>"; };
@@ -127,6 +151,7 @@
 				B755556B1F3C604A008D0D01 /* GXHomeDefine.m */,
 				B755556E1F3C616C008D0D01 /* GXHomeManager.h */,
 				B755556F1F3C616C008D0D01 /* GXHomeManager.m */,
+				B78048491F7367D5004B5E5B /* GXHomePCH.pch */,
 				B75555471F3C5823008D0D01 /* Info.plist */,
 			);
 			path = GXHome;
@@ -158,6 +183,15 @@
 			path = Resources;
 			sourceTree = "<group>";
 		};
+		B780484D1F73681F004B5E5B /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				B78048521F736820004B5E5B /* GXPageView.framework */,
+				B78048541F736820004B5E5B /* GXPageViewShell.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
 		B7B6848E1F41A9AB00306EF5 /* Products */ = {
 			isa = PBXGroup;
 			children = (
@@ -179,6 +213,7 @@
 		B7CCDC611F3DBD2000B06BB3 /* Dependencies */ = {
 			isa = PBXGroup;
 			children = (
+				B780484C1F73681F004B5E5B /* GXPageView.xcodeproj */,
 				B7B6848D1F41A9AB00306EF5 /* GXRuler.xcodeproj */,
 			);
 			name = Dependencies;
@@ -198,6 +233,7 @@
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B780484A1F7367D5004B5E5B /* GXHomePCH.pch in Headers */,
 				B75555541F3C5823008D0D01 /* GXHome.h in Headers */,
 				B75555701F3C616C008D0D01 /* GXHomeManager.h in Headers */,
 				B755556C1F3C604A008D0D01 /* GXHomeDefine.h in Headers */,
@@ -222,6 +258,7 @@
 			buildRules = (
 			);
 			dependencies = (
+				B78048561F73682D004B5E5B /* PBXTargetDependency */,
 				B79003DF1F42A4D800EA6247 /* PBXTargetDependency */,
 			);
 			name = GXHome;
@@ -280,6 +317,10 @@
 			projectDirPath = "";
 			projectReferences = (
 				{
+					ProductGroup = B780484D1F73681F004B5E5B /* Products */;
+					ProjectRef = B780484C1F73681F004B5E5B /* GXPageView.xcodeproj */;
+				},
+				{
 					ProductGroup = B7B6848E1F41A9AB00306EF5 /* Products */;
 					ProjectRef = B7B6848D1F41A9AB00306EF5 /* GXRuler.xcodeproj */;
 				},
@@ -293,6 +334,20 @@
 /* End PBXProject section */
 
 /* Begin PBXReferenceProxy section */
+		B78048521F736820004B5E5B /* GXPageView.framework */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.framework;
+			path = GXPageView.framework;
+			remoteRef = B78048511F736820004B5E5B /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		B78048541F736820004B5E5B /* GXPageViewShell.app */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.application;
+			path = GXPageViewShell.app;
+			remoteRef = B78048531F736820004B5E5B /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
 		B7B684931F41A9AB00306EF5 /* GXRuler.framework */ = {
 			isa = PBXReferenceProxy;
 			fileType = wrapper.framework;
@@ -355,6 +410,11 @@
 			isa = PBXTargetDependency;
 			target = B75555421F3C5823008D0D01 /* GXHome */;
 			targetProxy = B755554E1F3C5823008D0D01 /* PBXContainerItemProxy */;
+		};
+		B78048561F73682D004B5E5B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = GXPageView;
+			targetProxy = B78048551F73682D004B5E5B /* PBXContainerItemProxy */;
 		};
 		B79003DF1F42A4D800EA6247 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
@@ -471,6 +531,8 @@
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "$(SRCROOT)/GXHome/GXHomePCH.pch";
 				INFOPLIST_FILE = GXHome/Info.plist;
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
@@ -489,6 +551,8 @@
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "$(SRCROOT)/GXHome/GXHomePCH.pch";
 				INFOPLIST_FILE = GXHome/Info.plist;
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
