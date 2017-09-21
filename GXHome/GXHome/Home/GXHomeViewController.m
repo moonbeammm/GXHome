@@ -75,18 +75,7 @@
     if (_pageContainerView == nil) {
         GXContainerTopBarStyle *style = [[GXContainerTopBarStyle alloc] init];
         style.titles = @[@"直播",@"推荐",@"番剧"];
-        style.topBarBGColor = GX_PINK_COLOR;
-        style.norTitleColor = [UIColor whiteColor];
-        style.selTitleColor = [UIColor whiteColor];
-        style.isHaveGradual = NO;
-        style.titleMargin = 18;
-        style.topPadding = 20;
-        style.leftPadding = 30;
-        style.defaultSelIndex = 1;
-        style.indicatorBottomPadding = 3;
-        style.indicatorColor = [UIColor whiteColor];
-        CGRect rect = CGRectMake(0, 0, self.view.viewWidth, self.view.viewHeight);
-        _pageContainerView = [[GXPageContainerView alloc] initWithFrame:rect topBarStyle:style parentVC:self];
+        _pageContainerView = [[GXPageContainerView alloc] initWithFrame:self.view.bounds topBarStyle:style parentVC:self];
         _pageContainerView.childVCDelegate = self;
     }
     return _pageContainerView;
