@@ -15,6 +15,12 @@
 		B75555701F3C616C008D0D01 /* GXHomeManager.h in Headers */ = {isa = PBXBuildFile; fileRef = B755556E1F3C616C008D0D01 /* GXHomeManager.h */; };
 		B75555711F3C616C008D0D01 /* GXHomeManager.m in Sources */ = {isa = PBXBuildFile; fileRef = B755556F1F3C616C008D0D01 /* GXHomeManager.m */; };
 		B780484A1F7367D5004B5E5B /* GXHomePCH.pch in Headers */ = {isa = PBXBuildFile; fileRef = B78048491F7367D5004B5E5B /* GXHomePCH.pch */; };
+		B78048611F736C79004B5E5B /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = B78048601F736C79004B5E5B /* main.m */; };
+		B78048641F736C79004B5E5B /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = B78048631F736C79004B5E5B /* AppDelegate.m */; };
+		B780486C1F736C79004B5E5B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B780486B1F736C79004B5E5B /* Assets.xcassets */; };
+		B780486F1F736C79004B5E5B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B780486D1F736C79004B5E5B /* LaunchScreen.storyboard */; };
+		B78048761F736C9A004B5E5B /* GXHome.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B75555431F3C5823008D0D01 /* GXHome.framework */; };
+		B78048771F736C9A004B5E5B /* GXHome.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = B75555431F3C5823008D0D01 /* GXHome.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		B7B685321F41B2CC00306EF5 /* GXHomeViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = B7B685301F41B2CC00306EF5 /* GXHomeViewController.h */; };
 		B7B685331F41B2CC00306EF5 /* GXHomeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B7B685311F41B2CC00306EF5 /* GXHomeViewController.m */; };
 		B7B685351F41B3D100306EF5 /* GXHome.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B7B685341F41B3D100306EF5 /* GXHome.xcassets */; };
@@ -53,6 +59,13 @@
 			remoteGlobalIDString = B744959D1F56B0A80018CC0F;
 			remoteInfo = GXPageView;
 		};
+		B78048781F736C9A004B5E5B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B755553A1F3C5823008D0D01 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B75555421F3C5823008D0D01;
+			remoteInfo = GXHome;
+		};
 		B79003DE1F42A4D800EA6247 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = B7B6848D1F41A9AB00306EF5 /* GXRuler.xcodeproj */;
@@ -76,6 +89,20 @@
 		};
 /* End PBXContainerItemProxy section */
 
+/* Begin PBXCopyFilesBuildPhase section */
+		B780487A1F736C9A004B5E5B /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				B78048771F736C9A004B5E5B /* GXHome.framework in Embed Frameworks */,
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
 /* Begin PBXFileReference section */
 		B75555431F3C5823008D0D01 /* GXHome.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = GXHome.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		B75555461F3C5823008D0D01 /* GXHome.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GXHome.h; sourceTree = "<group>"; };
@@ -89,6 +116,13 @@
 		B755556F1F3C616C008D0D01 /* GXHomeManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GXHomeManager.m; sourceTree = "<group>"; };
 		B78048491F7367D5004B5E5B /* GXHomePCH.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GXHomePCH.pch; sourceTree = "<group>"; };
 		B780484C1F73681F004B5E5B /* GXPageView.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = GXPageView.xcodeproj; path = ../../GXPageView/GXPageView.xcodeproj; sourceTree = "<group>"; };
+		B780485D1F736C79004B5E5B /* GXHomeShell.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GXHomeShell.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		B78048601F736C79004B5E5B /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		B78048621F736C79004B5E5B /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		B78048631F736C79004B5E5B /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		B780486B1F736C79004B5E5B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		B780486E1F736C79004B5E5B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		B78048701F736C79004B5E5B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		B7B6848D1F41A9AB00306EF5 /* GXRuler.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = GXRuler.xcodeproj; path = ../../GXRuler/GXRuler.xcodeproj; sourceTree = "<group>"; };
 		B7B685301F41B2CC00306EF5 /* GXHomeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GXHomeViewController.h; sourceTree = "<group>"; };
 		B7B685311F41B2CC00306EF5 /* GXHomeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GXHomeViewController.m; sourceTree = "<group>"; };
@@ -115,6 +149,14 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		B780485A1F736C79004B5E5B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B78048761F736C9A004B5E5B /* GXHome.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
@@ -123,6 +165,7 @@
 			children = (
 				B75555451F3C5823008D0D01 /* GXHome */,
 				B75555501F3C5823008D0D01 /* GXHomeTests */,
+				B780485E1F736C79004B5E5B /* GXHomeShell */,
 				B75555441F3C5823008D0D01 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -132,6 +175,7 @@
 			children = (
 				B75555431F3C5823008D0D01 /* GXHome.framework */,
 				B755554C1F3C5823008D0D01 /* GXHomeTests.xctest */,
+				B780485D1F736C79004B5E5B /* GXHomeShell.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -190,6 +234,27 @@
 				B78048541F736820004B5E5B /* GXPageViewShell.app */,
 			);
 			name = Products;
+			sourceTree = "<group>";
+		};
+		B780485E1F736C79004B5E5B /* GXHomeShell */ = {
+			isa = PBXGroup;
+			children = (
+				B78048621F736C79004B5E5B /* AppDelegate.h */,
+				B78048631F736C79004B5E5B /* AppDelegate.m */,
+				B780486B1F736C79004B5E5B /* Assets.xcassets */,
+				B780486D1F736C79004B5E5B /* LaunchScreen.storyboard */,
+				B78048701F736C79004B5E5B /* Info.plist */,
+				B780485F1F736C79004B5E5B /* Supporting Files */,
+			);
+			path = GXHomeShell;
+			sourceTree = "<group>";
+		};
+		B780485F1F736C79004B5E5B /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				B78048601F736C79004B5E5B /* main.m */,
+			);
+			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
 		B7B6848E1F41A9AB00306EF5 /* Products */ = {
@@ -284,6 +349,25 @@
 			productReference = B755554C1F3C5823008D0D01 /* GXHomeTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
+		B780485C1F736C79004B5E5B /* GXHomeShell */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B78048751F736C79004B5E5B /* Build configuration list for PBXNativeTarget "GXHomeShell" */;
+			buildPhases = (
+				B78048591F736C79004B5E5B /* Sources */,
+				B780485A1F736C79004B5E5B /* Frameworks */,
+				B780485B1F736C79004B5E5B /* Resources */,
+				B780487A1F736C9A004B5E5B /* Embed Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				B78048791F736C9A004B5E5B /* PBXTargetDependency */,
+			);
+			name = GXHomeShell;
+			productName = GXHomeShell;
+			productReference = B780485D1F736C79004B5E5B /* GXHomeShell.app */;
+			productType = "com.apple.product-type.application";
+		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -303,6 +387,11 @@
 						DevelopmentTeam = VEE3B6HDQ5;
 						ProvisioningStyle = Automatic;
 					};
+					B780485C1F736C79004B5E5B = {
+						CreatedOnToolsVersion = 8.3.3;
+						DevelopmentTeam = VEE3B6HDQ5;
+						ProvisioningStyle = Automatic;
+					};
 				};
 			};
 			buildConfigurationList = B755553D1F3C5823008D0D01 /* Build configuration list for PBXProject "GXHome" */;
@@ -311,6 +400,7 @@
 			hasScannedForEncodings = 0;
 			knownRegions = (
 				en,
+				Base,
 			);
 			mainGroup = B75555391F3C5823008D0D01;
 			productRefGroup = B75555441F3C5823008D0D01 /* Products */;
@@ -329,6 +419,7 @@
 			targets = (
 				B75555421F3C5823008D0D01 /* GXHome */,
 				B755554B1F3C5823008D0D01 /* GXHomeTests */,
+				B780485C1F736C79004B5E5B /* GXHomeShell */,
 			);
 		};
 /* End PBXProject section */
@@ -380,6 +471,15 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		B780485B1F736C79004B5E5B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B780486F1F736C79004B5E5B /* LaunchScreen.storyboard in Resources */,
+				B780486C1F736C79004B5E5B /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
@@ -403,6 +503,15 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		B78048591F736C79004B5E5B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B78048641F736C79004B5E5B /* AppDelegate.m in Sources */,
+				B78048611F736C79004B5E5B /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
@@ -416,12 +525,28 @@
 			name = GXPageView;
 			targetProxy = B78048551F73682D004B5E5B /* PBXContainerItemProxy */;
 		};
+		B78048791F736C9A004B5E5B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = B75555421F3C5823008D0D01 /* GXHome */;
+			targetProxy = B78048781F736C9A004B5E5B /* PBXContainerItemProxy */;
+		};
 		B79003DF1F42A4D800EA6247 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = GXRuler;
 			targetProxy = B79003DE1F42A4D800EA6247 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		B780486D1F736C79004B5E5B /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B780486E1F736C79004B5E5B /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
 		B75555551F3C5823008D0D01 /* Debug */ = {
@@ -584,6 +709,32 @@
 			};
 			name = Release;
 		};
+		B78048711F736C79004B5E5B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = VEE3B6HDQ5;
+				INFOPLIST_FILE = GXHomeShell/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.sgx.GXHomeShell;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		B78048721F736C79004B5E5B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = VEE3B6HDQ5;
+				INFOPLIST_FILE = GXHomeShell/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.sgx.GXHomeShell;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -613,6 +764,14 @@
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
+		};
+		B78048751F736C79004B5E5B /* Build configuration list for PBXNativeTarget "GXHomeShell" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B78048711F736C79004B5E5B /* Debug */,
+				B78048721F736C79004B5E5B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
 		};
 /* End XCConfigurationList section */
 	};

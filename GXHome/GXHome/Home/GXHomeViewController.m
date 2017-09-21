@@ -9,9 +9,11 @@
 #import "GXHomeViewController.h"
 #import <GXRuler/GXImageManager.h>
 #import "GXHomeRouter.h"
+#import <GXPageView/GXPageView.h>
 
-@interface GXHomeViewController ()
+@interface GXHomeViewController () <GXPageContainerChildVCDelegate>
 
+@property (nonatomic, strong) GXPageContainerView *pageContainerView;
 @property (nonatomic, strong) UIButton *btn;
 
 @end
@@ -24,21 +26,14 @@
         self.tabBarItem.image = GXImageMake(GXHome,@"home_home_tab");
         self.tabBarItem.selectedImage = GXImageMake(GXHome,@"home_home_tab_s");
         self.tabBarItem.imageInsets = UIEdgeInsetsMake(6, 0, -6, 0);
-        UILabel * titleLabel = [[UILabel alloc] init];
-        titleLabel.text = @"首页";
-        titleLabel.textColor = [UIColor blackColor];
-        [self.navigationItem setTitleView:titleLabel];
+        self.automaticallyAdjustsScrollViewInsets = NO;
     }
     return self;
 }
 
 - (void)viewDidLoad {
     [super viewDidLoad];
-    
-    [self.view addSubview:self.btn];
-    self.btn.frame = CGRectMake(0, 200, self.view.viewWidth, 100);
-    
-    
+    [self configSubviews];
 }
 
 - (void)viewWillAppear:(BOOL)animated
@@ -46,21 +41,55 @@
     [self.navigationController setNavigationBarHidden:YES animated:YES];
 }
 
-- (UIButton *)btn
+#pragma mark - Public Method
+
+#pragma mark - Private Method
+
+#pragma mark - Event Response
+
+#pragma mark - GXPageContainerChildVCDelegate
+
+- (UIViewController *)pageContainer:(UIView *)pageContainer childVC:(UIViewController *)childVC forIndex:(NSInteger)index
 {
-    if (_btn == nil) {
-        _btn = [[UIButton alloc] init];
-        [_btn setTitle:@"我是GXHome库的HomeVC.我跨库拉!" forState:UIControlStateNormal];
-        [_btn addTarget:self action:@selector(btnClick) forControlEvents:UIControlEventTouchUpInside];
-        [_btn setTitleColor:[UIColor blackColor] forState:UIControlStateNormal];
+    UIViewController *vc = (UIViewController *)childVC;
+    if (!vc) {
+        vc = [[UIViewController alloc] init];
     }
-    return _btn;
+    if (index%2==0) {
+        vc.view.backgroundColor = [UIColor orangeColor];
+    } else {
+        vc.view.backgroundColor = [UIColor blueColor];
+    }
+    return vc;
 }
 
-- (void)btnClick
+#pragma mark - Initialize Method
+
+- (void)configSubviews
 {
-    [GXHomeRouter pushUrl:@"main/business/protectvc" animated:YES];
+    [self.view addSubview:self.pageContainerView];
 }
 
+- (GXPageContainerView *)pageContainerView
+{
+    if (_pageContainerView == nil) {
+        GXContainerTopBarStyle *style = [[GXContainerTopBarStyle alloc] init];
+        style.titles = @[@"直播",@"推荐",@"番剧"];
+        style.topBarBGColor = GX_PINK_COLOR;
+        style.norTitleColor = [UIColor whiteColor];
+        style.selTitleColor = [UIColor whiteColor];
+        style.isHaveGradual = NO;
+        style.titleMargin = 18;
+        style.topPadding = 20;
+        style.leftPadding = 30;
+        style.defaultSelIndex = 1;
+        style.indicatorBottomPadding = 3;
+        style.indicatorColor = [UIColor whiteColor];
+        CGRect rect = CGRectMake(0, 0, self.view.viewWidth, self.view.viewHeight);
+        _pageContainerView = [[GXPageContainerView alloc] initWithFrame:rect topBarStyle:style parentVC:self];
+        _pageContainerView.childVCDelegate = self;
+    }
+    return _pageContainerView;
+}
 
 @end
