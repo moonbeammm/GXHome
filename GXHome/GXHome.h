@@ -18,3 +18,4 @@ FOUNDATION_EXPORT const unsigned char GXHomeVersionString[];
 
 #import <GXHome/GXHomeDefine.h>
 #import <GXHome/GXHomeBus.h>
+#import <GXHome/GXHomeNavigator.h>

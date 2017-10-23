@@ -7,6 +7,31 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		B70FBCA21F99CCA9004A52F7 /* GXHomeLiveVC.h in Headers */ = {isa = PBXBuildFile; fileRef = B70FBC9E1F99CCA9004A52F7 /* GXHomeLiveVC.h */; };
+		B70FBCA31F99CCA9004A52F7 /* GXHomeLiveVC.m in Sources */ = {isa = PBXBuildFile; fileRef = B70FBC9F1F99CCA9004A52F7 /* GXHomeLiveVC.m */; };
+		B70FBCAA1F99CD4D004A52F7 /* GXHomeLiveModel.h in Headers */ = {isa = PBXBuildFile; fileRef = B70FBCA81F99CD4D004A52F7 /* GXHomeLiveModel.h */; };
+		B70FBCAB1F99CD4D004A52F7 /* GXHomeLiveModel.m in Sources */ = {isa = PBXBuildFile; fileRef = B70FBCA91F99CD4D004A52F7 /* GXHomeLiveModel.m */; };
+		B70FBCAE1F99CD77004A52F7 /* GXHomeLiveCell.h in Headers */ = {isa = PBXBuildFile; fileRef = B70FBCAC1F99CD77004A52F7 /* GXHomeLiveCell.h */; };
+		B70FBCAF1F99CD77004A52F7 /* GXHomeLiveCell.m in Sources */ = {isa = PBXBuildFile; fileRef = B70FBCAD1F99CD77004A52F7 /* GXHomeLiveCell.m */; };
+		B70FBCB21F99CE17004A52F7 /* GXHomeLiveVM.h in Headers */ = {isa = PBXBuildFile; fileRef = B70FBCB01F99CE17004A52F7 /* GXHomeLiveVM.h */; };
+		B70FBCB31F99CE17004A52F7 /* GXHomeLiveVM.m in Sources */ = {isa = PBXBuildFile; fileRef = B70FBCB11F99CE17004A52F7 /* GXHomeLiveVM.m */; };
+		B70FBCB61F99CEA8004A52F7 /* GXHomeNavigator.h in Headers */ = {isa = PBXBuildFile; fileRef = B70FBCB41F99CEA8004A52F7 /* GXHomeNavigator.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		B70FBCB71F99CEA8004A52F7 /* GXHomeNavigator.m in Sources */ = {isa = PBXBuildFile; fileRef = B70FBCB51F99CEA8004A52F7 /* GXHomeNavigator.m */; };
+		B70FBCC81F99D17E004A52F7 /* GXPlayer.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B70FBCC01F99D171004A52F7 /* GXPlayer.framework */; };
+		B70FBCD51F99D358004A52F7 /* GXPodContainer.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B70FBCD01F99D34A004A52F7 /* GXPodContainer.framework */; };
+		B70FBD251F99E8F3004A52F7 /* GXPlayer.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B70FBCC01F99D171004A52F7 /* GXPlayer.framework */; };
+		B70FBD261F99E8F3004A52F7 /* GXPlayer.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = B70FBCC01F99D171004A52F7 /* GXPlayer.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		B70FBD981F9A13B9004A52F7 /* GXRuler.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B7B684931F41A9AB00306EF5 /* GXRuler.framework */; };
+		B75081531F9DC3220054ED21 /* GXHomeBangumiViewModel.h in Headers */ = {isa = PBXBuildFile; fileRef = B75081511F9DC3220054ED21 /* GXHomeBangumiViewModel.h */; };
+		B75081541F9DC3220054ED21 /* GXHomeBangumiViewModel.m in Sources */ = {isa = PBXBuildFile; fileRef = B75081521F9DC3220054ED21 /* GXHomeBangumiViewModel.m */; };
+		B75081581F9DC3AE0054ED21 /* GXHomeBangumiModel.h in Headers */ = {isa = PBXBuildFile; fileRef = B75081561F9DC3AE0054ED21 /* GXHomeBangumiModel.h */; };
+		B75081591F9DC3AE0054ED21 /* GXHomeBangumiModel.m in Sources */ = {isa = PBXBuildFile; fileRef = B75081571F9DC3AE0054ED21 /* GXHomeBangumiModel.m */; };
+		B750815C1F9DC45A0054ED21 /* GXHomeBangumiVC.h in Headers */ = {isa = PBXBuildFile; fileRef = B750815A1F9DC4590054ED21 /* GXHomeBangumiVC.h */; };
+		B750815D1F9DC45A0054ED21 /* GXHomeBangumiVC.m in Sources */ = {isa = PBXBuildFile; fileRef = B750815B1F9DC45A0054ED21 /* GXHomeBangumiVC.m */; };
+		B75081601F9DC47B0054ED21 /* GXHomeBangumiCell.h in Headers */ = {isa = PBXBuildFile; fileRef = B750815E1F9DC47B0054ED21 /* GXHomeBangumiCell.h */; };
+		B75081611F9DC47B0054ED21 /* GXHomeBangumiCell.m in Sources */ = {isa = PBXBuildFile; fileRef = B750815F1F9DC47B0054ED21 /* GXHomeBangumiCell.m */; };
+		B750816A1F9DD5850054ED21 /* GXNetwork.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B70FBCDC1F99D483004A52F7 /* GXNetwork.framework */; };
+		B750816B1F9DD58A0054ED21 /* GXPageView.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B78048521F736820004B5E5B /* GXPageView.framework */; };
 		B755554D1F3C5823008D0D01 /* GXHome.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B75555431F3C5823008D0D01 /* GXHome.framework */; };
 		B75555521F3C5823008D0D01 /* GXHomeTests.m in Sources */ = {isa = PBXBuildFile; fileRef = B75555511F3C5823008D0D01 /* GXHomeTests.m */; };
 		B75555541F3C5823008D0D01 /* GXHome.h in Headers */ = {isa = PBXBuildFile; fileRef = B75555461F3C5823008D0D01 /* GXHome.h */; settings = {ATTRIBUTES = (Public, ); }; };
@@ -23,10 +48,6 @@
 		B78048771F736C9A004B5E5B /* GXHome.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = B75555431F3C5823008D0D01 /* GXHome.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		B78048BC1F73BFC9004B5E5B /* GXHomeRecommendVC.h in Headers */ = {isa = PBXBuildFile; fileRef = B78048BA1F73BFC9004B5E5B /* GXHomeRecommendVC.h */; };
 		B78048BD1F73BFC9004B5E5B /* GXHomeRecommendVC.m in Sources */ = {isa = PBXBuildFile; fileRef = B78048BB1F73BFC9004B5E5B /* GXHomeRecommendVC.m */; };
-		B78048C01F73C602004B5E5B /* GXHomeLiveVC.h in Headers */ = {isa = PBXBuildFile; fileRef = B78048BE1F73C602004B5E5B /* GXHomeLiveVC.h */; };
-		B78048C11F73C602004B5E5B /* GXHomeLiveVC.m in Sources */ = {isa = PBXBuildFile; fileRef = B78048BF1F73C602004B5E5B /* GXHomeLiveVC.m */; };
-		B78048C41F73C615004B5E5B /* GXHomeBangumiVC.h in Headers */ = {isa = PBXBuildFile; fileRef = B78048C21F73C615004B5E5B /* GXHomeBangumiVC.h */; };
-		B78048C51F73C615004B5E5B /* GXHomeBangumiVC.m in Sources */ = {isa = PBXBuildFile; fileRef = B78048C31F73C615004B5E5B /* GXHomeBangumiVC.m */; };
 		B7B685321F41B2CC00306EF5 /* GXHomeViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = B7B685301F41B2CC00306EF5 /* GXHomeViewController.h */; };
 		B7B685331F41B2CC00306EF5 /* GXHomeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B7B685311F41B2CC00306EF5 /* GXHomeViewController.m */; };
 		B7B685351F41B3D100306EF5 /* GXHome.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B7B685341F41B3D100306EF5 /* GXHome.xcassets */; };
@@ -37,6 +58,83 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
+		B70FBCBF1F99D171004A52F7 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B70FBCB91F99D171004A52F7 /* GXPlayer.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = B70D8BF21F9844BA00F0DA16;
+			remoteInfo = GXPlayer;
+		};
+		B70FBCC11F99D171004A52F7 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B70FBCB91F99D171004A52F7 /* GXPlayer.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = B70D8BFB1F9844BB00F0DA16;
+			remoteInfo = GXPlayerTests;
+		};
+		B70FBCC31F99D171004A52F7 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B70FBCB91F99D171004A52F7 /* GXPlayer.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = B747A7881F98589300BE60C5;
+			remoteInfo = GXPlayerShell;
+		};
+		B70FBCC51F99D177004A52F7 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B70FBCB91F99D171004A52F7 /* GXPlayer.xcodeproj */;
+			proxyType = 1;
+			remoteGlobalIDString = B70D8BF11F9844BA00F0DA16;
+			remoteInfo = GXPlayer;
+		};
+		B70FBCCF1F99D34A004A52F7 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B70FBCCA1F99D34A004A52F7 /* GXPodContainer.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = B77B4B261F5D2694009FBFF0;
+			remoteInfo = GXPodContainer;
+		};
+		B70FBCD11F99D34A004A52F7 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B70FBCCA1F99D34A004A52F7 /* GXPodContainer.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = B77B4C441F5D5EB0009FBFF0;
+			remoteInfo = GXPodContainerTestShell;
+		};
+		B70FBCD31F99D352004A52F7 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B70FBCCA1F99D34A004A52F7 /* GXPodContainer.xcodeproj */;
+			proxyType = 1;
+			remoteGlobalIDString = B77B4B251F5D2694009FBFF0;
+			remoteInfo = GXPodContainer;
+		};
+		B70FBCDB1F99D483004A52F7 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B70FBCD61F99D483004A52F7 /* GXNetwork.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = B7B685461F41BFA100306EF5;
+			remoteInfo = GXNetwork;
+		};
+		B70FBCDD1F99D483004A52F7 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B70FBCD61F99D483004A52F7 /* GXNetwork.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = B7B6854F1F41BFA100306EF5;
+			remoteInfo = GXNetworkTests;
+		};
+		B70FBD271F99E8F3004A52F7 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B70FBCB91F99D171004A52F7 /* GXPlayer.xcodeproj */;
+			proxyType = 1;
+			remoteGlobalIDString = B70D8BF11F9844BA00F0DA16;
+			remoteInfo = GXPlayer;
+		};
+		B75081681F9DD5810054ED21 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B70FBCD61F99D483004A52F7 /* GXNetwork.xcodeproj */;
+			proxyType = 1;
+			remoteGlobalIDString = B7B685451F41BFA100306EF5;
+			remoteInfo = GXNetwork;
+		};
 		B755554E1F3C5823008D0D01 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = B755553A1F3C5823008D0D01 /* Project object */;
@@ -103,6 +201,7 @@
 			dstSubfolderSpec = 10;
 			files = (
 				B78048771F736C9A004B5E5B /* GXHome.framework in Embed Frameworks */,
+				B70FBD261F99E8F3004A52F7 /* GXPlayer.framework in Embed Frameworks */,
 			);
 			name = "Embed Frameworks";
 			runOnlyForDeploymentPostprocessing = 0;
@@ -110,6 +209,27 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		B70FBC9E1F99CCA9004A52F7 /* GXHomeLiveVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GXHomeLiveVC.h; sourceTree = "<group>"; };
+		B70FBC9F1F99CCA9004A52F7 /* GXHomeLiveVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GXHomeLiveVC.m; sourceTree = "<group>"; };
+		B70FBCA81F99CD4D004A52F7 /* GXHomeLiveModel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GXHomeLiveModel.h; sourceTree = "<group>"; };
+		B70FBCA91F99CD4D004A52F7 /* GXHomeLiveModel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GXHomeLiveModel.m; sourceTree = "<group>"; };
+		B70FBCAC1F99CD77004A52F7 /* GXHomeLiveCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GXHomeLiveCell.h; sourceTree = "<group>"; };
+		B70FBCAD1F99CD77004A52F7 /* GXHomeLiveCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GXHomeLiveCell.m; sourceTree = "<group>"; };
+		B70FBCB01F99CE17004A52F7 /* GXHomeLiveVM.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GXHomeLiveVM.h; sourceTree = "<group>"; };
+		B70FBCB11F99CE17004A52F7 /* GXHomeLiveVM.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GXHomeLiveVM.m; sourceTree = "<group>"; };
+		B70FBCB41F99CEA8004A52F7 /* GXHomeNavigator.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GXHomeNavigator.h; sourceTree = "<group>"; };
+		B70FBCB51F99CEA8004A52F7 /* GXHomeNavigator.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GXHomeNavigator.m; sourceTree = "<group>"; };
+		B70FBCB91F99D171004A52F7 /* GXPlayer.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = GXPlayer.xcodeproj; path = ../../GXPlayer/GXPlayer.xcodeproj; sourceTree = "<group>"; };
+		B70FBCCA1F99D34A004A52F7 /* GXPodContainer.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = GXPodContainer.xcodeproj; path = ../../GXPodContainer/GXPodContainer.xcodeproj; sourceTree = "<group>"; };
+		B70FBCD61F99D483004A52F7 /* GXNetwork.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = GXNetwork.xcodeproj; path = ../../GXNetwork/GXNetwork.xcodeproj; sourceTree = "<group>"; };
+		B75081511F9DC3220054ED21 /* GXHomeBangumiViewModel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GXHomeBangumiViewModel.h; sourceTree = "<group>"; };
+		B75081521F9DC3220054ED21 /* GXHomeBangumiViewModel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GXHomeBangumiViewModel.m; sourceTree = "<group>"; };
+		B75081561F9DC3AE0054ED21 /* GXHomeBangumiModel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GXHomeBangumiModel.h; sourceTree = "<group>"; };
+		B75081571F9DC3AE0054ED21 /* GXHomeBangumiModel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GXHomeBangumiModel.m; sourceTree = "<group>"; };
+		B750815A1F9DC4590054ED21 /* GXHomeBangumiVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GXHomeBangumiVC.h; sourceTree = "<group>"; };
+		B750815B1F9DC45A0054ED21 /* GXHomeBangumiVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GXHomeBangumiVC.m; sourceTree = "<group>"; };
+		B750815E1F9DC47B0054ED21 /* GXHomeBangumiCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GXHomeBangumiCell.h; sourceTree = "<group>"; };
+		B750815F1F9DC47B0054ED21 /* GXHomeBangumiCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GXHomeBangumiCell.m; sourceTree = "<group>"; };
 		B75555431F3C5823008D0D01 /* GXHome.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = GXHome.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		B75555461F3C5823008D0D01 /* GXHome.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GXHome.h; sourceTree = "<group>"; };
 		B75555471F3C5823008D0D01 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -131,10 +251,6 @@
 		B78048701F736C79004B5E5B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		B78048BA1F73BFC9004B5E5B /* GXHomeRecommendVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GXHomeRecommendVC.h; sourceTree = "<group>"; };
 		B78048BB1F73BFC9004B5E5B /* GXHomeRecommendVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GXHomeRecommendVC.m; sourceTree = "<group>"; };
-		B78048BE1F73C602004B5E5B /* GXHomeLiveVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GXHomeLiveVC.h; sourceTree = "<group>"; };
-		B78048BF1F73C602004B5E5B /* GXHomeLiveVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GXHomeLiveVC.m; sourceTree = "<group>"; };
-		B78048C21F73C615004B5E5B /* GXHomeBangumiVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GXHomeBangumiVC.h; sourceTree = "<group>"; };
-		B78048C31F73C615004B5E5B /* GXHomeBangumiVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GXHomeBangumiVC.m; sourceTree = "<group>"; };
 		B7B6848D1F41A9AB00306EF5 /* GXRuler.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = GXRuler.xcodeproj; path = ../../GXRuler/GXRuler.xcodeproj; sourceTree = "<group>"; };
 		B7B685301F41B2CC00306EF5 /* GXHomeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GXHomeViewController.h; sourceTree = "<group>"; };
 		B7B685311F41B2CC00306EF5 /* GXHomeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GXHomeViewController.m; sourceTree = "<group>"; };
@@ -150,6 +266,11 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B750816A1F9DD5850054ED21 /* GXNetwork.framework in Frameworks */,
+				B70FBCD51F99D358004A52F7 /* GXPodContainer.framework in Frameworks */,
+				B70FBCC81F99D17E004A52F7 /* GXPlayer.framework in Frameworks */,
+				B750816B1F9DD58A0054ED21 /* GXPageView.framework in Frameworks */,
+				B70FBD981F9A13B9004A52F7 /* GXRuler.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -166,12 +287,120 @@
 			buildActionMask = 2147483647;
 			files = (
 				B78048761F736C9A004B5E5B /* GXHome.framework in Frameworks */,
+				B70FBD251F99E8F3004A52F7 /* GXPlayer.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		B70FBC9C1F99CCA9004A52F7 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				B70FBCA81F99CD4D004A52F7 /* GXHomeLiveModel.h */,
+				B70FBCA91F99CD4D004A52F7 /* GXHomeLiveModel.m */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		B70FBC9D1F99CCA9004A52F7 /* VC */ = {
+			isa = PBXGroup;
+			children = (
+				B70FBC9E1F99CCA9004A52F7 /* GXHomeLiveVC.h */,
+				B70FBC9F1F99CCA9004A52F7 /* GXHomeLiveVC.m */,
+			);
+			path = VC;
+			sourceTree = "<group>";
+		};
+		B70FBCA01F99CCA9004A52F7 /* VM */ = {
+			isa = PBXGroup;
+			children = (
+				B70FBCB01F99CE17004A52F7 /* GXHomeLiveVM.h */,
+				B70FBCB11F99CE17004A52F7 /* GXHomeLiveVM.m */,
+			);
+			path = VM;
+			sourceTree = "<group>";
+		};
+		B70FBCA11F99CCA9004A52F7 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				B70FBCAC1F99CD77004A52F7 /* GXHomeLiveCell.h */,
+				B70FBCAD1F99CD77004A52F7 /* GXHomeLiveCell.m */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		B70FBCBA1F99D171004A52F7 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				B70FBCC01F99D171004A52F7 /* GXPlayer.framework */,
+				B70FBCC21F99D171004A52F7 /* GXPlayerTests.xctest */,
+				B70FBCC41F99D171004A52F7 /* GXPlayerShell.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		B70FBCC71F99D17E004A52F7 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		B70FBCCB1F99D34A004A52F7 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				B70FBCD01F99D34A004A52F7 /* GXPodContainer.framework */,
+				B70FBCD21F99D34A004A52F7 /* GXPodContainerTestShell.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		B70FBCD71F99D483004A52F7 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				B70FBCDC1F99D483004A52F7 /* GXNetwork.framework */,
+				B70FBCDE1F99D483004A52F7 /* GXNetworkTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		B75081461F9DC2FB0054ED21 /* VM */ = {
+			isa = PBXGroup;
+			children = (
+				B75081511F9DC3220054ED21 /* GXHomeBangumiViewModel.h */,
+				B75081521F9DC3220054ED21 /* GXHomeBangumiViewModel.m */,
+			);
+			path = VM;
+			sourceTree = "<group>";
+		};
+		B750814E1F9DC2FB0054ED21 /* VC */ = {
+			isa = PBXGroup;
+			children = (
+				B750815A1F9DC4590054ED21 /* GXHomeBangumiVC.h */,
+				B750815B1F9DC45A0054ED21 /* GXHomeBangumiVC.m */,
+			);
+			path = VC;
+			sourceTree = "<group>";
+		};
+		B75081501F9DC2FB0054ED21 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				B750815E1F9DC47B0054ED21 /* GXHomeBangumiCell.h */,
+				B750815F1F9DC47B0054ED21 /* GXHomeBangumiCell.m */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		B75081551F9DC3920054ED21 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				B75081561F9DC3AE0054ED21 /* GXHomeBangumiModel.h */,
+				B75081571F9DC3AE0054ED21 /* GXHomeBangumiModel.m */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
 		B75555391F3C5823008D0D01 = {
 			isa = PBXGroup;
 			children = (
@@ -179,6 +408,7 @@
 				B75555501F3C5823008D0D01 /* GXHomeTests */,
 				B780485E1F736C79004B5E5B /* GXHomeShell */,
 				B75555441F3C5823008D0D01 /* Products */,
+				B70FBCC71F99D17E004A52F7 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -203,6 +433,8 @@
 				B7CCDC6E1F3DBD7E00B06BB3 /* GXHomeBus.m */,
 				B7C20D841F4EB97300F6E5F1 /* GXHomeRouter.h */,
 				B7C20D851F4EB97300F6E5F1 /* GXHomeRouter.m */,
+				B70FBCB41F99CEA8004A52F7 /* GXHomeNavigator.h */,
+				B70FBCB51F99CEA8004A52F7 /* GXHomeNavigator.m */,
 				B755556A1F3C604A008D0D01 /* GXHomeDefine.h */,
 				B755556B1F3C604A008D0D01 /* GXHomeDefine.m */,
 				B755556E1F3C616C008D0D01 /* GXHomeManager.h */,
@@ -274,8 +506,10 @@
 		B78048B71F73BFA3004B5E5B /* HomeBangumi */ = {
 			isa = PBXGroup;
 			children = (
-				B78048C21F73C615004B5E5B /* GXHomeBangumiVC.h */,
-				B78048C31F73C615004B5E5B /* GXHomeBangumiVC.m */,
+				B75081551F9DC3920054ED21 /* Model */,
+				B750814E1F9DC2FB0054ED21 /* VC */,
+				B75081501F9DC2FB0054ED21 /* View */,
+				B75081461F9DC2FB0054ED21 /* VM */,
 			);
 			path = HomeBangumi;
 			sourceTree = "<group>";
@@ -283,8 +517,10 @@
 		B78048B81F73BFA3004B5E5B /* HomeLive */ = {
 			isa = PBXGroup;
 			children = (
-				B78048BE1F73C602004B5E5B /* GXHomeLiveVC.h */,
-				B78048BF1F73C602004B5E5B /* GXHomeLiveVC.m */,
+				B70FBC9C1F99CCA9004A52F7 /* Model */,
+				B70FBC9D1F99CCA9004A52F7 /* VC */,
+				B70FBCA11F99CCA9004A52F7 /* View */,
+				B70FBCA01F99CCA9004A52F7 /* VM */,
 			);
 			path = HomeLive;
 			sourceTree = "<group>";
@@ -319,6 +555,9 @@
 		B7CCDC611F3DBD2000B06BB3 /* Dependencies */ = {
 			isa = PBXGroup;
 			children = (
+				B70FBCD61F99D483004A52F7 /* GXNetwork.xcodeproj */,
+				B70FBCCA1F99D34A004A52F7 /* GXPodContainer.xcodeproj */,
+				B70FBCB91F99D171004A52F7 /* GXPlayer.xcodeproj */,
 				B780484C1F73681F004B5E5B /* GXPageView.xcodeproj */,
 				B7B6848D1F41A9AB00306EF5 /* GXRuler.xcodeproj */,
 			);
@@ -332,15 +571,22 @@
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B75081601F9DC47B0054ED21 /* GXHomeBangumiCell.h in Headers */,
 				B780484A1F7367D5004B5E5B /* GXHomePCH.pch in Headers */,
+				B70FBCA21F99CCA9004A52F7 /* GXHomeLiveVC.h in Headers */,
+				B70FBCAE1F99CD77004A52F7 /* GXHomeLiveCell.h in Headers */,
 				B75555541F3C5823008D0D01 /* GXHome.h in Headers */,
-				B78048C01F73C602004B5E5B /* GXHomeLiveVC.h in Headers */,
+				B70FBCB61F99CEA8004A52F7 /* GXHomeNavigator.h in Headers */,
 				B75555701F3C616C008D0D01 /* GXHomeManager.h in Headers */,
+				B75081581F9DC3AE0054ED21 /* GXHomeBangumiModel.h in Headers */,
+				B75081531F9DC3220054ED21 /* GXHomeBangumiViewModel.h in Headers */,
 				B755556C1F3C604A008D0D01 /* GXHomeDefine.h in Headers */,
-				B78048C41F73C615004B5E5B /* GXHomeBangumiVC.h in Headers */,
+				B70FBCAA1F99CD4D004A52F7 /* GXHomeLiveModel.h in Headers */,
 				B78048BC1F73BFC9004B5E5B /* GXHomeRecommendVC.h in Headers */,
+				B750815C1F9DC45A0054ED21 /* GXHomeBangumiVC.h in Headers */,
 				B7CCDC6F1F3DBD7E00B06BB3 /* GXHomeBus.h in Headers */,
 				B7B685321F41B2CC00306EF5 /* GXHomeViewController.h in Headers */,
+				B70FBCB21F99CE17004A52F7 /* GXHomeLiveVM.h in Headers */,
 				B7C20D861F4EB97300F6E5F1 /* GXHomeRouter.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -360,6 +606,9 @@
 			buildRules = (
 			);
 			dependencies = (
+				B75081691F9DD5810054ED21 /* PBXTargetDependency */,
+				B70FBCD41F99D352004A52F7 /* PBXTargetDependency */,
+				B70FBCC61F99D177004A52F7 /* PBXTargetDependency */,
 				B759B9CA1F7A1F3700BD1DF6 /* PBXTargetDependency */,
 				B759B9CC1F7A1F3700BD1DF6 /* PBXTargetDependency */,
 			);
@@ -399,6 +648,7 @@
 			);
 			dependencies = (
 				B78048791F736C9A004B5E5B /* PBXTargetDependency */,
+				B70FBD281F99E8F3004A52F7 /* PBXTargetDependency */,
 			);
 			name = GXHomeShell;
 			productName = GXHomeShell;
@@ -444,8 +694,20 @@
 			projectDirPath = "";
 			projectReferences = (
 				{
+					ProductGroup = B70FBCD71F99D483004A52F7 /* Products */;
+					ProjectRef = B70FBCD61F99D483004A52F7 /* GXNetwork.xcodeproj */;
+				},
+				{
 					ProductGroup = B780484D1F73681F004B5E5B /* Products */;
 					ProjectRef = B780484C1F73681F004B5E5B /* GXPageView.xcodeproj */;
+				},
+				{
+					ProductGroup = B70FBCBA1F99D171004A52F7 /* Products */;
+					ProjectRef = B70FBCB91F99D171004A52F7 /* GXPlayer.xcodeproj */;
+				},
+				{
+					ProductGroup = B70FBCCB1F99D34A004A52F7 /* Products */;
+					ProjectRef = B70FBCCA1F99D34A004A52F7 /* GXPodContainer.xcodeproj */;
 				},
 				{
 					ProductGroup = B7B6848E1F41A9AB00306EF5 /* Products */;
@@ -462,6 +724,55 @@
 /* End PBXProject section */
 
 /* Begin PBXReferenceProxy section */
+		B70FBCC01F99D171004A52F7 /* GXPlayer.framework */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.framework;
+			path = GXPlayer.framework;
+			remoteRef = B70FBCBF1F99D171004A52F7 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		B70FBCC21F99D171004A52F7 /* GXPlayerTests.xctest */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.cfbundle;
+			path = GXPlayerTests.xctest;
+			remoteRef = B70FBCC11F99D171004A52F7 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		B70FBCC41F99D171004A52F7 /* GXPlayerShell.app */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.application;
+			path = GXPlayerShell.app;
+			remoteRef = B70FBCC31F99D171004A52F7 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		B70FBCD01F99D34A004A52F7 /* GXPodContainer.framework */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.framework;
+			path = GXPodContainer.framework;
+			remoteRef = B70FBCCF1F99D34A004A52F7 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		B70FBCD21F99D34A004A52F7 /* GXPodContainerTestShell.app */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.application;
+			path = GXPodContainerTestShell.app;
+			remoteRef = B70FBCD11F99D34A004A52F7 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		B70FBCDC1F99D483004A52F7 /* GXNetwork.framework */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.framework;
+			path = GXNetwork.framework;
+			remoteRef = B70FBCDB1F99D483004A52F7 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		B70FBCDE1F99D483004A52F7 /* GXNetworkTests.xctest */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.cfbundle;
+			path = GXNetworkTests.xctest;
+			remoteRef = B70FBCDD1F99D483004A52F7 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
 		B78048521F736820004B5E5B /* GXPageView.framework */ = {
 			isa = PBXReferenceProxy;
 			fileType = wrapper.framework;
@@ -524,14 +835,21 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				B78048C51F73C615004B5E5B /* GXHomeBangumiVC.m in Sources */,
+				B70FBCAB1F99CD4D004A52F7 /* GXHomeLiveModel.m in Sources */,
 				B7C20D871F4EB97300F6E5F1 /* GXHomeRouter.m in Sources */,
+				B75081611F9DC47B0054ED21 /* GXHomeBangumiCell.m in Sources */,
+				B70FBCA31F99CCA9004A52F7 /* GXHomeLiveVC.m in Sources */,
 				B78048BD1F73BFC9004B5E5B /* GXHomeRecommendVC.m in Sources */,
 				B755556D1F3C604A008D0D01 /* GXHomeDefine.m in Sources */,
+				B70FBCB31F99CE17004A52F7 /* GXHomeLiveVM.m in Sources */,
+				B750815D1F9DC45A0054ED21 /* GXHomeBangumiVC.m in Sources */,
+				B75081591F9DC3AE0054ED21 /* GXHomeBangumiModel.m in Sources */,
+				B70FBCB71F99CEA8004A52F7 /* GXHomeNavigator.m in Sources */,
 				B7B685331F41B2CC00306EF5 /* GXHomeViewController.m in Sources */,
+				B75081541F9DC3220054ED21 /* GXHomeBangumiViewModel.m in Sources */,
 				B7CCDC701F3DBD7E00B06BB3 /* GXHomeBus.m in Sources */,
-				B78048C11F73C602004B5E5B /* GXHomeLiveVC.m in Sources */,
 				B75555711F3C616C008D0D01 /* GXHomeManager.m in Sources */,
+				B70FBCAF1F99CD77004A52F7 /* GXHomeLiveCell.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -555,6 +873,26 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
+		B70FBCC61F99D177004A52F7 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = GXPlayer;
+			targetProxy = B70FBCC51F99D177004A52F7 /* PBXContainerItemProxy */;
+		};
+		B70FBCD41F99D352004A52F7 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = GXPodContainer;
+			targetProxy = B70FBCD31F99D352004A52F7 /* PBXContainerItemProxy */;
+		};
+		B70FBD281F99E8F3004A52F7 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = GXPlayer;
+			targetProxy = B70FBD271F99E8F3004A52F7 /* PBXContainerItemProxy */;
+		};
+		B75081691F9DD5810054ED21 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = GXNetwork;
+			targetProxy = B75081681F9DD5810054ED21 /* PBXContainerItemProxy */;
+		};
 		B755554F1F3C5823008D0D01 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			target = B75555421F3C5823008D0D01 /* GXHome */;
@@ -708,6 +1046,7 @@
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_BITCODE = YES;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "$(SRCROOT)/GXHome/GXHomePCH.pch";
 				INFOPLIST_FILE = GXHome/Info.plist;
@@ -728,6 +1067,7 @@
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_BITCODE = YES;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "$(SRCROOT)/GXHome/GXHomePCH.pch";
 				INFOPLIST_FILE = GXHome/Info.plist;
