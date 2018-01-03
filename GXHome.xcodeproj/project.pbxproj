@@ -500,6 +500,7 @@
 		B75555911F3C637D008D0D01 /* GXHome */ = {
 			isa = PBXGroup;
 			children = (
+				E4B83C8F1FFD3714000A4AFF /* FeedCard */,
 				B78048B71F73BFA3004B5E5B /* HomeBangumi */,
 				B78048B81F73BFA3004B5E5B /* HomeLive */,
 				B78048B91F73BFA3004B5E5B /* HomeRecommend */,
@@ -573,6 +574,9 @@
 			children = (
 				B78048BA1F73BFC9004B5E5B /* GXHomeRecommendVC.h */,
 				B78048BB1F73BFC9004B5E5B /* GXHomeRecommendVC.m */,
+				E4B83C8E1FFD3685000A4AFF /* Cell */,
+				E4B83C871FFD3685000A4AFF /* Model */,
+				E4B83C8D1FFD3685000A4AFF /* VM */,
 			);
 			path = HomeRecommend;
 			sourceTree = "<group>";
@@ -606,6 +610,58 @@
 				B7B6848D1F41A9AB00306EF5 /* GXRuler.xcodeproj */,
 			);
 			name = Dependencies;
+			sourceTree = "<group>";
+		};
+		E4B83C871FFD3685000A4AFF /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		E4B83C8D1FFD3685000A4AFF /* VM */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = VM;
+			sourceTree = "<group>";
+		};
+		E4B83C8E1FFD3685000A4AFF /* Cell */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Cell;
+			sourceTree = "<group>";
+		};
+		E4B83C8F1FFD3714000A4AFF /* FeedCard */ = {
+			isa = PBXGroup;
+			children = (
+				E4B83C901FFD3714000A4AFF /* ConfigModel */,
+				E4B83C911FFD3714000A4AFF /* Define */,
+				E4B83C921FFD3714000A4AFF /* View */,
+			);
+			path = FeedCard;
+			sourceTree = "<group>";
+		};
+		E4B83C901FFD3714000A4AFF /* ConfigModel */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = ConfigModel;
+			sourceTree = "<group>";
+		};
+		E4B83C911FFD3714000A4AFF /* Define */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Define;
+			sourceTree = "<group>";
+		};
+		E4B83C921FFD3714000A4AFF /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
