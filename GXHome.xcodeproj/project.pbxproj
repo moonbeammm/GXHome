@@ -7,6 +7,16 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		AA3C79581FFE657300FA1455 /* GXHomeFeedCardAVView.m in Sources */ = {isa = PBXBuildFile; fileRef = AA3C79501FFE657300FA1455 /* GXHomeFeedCardAVView.m */; };
+		AA3C79591FFE657300FA1455 /* GXHomeBaseFeedCardView.m in Sources */ = {isa = PBXBuildFile; fileRef = AA3C79511FFE657300FA1455 /* GXHomeBaseFeedCardView.m */; };
+		AA3C795A1FFE657300FA1455 /* GXHomeFeedCardSpecialView.h in Headers */ = {isa = PBXBuildFile; fileRef = AA3C79521FFE657300FA1455 /* GXHomeFeedCardSpecialView.h */; };
+		AA3C795B1FFE657300FA1455 /* GXHomeFeedCardSpecialView.m in Sources */ = {isa = PBXBuildFile; fileRef = AA3C79531FFE657300FA1455 /* GXHomeFeedCardSpecialView.m */; };
+		AA3C795C1FFE657300FA1455 /* GXHomeFeedCardAVView.h in Headers */ = {isa = PBXBuildFile; fileRef = AA3C79541FFE657300FA1455 /* GXHomeFeedCardAVView.h */; };
+		AA3C795D1FFE657300FA1455 /* GXHomeFeedCardGameView.h in Headers */ = {isa = PBXBuildFile; fileRef = AA3C79551FFE657300FA1455 /* GXHomeFeedCardGameView.h */; };
+		AA3C795E1FFE657300FA1455 /* GXHomeBaseFeedCardView.h in Headers */ = {isa = PBXBuildFile; fileRef = AA3C79561FFE657300FA1455 /* GXHomeBaseFeedCardView.h */; };
+		AA3C795F1FFE657300FA1455 /* GXHomeFeedCardGameView.m in Sources */ = {isa = PBXBuildFile; fileRef = AA3C79571FFE657300FA1455 /* GXHomeFeedCardGameView.m */; };
+		AA3C79861FFE693100FA1455 /* GXHomeRecommendVM.h in Headers */ = {isa = PBXBuildFile; fileRef = AA3C79841FFE693100FA1455 /* GXHomeRecommendVM.h */; };
+		AA3C79871FFE693100FA1455 /* GXHomeRecommendVM.m in Sources */ = {isa = PBXBuildFile; fileRef = AA3C79851FFE693100FA1455 /* GXHomeRecommendVM.m */; };
 		B70FBCA21F99CCA9004A52F7 /* GXHomeLiveVC.h in Headers */ = {isa = PBXBuildFile; fileRef = B70FBC9E1F99CCA9004A52F7 /* GXHomeLiveVC.h */; };
 		B70FBCA31F99CCA9004A52F7 /* GXHomeLiveVC.m in Sources */ = {isa = PBXBuildFile; fileRef = B70FBC9F1F99CCA9004A52F7 /* GXHomeLiveVC.m */; };
 		B70FBCAA1F99CD4D004A52F7 /* GXHomeLiveModel.h in Headers */ = {isa = PBXBuildFile; fileRef = B70FBCA81F99CD4D004A52F7 /* GXHomeLiveModel.h */; };
@@ -246,6 +256,16 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		AA3C79501FFE657300FA1455 /* GXHomeFeedCardAVView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GXHomeFeedCardAVView.m; sourceTree = "<group>"; };
+		AA3C79511FFE657300FA1455 /* GXHomeBaseFeedCardView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GXHomeBaseFeedCardView.m; sourceTree = "<group>"; };
+		AA3C79521FFE657300FA1455 /* GXHomeFeedCardSpecialView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GXHomeFeedCardSpecialView.h; sourceTree = "<group>"; };
+		AA3C79531FFE657300FA1455 /* GXHomeFeedCardSpecialView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GXHomeFeedCardSpecialView.m; sourceTree = "<group>"; };
+		AA3C79541FFE657300FA1455 /* GXHomeFeedCardAVView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GXHomeFeedCardAVView.h; sourceTree = "<group>"; };
+		AA3C79551FFE657300FA1455 /* GXHomeFeedCardGameView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GXHomeFeedCardGameView.h; sourceTree = "<group>"; };
+		AA3C79561FFE657300FA1455 /* GXHomeBaseFeedCardView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GXHomeBaseFeedCardView.h; sourceTree = "<group>"; };
+		AA3C79571FFE657300FA1455 /* GXHomeFeedCardGameView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GXHomeFeedCardGameView.m; sourceTree = "<group>"; };
+		AA3C79841FFE693100FA1455 /* GXHomeRecommendVM.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GXHomeRecommendVM.h; sourceTree = "<group>"; };
+		AA3C79851FFE693100FA1455 /* GXHomeRecommendVM.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GXHomeRecommendVM.m; sourceTree = "<group>"; };
 		B70FBC9E1F99CCA9004A52F7 /* GXHomeLiveVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GXHomeLiveVC.h; sourceTree = "<group>"; };
 		B70FBC9F1F99CCA9004A52F7 /* GXHomeLiveVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GXHomeLiveVC.m; sourceTree = "<group>"; };
 		B70FBCA81F99CD4D004A52F7 /* GXHomeLiveModel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GXHomeLiveModel.h; sourceTree = "<group>"; };
@@ -338,6 +358,45 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		AA3C79481FFE650D00FA1455 /* FeedCard */ = {
+			isa = PBXGroup;
+			children = (
+				AA3C79491FFE650D00FA1455 /* ConfigModel */,
+				AA3C794A1FFE650D00FA1455 /* Define */,
+				AA3C794B1FFE650D00FA1455 /* View */,
+			);
+			path = FeedCard;
+			sourceTree = "<group>";
+		};
+		AA3C79491FFE650D00FA1455 /* ConfigModel */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = ConfigModel;
+			sourceTree = "<group>";
+		};
+		AA3C794A1FFE650D00FA1455 /* Define */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Define;
+			sourceTree = "<group>";
+		};
+		AA3C794B1FFE650D00FA1455 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				AA3C79561FFE657300FA1455 /* GXHomeBaseFeedCardView.h */,
+				AA3C79511FFE657300FA1455 /* GXHomeBaseFeedCardView.m */,
+				AA3C79541FFE657300FA1455 /* GXHomeFeedCardAVView.h */,
+				AA3C79501FFE657300FA1455 /* GXHomeFeedCardAVView.m */,
+				AA3C79551FFE657300FA1455 /* GXHomeFeedCardGameView.h */,
+				AA3C79571FFE657300FA1455 /* GXHomeFeedCardGameView.m */,
+				AA3C79521FFE657300FA1455 /* GXHomeFeedCardSpecialView.h */,
+				AA3C79531FFE657300FA1455 /* GXHomeFeedCardSpecialView.m */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
 		B70FBC9C1F99CCA9004A52F7 /* Model */ = {
 			isa = PBXGroup;
 			children = (
@@ -500,7 +559,7 @@
 		B75555911F3C637D008D0D01 /* GXHome */ = {
 			isa = PBXGroup;
 			children = (
-				E4B83C8F1FFD3714000A4AFF /* FeedCard */,
+				AA3C79481FFE650D00FA1455 /* FeedCard */,
 				B78048B71F73BFA3004B5E5B /* HomeBangumi */,
 				B78048B81F73BFA3004B5E5B /* HomeLive */,
 				B78048B91F73BFA3004B5E5B /* HomeRecommend */,
@@ -622,6 +681,8 @@
 		E4B83C8D1FFD3685000A4AFF /* VM */ = {
 			isa = PBXGroup;
 			children = (
+				AA3C79841FFE693100FA1455 /* GXHomeRecommendVM.h */,
+				AA3C79851FFE693100FA1455 /* GXHomeRecommendVM.m */,
 			);
 			path = VM;
 			sourceTree = "<group>";
@@ -633,37 +694,6 @@
 			path = Cell;
 			sourceTree = "<group>";
 		};
-		E4B83C8F1FFD3714000A4AFF /* FeedCard */ = {
-			isa = PBXGroup;
-			children = (
-				E4B83C901FFD3714000A4AFF /* ConfigModel */,
-				E4B83C911FFD3714000A4AFF /* Define */,
-				E4B83C921FFD3714000A4AFF /* View */,
-			);
-			path = FeedCard;
-			sourceTree = "<group>";
-		};
-		E4B83C901FFD3714000A4AFF /* ConfigModel */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = ConfigModel;
-			sourceTree = "<group>";
-		};
-		E4B83C911FFD3714000A4AFF /* Define */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = Define;
-			sourceTree = "<group>";
-		};
-		E4B83C921FFD3714000A4AFF /* View */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = View;
-			sourceTree = "<group>";
-		};
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
@@ -672,6 +702,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				B75081601F9DC47B0054ED21 /* GXHomeBangumiCell.h in Headers */,
+				AA3C795A1FFE657300FA1455 /* GXHomeFeedCardSpecialView.h in Headers */,
 				B780484A1F7367D5004B5E5B /* GXHomePCH.pch in Headers */,
 				B70FBCA21F99CCA9004A52F7 /* GXHomeLiveVC.h in Headers */,
 				B70FBCAE1F99CD77004A52F7 /* GXHomeLiveCell.h in Headers */,
@@ -682,6 +713,10 @@
 				B75081531F9DC3220054ED21 /* GXHomeBangumiViewModel.h in Headers */,
 				B755556C1F3C604A008D0D01 /* GXHomeDefine.h in Headers */,
 				B70FBCAA1F99CD4D004A52F7 /* GXHomeLiveModel.h in Headers */,
+				AA3C79861FFE693100FA1455 /* GXHomeRecommendVM.h in Headers */,
+				AA3C795E1FFE657300FA1455 /* GXHomeBaseFeedCardView.h in Headers */,
+				AA3C795C1FFE657300FA1455 /* GXHomeFeedCardAVView.h in Headers */,
+				AA3C795D1FFE657300FA1455 /* GXHomeFeedCardGameView.h in Headers */,
 				B78048BC1F73BFC9004B5E5B /* GXHomeRecommendVC.h in Headers */,
 				B750815C1F9DC45A0054ED21 /* GXHomeBangumiVC.h in Headers */,
 				B7CCDC6F1F3DBD7E00B06BB3 /* GXHomeBus.h in Headers */,
@@ -941,12 +976,17 @@
 				B70FBCB31F99CE17004A52F7 /* GXHomeLiveVM.m in Sources */,
 				B750815D1F9DC45A0054ED21 /* GXHomeBangumiVC.m in Sources */,
 				B75081591F9DC3AE0054ED21 /* GXHomeBangumiModel.m in Sources */,
+				AA3C79591FFE657300FA1455 /* GXHomeBaseFeedCardView.m in Sources */,
+				AA3C795B1FFE657300FA1455 /* GXHomeFeedCardSpecialView.m in Sources */,
+				AA3C79581FFE657300FA1455 /* GXHomeFeedCardAVView.m in Sources */,
 				B70FBCB71F99CEA8004A52F7 /* GXHomeNavigator.m in Sources */,
 				B7B685331F41B2CC00306EF5 /* GXHomeViewController.m in Sources */,
 				B75081541F9DC3220054ED21 /* GXHomeBangumiViewModel.m in Sources */,
 				B7CCDC701F3DBD7E00B06BB3 /* GXHomeBus.m in Sources */,
+				AA3C795F1FFE657300FA1455 /* GXHomeFeedCardGameView.m in Sources */,
 				B75555711F3C616C008D0D01 /* GXHomeManager.m in Sources */,
 				B70FBCAF1F99CD77004A52F7 /* GXHomeLiveCell.m in Sources */,
+				AA3C79871FFE693100FA1455 /* GXHomeRecommendVM.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
