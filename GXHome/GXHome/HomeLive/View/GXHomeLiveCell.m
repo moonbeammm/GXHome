@@ -8,9 +8,6 @@
 
 #import "GXHomeLiveCell.h"
 #import "GXHomeLiveModel.h"
-#import <Masonry/Masonry.h>
-#import <GXRuler/UIImageView+GXWebImage.h>
-
 
 @interface GXHomeLiveCell ()
 

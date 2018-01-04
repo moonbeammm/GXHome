@@ -16,7 +16,9 @@
 
     #import <ReactiveCocoa/ReactiveCocoa.h>
     #import <Masonry/Masonry.h>
+    #import <YYModel/YYModel.h>
 
+    #import <GXRuler/UIImageView+GXWebImage.h>
     #import <GXRuler/GXColors.h>
     #import <GXRuler/UIView+Frame.h>
 

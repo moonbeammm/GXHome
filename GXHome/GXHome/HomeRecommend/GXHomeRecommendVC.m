@@ -7,7 +7,7 @@
 //
 
 #import "GXHomeRecommendVC.h"
-#import <GXRuler/GXBaseTableViewCell.h>
+#import "GXHomeRecAVCell.h"
 
 @interface GXHomeRecommendVC ()
 
@@ -42,14 +42,13 @@
 
 - (CGFloat)tableView:(UITableView *)tableView heightForRowAtIndexPath:(NSIndexPath *)indexPath
 {
-    return 40;
+    return [GXHomeRecAVCell getHeigthWithModel:nil params:nil];
 }
 
 - (UITableViewCell *)tableView:(UITableView *)tableView cellForRowAtIndexPath:(NSIndexPath *)indexPath
 {
-    GXBaseTableViewCell * cell = [tableView dequeueReusableCellWithIdentifier:NSStringFromClass([GXBaseTableViewCell class]) forIndexPath:indexPath];
-    NSString *title = @"我是推荐页!!";
-    cell.textLabel.text = title;
+    GXHomeRecAVCell * cell = [tableView dequeueReusableCellWithIdentifier:NSStringFromClass([GXHomeRecAVCell class]) forIndexPath:indexPath];
+    [cell installWithModel:nil params:nil];
     return cell;
 }
 
@@ -57,8 +56,7 @@
 
 - (void)configSubviews
 {
-    [self.tableView registerClass:[GXBaseTableViewCell class] forCellReuseIdentifier:[GXBaseTableViewCell description]];
-
+    [self.tableView registerClass:[GXHomeRecAVCell class] forCellReuseIdentifier:[GXHomeRecAVCell description]];
 }
 
 @end
