@@ -6,8 +6,12 @@
 //  Copyright © 2018年 Bilibili. All rights reserved.
 //
 
-#import "GXHomeBaseFeedCardView.h"
+#import <UIKit/UIKit.h>
 
-@interface GXHomeFeedCardSpecialView : GXHomeBaseFeedCardView
+@interface GXHomeFeedCardSpecialView : UIView
+
+@property (nonatomic, strong) UIImageView *coverImageView;
+@property (nonatomic, strong) UILabel *titleLabel;
+@property (nonatomic, strong) UILabel *descLabel;
 
 @end

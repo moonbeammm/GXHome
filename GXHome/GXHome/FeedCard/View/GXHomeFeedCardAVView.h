@@ -6,16 +6,14 @@
 //  Copyright © 2018年 Bilibili. All rights reserved.
 //
 
-#import "GXHomeBaseFeedCardView.h"
+#import <UIKit/UIKit.h>
 
-@interface GXHomeFeedCardAVView : GXHomeBaseFeedCardView
+@interface GXHomeFeedCardAVView : UIView
 
-@property (nonatomic, strong) UIImageView *upImageView;
-@property (nonatomic, strong) UILabel *upLabel;
-@property (nonatomic, strong) UIImageView *playImageView;
-@property (nonatomic, strong) UILabel *playLabel;
-@property (nonatomic, strong) UIImageView *danmakuImageView;
-@property (nonatomic, strong) UILabel *danmakuLabel;
-@property (nonatomic, strong) UILabel *rcmdLabel;
+@property (nonatomic, strong) UIImageView *coverImageView;
+@property (nonatomic, strong) UILabel *titleLabel;
+@property (nonatomic, strong) UILabel *descLabel;
+
++ (NSInteger)getTotalHeight;
 
 @end

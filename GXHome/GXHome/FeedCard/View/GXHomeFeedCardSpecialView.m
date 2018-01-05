@@ -8,7 +8,10 @@
 
 #import "GXHomeFeedCardSpecialView.h"
 
+
 @implementation GXHomeFeedCardSpecialView
+
+
 
 #pragma mark - Initialize Method
 
@@ -16,30 +19,34 @@
     [self addSubview:self.coverImageView];
     [self addSubview:self.titleLabel];
     [self addSubview:self.descLabel];
-    [self addSubview:self.rcmLabel];
-    
-    [self.coverImageView mas_makeConstraints:^(MASConstraintMaker *make) {
-        make.left.equalTo(@12);
-        make.top.equalTo(@10);
-        make.bottom.equalTo(@-10);
-        make.width.equalTo(self.coverImageView.mas_height).multipliedBy(1.61);
-    }];
-    [self.titleLabel mas_makeConstraints:^(MASConstraintMaker *make) {
-        make.left.equalTo(self.coverImageView.mas_right).offset(12);
-        make.top.equalTo(self.coverImageView).offset(2);
-        make.right.equalTo(self.mas_right).offset(-12);
-    }];
-    [self.descLabel mas_makeConstraints:^(MASConstraintMaker *make) {
-        make.right.equalTo(self.mas_right).offset(-6);
-        make.left.equalTo(self.titleLabel.mas_left);
-        make.height.equalTo(@(12));
-        make.bottom.equalTo(self.rcmLabel.mas_top).offset(-4);
-    }];
-    [self.rcmLabel mas_makeConstraints:^(MASConstraintMaker *make) {
-        make.left.equalTo(self.titleLabel.mas_left);
-        make.height.equalTo(@(13));
-        make.bottom.equalTo(self.coverImageView.mas_bottom).offset(-3);
-    }];
+}
+
+- (UIImageView *)coverImageView {
+    if (_coverImageView == nil) {
+        _coverImageView = [[UIImageView alloc] init];
+        _coverImageView.layer.cornerRadius = 5;
+        _coverImageView.layer.masksToBounds = YES;
+    }
+    return _coverImageView;
+}
+
+- (UILabel *)titleLabel {
+    if (_titleLabel == nil) {
+        _titleLabel = [[UILabel alloc] init];
+        _titleLabel.textColor = HEXCOLOR(0x212121);
+        _titleLabel.font = [UIFont systemFontOfSize:14];
+        _titleLabel.numberOfLines = 2;
+    }
+    return _titleLabel;
+}
+
+- (UILabel *)descLabel {
+    if (_descLabel == nil) {
+        _descLabel = [[UILabel alloc] init];
+        _descLabel.textColor = HEXCOLOR(0x999999);
+        _descLabel.font = [UIFont systemFontOfSize:12];
+    }
+    return _descLabel;
 }
 
 @end
