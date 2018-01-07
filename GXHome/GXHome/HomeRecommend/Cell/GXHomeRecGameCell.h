@@ -11,5 +11,7 @@
 @interface GXHomeRecGameCell : GXBaseTableViewCell
 
 @property (weak, nonatomic) IBOutlet UIImageView *coverImageView;
+@property (weak, nonatomic) IBOutlet UILabel *descLabel;
+@property (weak, nonatomic) IBOutlet UILabel *titleLLabel;
 
 @end

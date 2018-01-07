@@ -28,6 +28,9 @@
 		AA3C79861FFE693100FA1455 /* GXHomeRecommendVM.h in Headers */ = {isa = PBXBuildFile; fileRef = AA3C79841FFE693100FA1455 /* GXHomeRecommendVM.h */; };
 		AA3C79871FFE693100FA1455 /* GXHomeRecommendVM.m in Sources */ = {isa = PBXBuildFile; fileRef = AA3C79851FFE693100FA1455 /* GXHomeRecommendVM.m */; };
 		AA7483DC2001EF69002EDBC9 /* GXHomeRecGameCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = AA7483D62001EF69002EDBC9 /* GXHomeRecGameCell.xib */; };
+		AA7483FF20021795002EDBC9 /* GXHomeRecSpecialCell.h in Headers */ = {isa = PBXBuildFile; fileRef = AA7483FC20021795002EDBC9 /* GXHomeRecSpecialCell.h */; };
+		AA74840020021795002EDBC9 /* GXHomeRecSpecialCell.m in Sources */ = {isa = PBXBuildFile; fileRef = AA7483FD20021795002EDBC9 /* GXHomeRecSpecialCell.m */; };
+		AA74840120021795002EDBC9 /* GXHomeRecSpecialCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = AA7483FE20021795002EDBC9 /* GXHomeRecSpecialCell.xib */; };
 		B70FBCA21F99CCA9004A52F7 /* GXHomeLiveVC.h in Headers */ = {isa = PBXBuildFile; fileRef = B70FBC9E1F99CCA9004A52F7 /* GXHomeLiveVC.h */; };
 		B70FBCA31F99CCA9004A52F7 /* GXHomeLiveVC.m in Sources */ = {isa = PBXBuildFile; fileRef = B70FBC9F1F99CCA9004A52F7 /* GXHomeLiveVC.m */; };
 		B70FBCAA1F99CD4D004A52F7 /* GXHomeLiveModel.h in Headers */ = {isa = PBXBuildFile; fileRef = B70FBCA81F99CD4D004A52F7 /* GXHomeLiveModel.h */; };
@@ -239,6 +242,9 @@
 		AA3C79841FFE693100FA1455 /* GXHomeRecommendVM.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GXHomeRecommendVM.h; sourceTree = "<group>"; };
 		AA3C79851FFE693100FA1455 /* GXHomeRecommendVM.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GXHomeRecommendVM.m; sourceTree = "<group>"; };
 		AA7483D62001EF69002EDBC9 /* GXHomeRecGameCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = GXHomeRecGameCell.xib; sourceTree = "<group>"; };
+		AA7483FC20021795002EDBC9 /* GXHomeRecSpecialCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GXHomeRecSpecialCell.h; sourceTree = "<group>"; };
+		AA7483FD20021795002EDBC9 /* GXHomeRecSpecialCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GXHomeRecSpecialCell.m; sourceTree = "<group>"; };
+		AA7483FE20021795002EDBC9 /* GXHomeRecSpecialCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = GXHomeRecSpecialCell.xib; sourceTree = "<group>"; };
 		B70FBC9E1F99CCA9004A52F7 /* GXHomeLiveVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GXHomeLiveVC.h; sourceTree = "<group>"; };
 		B70FBC9F1F99CCA9004A52F7 /* GXHomeLiveVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GXHomeLiveVC.m; sourceTree = "<group>"; };
 		B70FBCA81F99CD4D004A52F7 /* GXHomeLiveModel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GXHomeLiveModel.h; sourceTree = "<group>"; };
@@ -660,6 +666,9 @@
 				AA08D41C2000EE1F0062C7CE /* GXHomeRecGameCell.h */,
 				AA08D41D2000EE1F0062C7CE /* GXHomeRecGameCell.m */,
 				AA7483D62001EF69002EDBC9 /* GXHomeRecGameCell.xib */,
+				AA7483FC20021795002EDBC9 /* GXHomeRecSpecialCell.h */,
+				AA7483FD20021795002EDBC9 /* GXHomeRecSpecialCell.m */,
+				AA7483FE20021795002EDBC9 /* GXHomeRecSpecialCell.xib */,
 			);
 			path = Cell;
 			sourceTree = "<group>";
@@ -694,6 +703,7 @@
 				AA3C795D1FFE657300FA1455 /* GXHomeFeedCardGameView.h in Headers */,
 				B78048BC1F73BFC9004B5E5B /* GXHomeRecommendVC.h in Headers */,
 				B750815C1F9DC45A0054ED21 /* GXHomeBangumiVC.h in Headers */,
+				AA7483FF20021795002EDBC9 /* GXHomeRecSpecialCell.h in Headers */,
 				E4B83CB01FFE8052000A4AFF /* GXHomeUIImageViewModel.h in Headers */,
 				B7CCDC6F1F3DBD7E00B06BB3 /* GXHomeBus.h in Headers */,
 				B7B685321F41B2CC00306EF5 /* GXHomeViewController.h in Headers */,
@@ -913,6 +923,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				AA7483DC2001EF69002EDBC9 /* GXHomeRecGameCell.xib in Resources */,
+				AA74840120021795002EDBC9 /* GXHomeRecSpecialCell.xib in Resources */,
 				B7B685351F41B3D100306EF5 /* GXHome.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -944,6 +955,7 @@
 				B7C20D871F4EB97300F6E5F1 /* GXHomeRouter.m in Sources */,
 				B75081611F9DC47B0054ED21 /* GXHomeBangumiCell.m in Sources */,
 				B70FBCA31F99CCA9004A52F7 /* GXHomeLiveVC.m in Sources */,
+				AA74840020021795002EDBC9 /* GXHomeRecSpecialCell.m in Sources */,
 				AA08D4252000FCAD0062C7CE /* GXHomeUIConstraint.m in Sources */,
 				B78048BD1F73BFC9004B5E5B /* GXHomeRecommendVC.m in Sources */,
 				B755556D1F3C604A008D0D01 /* GXHomeDefine.m in Sources */,

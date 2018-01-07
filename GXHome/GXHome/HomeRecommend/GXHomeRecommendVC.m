@@ -10,9 +10,11 @@
 #import "GXHomeRecAVCell.h"
 #import "GXHomeRecGameCell.h"
 #import "GXHomeRecommendVM.h"
+#import "GXHomeRecSpecialCell.h"
 
-@interface GXHomeRecommendVC ()
+@interface GXHomeRecommendVC () <UITableViewDelegate, UITableViewDataSource>
 
+@property (nonatomic, strong) UITableView *tableView;
 @property (nonatomic, strong) GXHomeRecommendVM *viewModel;
 
 @end
@@ -55,19 +57,12 @@
     return 30;
 }
 
-- (CGFloat)tableView:(UITableView *)tableView heightForRowAtIndexPath:(NSIndexPath *)indexPath
-{
-    if (indexPath.row == 0) {
-        return [GXHomeRecAVCell getHeigthWithModel:nil params:nil];
-    } else {
-        return [GXHomeRecGameCell getHeigthWithModel:nil params:nil];
-    }
-}
-
 - (UITableViewCell *)tableView:(UITableView *)tableView cellForRowAtIndexPath:(NSIndexPath *)indexPath
 {
     if (indexPath.row == 0) {
-        GXHomeRecAVCell * cell = [tableView dequeueReusableCellWithIdentifier:NSStringFromClass([GXHomeRecAVCell class]) forIndexPath:indexPath];
+//        GXHomeRecAVCell * cell = [tableView dequeueReusableCellWithIdentifier:NSStringFromClass([GXHomeRecAVCell class]) forIndexPath:indexPath];
+//        [cell installWithModel:nil params:nil];
+        GXHomeRecSpecialCell * cell = [tableView dequeueReusableCellWithIdentifier:NSStringFromClass([GXHomeRecSpecialCell class]) forIndexPath:indexPath];
         [cell installWithModel:nil params:nil];
         return cell;
     } else {
@@ -77,12 +72,24 @@
     }
 }
 
+- (CGFloat)tableView:(UITableView *)tableView estimatedHeightForRowAtIndexPath:(NSIndexPath *)indexPath {
+    if (indexPath.row == 0) {
+        return 375;
+    } else {
+        return 400;
+    }
+}
+
 #pragma mark - Initialize Method
 
 - (void)configSubviews
 {
+    [self.view addSubview:self.tableView];
+    self.tableView.rowHeight = UITableViewAutomaticDimension;
     [self.tableView registerClass:[GXHomeRecAVCell class] forCellReuseIdentifier:NSStringFromClass([GXHomeRecAVCell class])];
     
+    UINib *specialNib = [UINib nibWithNibName:@"GXHomeRecSpecialCell" bundle:[NSBundle bundleWithIdentifier:@"com.sgx.GXHome"]];
+    [self.tableView registerNib:specialNib forCellReuseIdentifier:@"GXHomeRecSpecialCell"];
     // 本地的xib文件
     UINib *nib = [UINib nibWithNibName:@"GXHomeRecGameCell" bundle:[NSBundle bundleWithIdentifier:@"com.sgx.GXHome"]];
     
@@ -90,11 +97,26 @@
     NSData *data = [NSData dataWithContentsOfFile:kLibraryDirectory(@"GXHomeRecGameCell.nib")];
     UINib *server_nib = [UINib nibWithData:data bundle:[NSBundle bundleWithIdentifier:@"com.sgx.GXHome"]];
     // 如果服务下发了就用服务端的.没有就容错用本地的.
-    if (server_nib) {
+    if (!server_nib) {
         [self.tableView registerNib:server_nib forCellReuseIdentifier:@"GXHomeRecGameCell"];
     } else {
         [self.tableView registerNib:nib forCellReuseIdentifier:@"GXHomeRecGameCell"];
     }
+}
+
+- (UITableView *)tableView
+{
+    if (!_tableView) {
+        _tableView = [[UITableView alloc] initWithFrame:self.view.bounds style:UITableViewStylePlain];
+        _tableView.dataSource = self;
+        _tableView.delegate = self;
+        _tableView.backgroundColor = self.view.backgroundColor;
+        _tableView.showsVerticalScrollIndicator = NO;
+        _tableView.showsHorizontalScrollIndicator = NO;
+        _tableView.separatorStyle = UITableViewCellSeparatorStyleNone;
+        _tableView.autoresizingMask = UIViewAutoresizingFlexibleWidth | UIViewAutoresizingFlexibleHeight;
+    }
+    return _tableView;
 }
 
 @end

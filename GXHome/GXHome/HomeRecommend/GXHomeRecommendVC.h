@@ -6,8 +6,8 @@
 //  Copyright © 2017年 sunguangxin. All rights reserved.
 //
 
-#import <GXRuler/GXBaseTableVC.h>
+#import <UIKit/UIKit.h>
 
-@interface GXHomeRecommendVC : GXBaseTableVC
+@interface GXHomeRecommendVC : UIViewController
 
 @end
