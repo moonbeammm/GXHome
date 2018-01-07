@@ -21,6 +21,7 @@
 {
     self = [super init];
     if (self) {
+        self.tag = 999;
         self.avModel = [GXHomeBaseFeedCardAVModel share];
         [self configSubviews];
     }
@@ -56,6 +57,7 @@
         _coverImageView = [[UIImageView alloc] init];
         _coverImageView.layer.cornerRadius = self.avModel.coverImageView.cornerRadius;
         _coverImageView.layer.masksToBounds = self.avModel.coverImageView.maskToBounds;
+        _coverImageView.tag = 1000;
     }
     return _coverImageView;
 }
@@ -66,6 +68,7 @@
         _titleLabel.textColor = HEXCOLOR(self.avModel.titleLabel.hexColor);
         _titleLabel.font = [UIFont systemFontOfSize:self.avModel.titleLabel.font];
         _titleLabel.numberOfLines = self.avModel.titleLabel.numberOfLines;
+        _titleLabel.tag = 1001;
     }
     return _titleLabel;
 }
@@ -75,6 +78,7 @@
         _descLabel = [[UILabel alloc] init];
         _descLabel.textColor = HEXCOLOR(self.avModel.descLabel.hexColor);
         _descLabel.font = [UIFont systemFontOfSize:self.avModel.descLabel.font];
+        _descLabel.tag = 1002;
     }
     return _descLabel;
 }

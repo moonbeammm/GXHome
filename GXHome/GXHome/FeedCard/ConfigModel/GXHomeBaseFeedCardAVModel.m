@@ -8,7 +8,6 @@
 
 #import "GXHomeBaseFeedCardAVModel.h"
 
-
 static id _instance;
 
 @implementation GXHomeBaseFeedCardAVModel
@@ -17,10 +16,24 @@ static id _instance;
 {
     static dispatch_once_t onceToken;
     dispatch_once(&onceToken, ^{
-        NSDictionary *dict = [[NSUserDefaults standardUserDefaults] objectForKey:@"av_card_of_375"];
+        NSData *jsonData = [NSData dataWithContentsOfFile:kLibraryDirectory(@"card_model.json")];
+        NSDictionary *root_dict = [NSJSONSerialization JSONObjectWithData:jsonData options:NSJSONReadingMutableContainers error:nil];
+        NSDictionary *dict = root_dict[@"data"];
         _instance = [GXHomeBaseFeedCardAVModel yy_modelWithDictionary:dict];
     });
     return _instance;
+}
+
+- (NSInteger)gx_transfer:(NSString *)str {
+    if (![str containsString:@"="]) {
+        return [str integerValue];
+    }
+    NSArray *arrs = [str componentsSeparatedByString:@"+"];
+    NSString *comp = arrs[0];
+    if ([comp isEqualToString:@"minscreen"]) {
+        
+    }
+    return 0;
 }
 
 @end
