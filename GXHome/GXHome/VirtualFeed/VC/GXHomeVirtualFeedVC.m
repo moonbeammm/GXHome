@@ -7,14 +7,11 @@
 //
 
 #import "GXHomeVirtualFeedVC.h"
-#import "VVBinaryLoader.h"
-#import "VVViewFactory.h"
-#import "VVViewContainer.h"
+#import "GXHomeVirtualFeedCell.h"
 
 @interface GXHomeVirtualFeedVC ()
 
 @property (nonatomic, strong) NSArray *array;
-@property (nonatomic, strong) VVViewContainer *container;
 
 @end
 
@@ -26,22 +23,58 @@
     if (self = [super init]) {
         self.title = @"VirtualFeed";
         self.array = @[
+                       @{@"gotoType":@"AV",
+                         @"cover":@"https://gw.alicdn.com/tps/TB1Nin9JFXXXXbXaXXXXXXXXXXX-224-224.png",
+                         @"duration":@"123123",
+                         @"play":@"play",
+                         @"danmaku":@"321312",
+                         @"reply":@"reply",
+                         @"title":@"第一个数据"
+                         },
                        @{@"gotoType":@"AVX",
                          @"cover":@"https://gw.alicdn.com/tps/TB1Nin9JFXXXXbXaXXXXXXXXXXX-224-224.png",
                          @"title":@"第一个数据"
                          },
-//                       @{@"gotoType":@"av",
-//                         @"imgUrl":@"https://gw.alicdn.com/tps/TB1Nin9JFXXXXbXaXXXXXXXXXXX-224-224.png",
-//                         @"title":@"第一个数据"
-//                         },
-//                       @{@"gotoType":@"av",
-//                         @"imgUrl":@"https://gw.alicdn.com/tps/TB1Nin9JFXXXXbXaXXXXXXXXXXX-224-224.png",
-//                         @"title":@"第一个数据"
-//                         },
-//                       @{@"gotoType":@"bangumi",
-//                         @"imgUrl":@"https://gw.alicdn.com/tps/TB1Nin9JFXXXXbXaXXXXXXXXXXX-224-224.png",
-//                         @"title":@"第二个数据"
-//                         },
+                       @{@"gotoType":@"AVX",
+                         @"cover":@"https://gw.alicdn.com/tps/TB1Nin9JFXXXXbXaXXXXXXXXXXX-224-224.png",
+                         @"title":@"第一个数据"
+                         },
+                       @{@"gotoType":@"AVX",
+                         @"cover":@"https://gw.alicdn.com/tps/TB1Nin9JFXXXXbXaXXXXXXXXXXX-224-224.png",
+                         @"title":@"第一个数据"
+                         },
+                       @{@"gotoType":@"AVX",
+                         @"cover":@"https://gw.alicdn.com/tps/TB1Nin9JFXXXXbXaXXXXXXXXXXX-224-224.png",
+                         @"title":@"第一个数据"
+                         },
+                       @{@"gotoType":@"AVX",
+                         @"cover":@"https://gw.alicdn.com/tps/TB1Nin9JFXXXXbXaXXXXXXXXXXX-224-224.png",
+                         @"title":@"第一个数据"
+                         },
+                       @{@"gotoType":@"AVX",
+                         @"cover":@"https://gw.alicdn.com/tps/TB1Nin9JFXXXXbXaXXXXXXXXXXX-224-224.png",
+                         @"title":@"第一个数据"
+                         },
+                       @{@"gotoType":@"AVX",
+                         @"cover":@"https://gw.alicdn.com/tps/TB1Nin9JFXXXXbXaXXXXXXXXXXX-224-224.png",
+                         @"title":@"第一个数据"
+                         },
+                       @{@"gotoType":@"AVX",
+                         @"cover":@"https://gw.alicdn.com/tps/TB1Nin9JFXXXXbXaXXXXXXXXXXX-224-224.png",
+                         @"title":@"第一个数据"
+                         },
+                       @{@"gotoType":@"AVX",
+                         @"cover":@"https://gw.alicdn.com/tps/TB1Nin9JFXXXXbXaXXXXXXXXXXX-224-224.png",
+                         @"title":@"第一个数据"
+                         },
+                       @{@"gotoType":@"AVX",
+                         @"cover":@"https://gw.alicdn.com/tps/TB1Nin9JFXXXXbXaXXXXXXXXXXX-224-224.png",
+                         @"title":@"第一个数据"
+                         },
+                       @{@"gotoType":@"AVX",
+                         @"cover":@"https://gw.alicdn.com/tps/TB1Nin9JFXXXXbXaXXXXXXXXXXX-224-224.png",
+                         @"title":@"第一个数据"
+                         },
                        ];
     }
     return self;
@@ -74,26 +107,15 @@
 
 - (CGFloat)tableView:(UITableView *)tableView heightForRowAtIndexPath:(NSIndexPath *)indexPath
 {
-    return 1000;
+    return [GXHomeVirtualFeedCell getHeigthWithModel:nil params:nil];
 }
 
 - (UITableViewCell *)tableView:(UITableView *)tableView cellForRowAtIndexPath:(NSIndexPath *)indexPath
 {
-    UITableViewCell * cell = [tableView dequeueReusableCellWithIdentifier:NSStringFromClass([UITableViewCell class]) forIndexPath:indexPath];
+    GXHomeVirtualFeedCell * cell = [tableView dequeueReusableCellWithIdentifier:NSStringFromClass([GXHomeVirtualFeedCell class]) forIndexPath:indexPath];
     cell.selectionStyle = UITableViewCellSelectionStyleNone;
     if (indexPath.row < self.array.count) {
-        NSDictionary *dict = self.array[indexPath.row];
-        if (![[VVBinaryLoader shareInstance] getUICodeWithName:dict[@"gotoType"]]) {
-            NSString *path = [[NSBundle bundleWithIdentifier:@"com.sgx.GXHome"] pathForResource:dict[@"gotoType"] ofType:@"out"];
-            
-            NSData *buffer = [NSData dataWithContentsOfFile:path];
-            [[VVBinaryLoader shareInstance] loadFromBuffer:buffer];
-        }
-        self.container = (VVViewContainer *)[[VVViewFactory shareFactoryInstance] obtainVirtualWithKey:dict[@"gotoType"]];
-        [cell.contentView addSubview:self.container];
-        self.container.backgroundColor = [UIColor blueColor];
-        self.container.frame = CGRectMake(0, 0, 375, 1000);
-        [self.container update:dict];
+        [cell installWithModel:self.array[indexPath.row] params:nil];
     }
     return cell;
 }
@@ -102,7 +124,8 @@
 
 - (void)configSubviews
 {
-    [self.tableView registerClass:[UITableViewCell class] forCellReuseIdentifier:[UITableViewCell description]];
+//    self.tableView.rowHeight = UITableViewAutomaticDimension;
+    [self.tableView registerClass:[GXHomeVirtualFeedCell class] forCellReuseIdentifier:NSStringFromClass([GXHomeVirtualFeedCell class])];
 }
 
 @end

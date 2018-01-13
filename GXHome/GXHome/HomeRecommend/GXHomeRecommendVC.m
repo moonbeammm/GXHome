@@ -10,11 +10,14 @@
 #import "GXHomeRecGameCell.h"
 #import "GXHomeRecommendVM.h"
 #import "GXHomeRecSpecialCell.h"
+#import "GXLabel.h"
+#import "GXImageView.h"
 
 @interface GXHomeRecommendVC () <UITableViewDelegate, UITableViewDataSource>
 
 @property (nonatomic, strong) UITableView *tableView;
 @property (nonatomic, strong) GXHomeRecommendVM *viewModel;
+@property (nonatomic, strong) NSArray *cellClassArr;
 
 @end
 
@@ -27,6 +30,7 @@
     if (self) {
         self.viewModel = [[GXHomeRecommendVM alloc] init];
         [self.viewModel loadData];
+        self.cellClassArr = @[@"GXHomeRecGameCell"];
     }
     return self;
 }
@@ -52,20 +56,29 @@
 
 - (NSInteger)tableView:(UITableView *)tableView numberOfRowsInSection:(NSInteger)section
 {
-    return 30;
+    return self.viewModel.objects.count;
 }
 
 - (UITableViewCell *)tableView:(UITableView *)tableView cellForRowAtIndexPath:(NSIndexPath *)indexPath
 {
-    if (indexPath.row == 0) {
-        GXHomeRecSpecialCell * cell = [tableView dequeueReusableCellWithIdentifier:NSStringFromClass([GXHomeRecSpecialCell class]) forIndexPath:indexPath];
-        [cell installWithModel:nil params:nil];
-        return cell;
-    } else {
-        GXHomeRecGameCell * cell = [tableView dequeueReusableCellWithIdentifier:NSStringFromClass([GXHomeRecGameCell class]) forIndexPath:indexPath];
-        [cell installWithModel:nil params:nil];
-        return cell;
+    if (indexPath.row >= self.viewModel.objects.count) {
+        return nil;
     }
+    NSDictionary *dict = self.viewModel.objects[indexPath.row];
+    UITableViewCell *cell = [tableView dequeueReusableCellWithIdentifier:dict[@"className"] forIndexPath:indexPath];
+    for (UIView *subView in cell.contentView.subviews) {
+        NSString *content = [subView valueForKey:@"content"];
+        if (content.length > 0) {
+            if ([subView isKindOfClass:[GXLabel class]]) {
+                GXLabel * subLabel = (GXLabel *)subView;
+                [subLabel setContentWithModel:dict[content]];
+            } else if ([subView isKindOfClass:[GXImageView class]]) {
+                GXImageView *subImageView = (GXImageView *)subView;
+                [subImageView setContentWithModel:dict[content]];
+            }
+        }
+    }
+    return cell;
 }
 
 - (CGFloat)tableView:(UITableView *)tableView estimatedHeightForRowAtIndexPath:(NSIndexPath *)indexPath {
@@ -87,20 +100,22 @@
 
 - (void)registerCell {
     [self.tableView registerClass:[GXHomeRecSpecialCell class] forCellReuseIdentifier:NSStringFromClass([GXHomeRecSpecialCell class])];
-    
-    
-    
-    // 本地的xib文件
-    UINib *nib = [UINib nibWithNibName:@"GXHomeRecGameCell" bundle:[NSBundle bundleWithIdentifier:@"com.sgx.GXHome"]];
-    
-    // 服务端下发的xib文件
-    NSData *data = [NSData dataWithContentsOfFile:kLibraryDirectory(@"GXHomeRecGameCell.nib")];
-    UINib *server_nib = [UINib nibWithData:data bundle:[NSBundle bundleWithIdentifier:@"com.sgx.GXHome"]];
-    // 如果服务下发了就用服务端的.没有就容错用本地的.
-    if (!server_nib) {
-        [self.tableView registerNib:server_nib forCellReuseIdentifier:@"GXHomeRecGameCell"];
+    for (NSString *cellClass in self.cellClassArr) {
+        [self.tableView registerNib:[self getNibWithClass:cellClass isLocal:YES] forCellReuseIdentifier:cellClass];
+    }
+}
+
+- (UINib *)getNibWithClass:(NSString *)class isLocal:(BOOL)isLocal {
+    if (isLocal) {
+        // 本地的xib文件
+        UINib *nib = [UINib nibWithNibName:class bundle:[NSBundle bundleForClass:[self class]]];
+        return nib;
     } else {
-        [self.tableView registerNib:nib forCellReuseIdentifier:@"GXHomeRecGameCell"];
+        // 服务端下发的xib文件
+        NSString *nibName = [NSString stringWithFormat:@"%@.nib",class];
+        NSData *data = [NSData dataWithContentsOfFile:kLibraryDirectory(nibName)];
+        UINib *server_nib = [UINib nibWithData:data bundle:[NSBundle bundleForClass:[self class]]];
+        return server_nib;
     }
 }
 

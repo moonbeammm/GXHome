@@ -7,9 +7,10 @@
 //
 
 #import <GXRuler/GXRuler.h>
+#import "GXImageView.h"
 
 @interface GXHomeRecSpecialCell : GXBaseTableViewCell
 
-@property (strong, nonatomic) UIImageView *coverImageView;
+@property (strong, nonatomic) GXImageView *coverImageView;
 
 @end

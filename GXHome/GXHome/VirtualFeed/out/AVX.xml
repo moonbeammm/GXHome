@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<VHLayout
+    flag="flag_exposure|flag_clickable"
+    layoutHeight="match_parent"
+    layoutWidth="match_parent"
+    orientation="V">
+
+    <FrameLayout
+        autoDimDirection="X"
+        autoDimX="16"
+        autoDimY="9"
+        layoutHeight="wrap_content"
+        layoutWidth="match_parent">
+        <VImage
+            layoutGravity="v_center|h_center"
+            layoutHeight="match_parent"
+            layoutWidth="match_parent"
+            scaleType="matrix"
+            src="${cover}" />
+
+        <VHLayout
+            gravity="v_center"
+            layoutGravity="left|bottom"
+            layoutHeight="wrap_content"
+            layoutMarginBottom="16"
+            layoutMarginLeft="6"
+            layoutWidth="wrap_content"
+            orientation="H">
+            <VText
+                background="#008899"
+                borderRadius="2"
+                borderColor="#88000000"
+                borderWidth="1"
+                paddingBottom="3"
+                paddingLeft="4"
+                paddingRight="4"
+                paddingTop="3"
+                text="gligi"
+                textColor="white"
+                textSize="12" />
+
+            <!--<VText-->
+            <!--layoutMarginLeft="8"-->
+            <!--text="${play}观看"-->
+            <!--textColor="white"-->
+            <!--textSize="12" />-->
+            <!--<VText-->
+            <!--layoutMarginLeft="8"-->
+            <!--text="${danmaku}弹幕"-->
+            <!--textColor="white"-->
+            <!--textSize="12" />-->
+            <!--<VText-->
+            <!--layoutMarginLeft="8"-->
+            <!--text="${reply}评论"-->
+            <!--textColor="white"-->
+            <!--textSize="12" />-->
+        </VHLayout>
+
+    </FrameLayout>
+
+
+    <VText
+        background="#008899"
+        layoutHeight="20"
+        layoutWidth="match_parent"
+        text="Title: src = https://img.alicdn.com/simba/img/TB1sW5GSpXXXXcjXVXXSutbFXXX.jpg"
+        textColor="#333333"
+        textSize="12" />
+
+    <VImage
+        layoutHeight="300"
+        layoutWidth="match_parent"
+        src="https://img.alicdn.com/simba/img/TB1sW5GSpXXXXcjXVXXSutbFXXX.jpg" />
+</VHLayout>
