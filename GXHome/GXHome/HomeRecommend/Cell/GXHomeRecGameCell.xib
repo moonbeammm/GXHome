@@ -12,33 +12,33 @@
     <objects>
         <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
         <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
-        <tableViewCell contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" reuseIdentifier="GXHomeRecGameCell" rowHeight="445" id="KGk-i7-Jjw" customClass="GXHomeRecGameCell">
-            <rect key="frame" x="0.0" y="0.0" width="599" height="445"/>
+        <tableViewCell contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" reuseIdentifier="GXHomeRecGameCell" rowHeight="629" id="KGk-i7-Jjw" customClass="GXHomeRecGameCell">
+            <rect key="frame" x="0.0" y="0.0" width="811" height="629"/>
             <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
             <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="KGk-i7-Jjw" id="H2p-sc-9uM">
-                <rect key="frame" x="0.0" y="0.0" width="599" height="444.5"/>
+                <rect key="frame" x="0.0" y="0.0" width="811" height="628.5"/>
                 <autoresizingMask key="autoresizingMask"/>
                 <subviews>
-                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="RpA-79-z48">
-                        <rect key="frame" x="12" y="12" width="575" height="323.5"/>
+                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="aa" translatesAutoresizingMaskIntoConstraints="NO" id="RpA-79-z48">
+                        <rect key="frame" x="12" y="12" width="787" height="442.5"/>
                         <constraints>
                             <constraint firstAttribute="width" secondItem="RpA-79-z48" secondAttribute="height" multiplier="16:9" id="iJy-zy-BkH"/>
                         </constraints>
                     </imageView>
-                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="BBh-Xo-nqa" userLabel="titleLabel">
-                        <rect key="frame" x="12" y="343.5" width="575" height="21"/>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="111我是GXPhone编译出来的Xib文件.我是GXPhone编译出来的Xib文件.我是GXPhone编译出来的Xib文件." textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="BBh-Xo-nqa" userLabel="titleLabel">
+                        <rect key="frame" x="12" y="462.5" width="787" height="21"/>
                         <fontDescription key="fontDescription" type="system" pointSize="17"/>
                         <nil key="textColor"/>
                         <nil key="highlightedColor"/>
                     </label>
-                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="GwU-WR-qr6" userLabel="descLabel">
-                        <rect key="frame" x="12" y="415.5" width="575" height="21"/>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="哈哈😁哈哈😁哈哈😁哈哈😁哈哈😁哈哈😁" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="GwU-WR-qr6" userLabel="descLabel">
+                        <rect key="frame" x="12" y="599.5" width="787" height="21"/>
                         <fontDescription key="fontDescription" type="system" pointSize="17"/>
                         <nil key="textColor"/>
                         <nil key="highlightedColor"/>
                     </label>
                 </subviews>
-                <color key="backgroundColor" red="0.66799789669999998" green="0.47512125970000002" blue="0.25860109930000003" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                <color key="backgroundColor" red="0.57919406890000003" green="0.1280144453" blue="0.57268613580000005" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                 <constraints>
                     <constraint firstAttribute="bottom" secondItem="GwU-WR-qr6" secondAttribute="bottom" constant="8" id="4t7-Gk-YFs"/>
                     <constraint firstItem="BBh-Xo-nqa" firstAttribute="trailing" secondItem="RpA-79-z48" secondAttribute="trailing" id="93Q-Jk-rQP"/>
@@ -57,7 +57,10 @@
                 <outlet property="descLabel" destination="GwU-WR-qr6" id="CEw-do-ARc"/>
                 <outlet property="titleLLabel" destination="BBh-Xo-nqa" id="T6K-T4-guw"/>
             </connections>
-            <point key="canvasLocation" x="374.5" y="26.5"/>
+            <point key="canvasLocation" x="480.5" y="118.5"/>
         </tableViewCell>
     </objects>
+    <resources>
+        <image name="aa" width="1270" height="300"/>
+    </resources>
 </document>

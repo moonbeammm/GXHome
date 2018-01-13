@@ -10,7 +10,6 @@
 #import "GXHomeLiveCell.h"
 #import "GXHomeLiveVM.h"
 #import "GXHomeLiveModel.h"
-#import "GXHomeNavigator.h"
 #import <ReactiveCocoa/ReactiveCocoa.h>
 
 @interface GXHomeLiveVC ()

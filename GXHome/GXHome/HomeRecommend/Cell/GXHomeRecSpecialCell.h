@@ -9,6 +9,7 @@
 #import <GXRuler/GXRuler.h>
 
 @interface GXHomeRecSpecialCell : GXBaseTableViewCell
-@property (weak, nonatomic) IBOutlet UIImageView *coverImageView;
+
+@property (strong, nonatomic) UIImageView *coverImageView;
 
 @end

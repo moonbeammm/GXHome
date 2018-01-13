@@ -7,7 +7,6 @@
 //
 
 #import "GXHomeRecommendVC.h"
-#import "GXHomeRecAVCell.h"
 #import "GXHomeRecGameCell.h"
 #import "GXHomeRecommendVM.h"
 #import "GXHomeRecSpecialCell.h"
@@ -34,7 +33,6 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
-    // Do any additional setup after loading the view.
     [self configSubviews];
 }
 
@@ -60,8 +58,6 @@
 - (UITableViewCell *)tableView:(UITableView *)tableView cellForRowAtIndexPath:(NSIndexPath *)indexPath
 {
     if (indexPath.row == 0) {
-//        GXHomeRecAVCell * cell = [tableView dequeueReusableCellWithIdentifier:NSStringFromClass([GXHomeRecAVCell class]) forIndexPath:indexPath];
-//        [cell installWithModel:nil params:nil];
         GXHomeRecSpecialCell * cell = [tableView dequeueReusableCellWithIdentifier:NSStringFromClass([GXHomeRecSpecialCell class]) forIndexPath:indexPath];
         [cell installWithModel:nil params:nil];
         return cell;
@@ -84,12 +80,16 @@
 
 - (void)configSubviews
 {
-    [self.view addSubview:self.tableView];
     self.tableView.rowHeight = UITableViewAutomaticDimension;
-    [self.tableView registerClass:[GXHomeRecAVCell class] forCellReuseIdentifier:NSStringFromClass([GXHomeRecAVCell class])];
+    [self.view addSubview:self.tableView];
+    [self registerCell];
+}
+
+- (void)registerCell {
+    [self.tableView registerClass:[GXHomeRecSpecialCell class] forCellReuseIdentifier:NSStringFromClass([GXHomeRecSpecialCell class])];
     
-    UINib *specialNib = [UINib nibWithNibName:@"GXHomeRecSpecialCell" bundle:[NSBundle bundleWithIdentifier:@"com.sgx.GXHome"]];
-    [self.tableView registerNib:specialNib forCellReuseIdentifier:@"GXHomeRecSpecialCell"];
+    
+    
     // 本地的xib文件
     UINib *nib = [UINib nibWithNibName:@"GXHomeRecGameCell" bundle:[NSBundle bundleWithIdentifier:@"com.sgx.GXHome"]];
     

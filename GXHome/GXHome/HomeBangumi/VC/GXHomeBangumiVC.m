@@ -9,7 +9,6 @@
 #import "GXHomeBangumiVC.h"
 #import "GXHomeBangumiCell.h"
 #import "GXHomeBangumiModel.h"
-#import <ReactiveCocoa/ReactiveCocoa.h>
 #import "GXHomeBangumiViewModel.h"
 
 @interface GXHomeBangumiVC ()
@@ -68,12 +67,15 @@
 - (UITableViewCell *)tableView:(UITableView *)tableView cellForRowAtIndexPath:(NSIndexPath *)indexPath
 {
     GXHomeBangumiCell * cell = [tableView dequeueReusableCellWithIdentifier:NSStringFromClass([GXHomeBangumiCell class]) forIndexPath:indexPath];
-    GXHomeBangumiModel *data = nil;
-    if (self.viewModel.objects.count > indexPath.row) {
-        data = self.viewModel.objects[indexPath.row];
+    if (indexPath.row < self.viewModel.objects.count) {
+        GXHomeBangumiModel *data = self.viewModel.objects[indexPath.row];
+        [cell installWithModel:data params:nil];
     }
-    [cell installWithModel:data params:nil];
-    return cell;    
+    return cell;
+}
+
+- (void)tableView:(UITableView *)tableView didSelectRowAtIndexPath:(NSIndexPath *)indexPath {
+    [[GXHomeNavigator shared] showVirtualFeedVC];
 }
 
 #pragma mark - Initialize Method

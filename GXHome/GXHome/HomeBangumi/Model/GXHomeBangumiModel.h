@@ -12,7 +12,8 @@
 
 @property (nonatomic, copy) NSString *title;
 @property (nonatomic, copy) NSString *cover;
-@property (nonatomic, copy) NSString *param;
-@property (nonatomic, copy) NSString *name;
+@property (nonatomic, copy) NSString *desc;
+
+- (instancetype)initWithTitle:(NSString *)title desc:(NSString *)desc cover:(NSString *)cover;
 
 @end

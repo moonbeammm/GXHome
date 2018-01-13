@@ -22,6 +22,8 @@
     #import <GXRuler/GXRulerConfig.h>
     #import <GXRuler/UIView+Frame.h>
 
+    #import "GXHomeNavigator.h"
+
     #define GX_PINK_COLOR [UIColor colorWithRed:251./255 green:114./255 blue:153./255 alpha:1]
 #endif
 

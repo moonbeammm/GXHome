@@ -40,7 +40,6 @@
     return coverHeight + 60;
 }
 
-
 #pragma mark - Event Response
 
 #pragma mark - Private Method

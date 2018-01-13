@@ -10,4 +10,13 @@
 
 @implementation GXHomeBangumiModel
 
+- (instancetype)initWithTitle:(NSString *)title desc:(NSString *)desc cover:(NSString *)cover {
+    if (self = [super init]) {
+        self.title = title;
+        self.desc = desc;
+        self.cover = cover;
+    }
+    return self;
+}
+
 @end
