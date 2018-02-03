@@ -10,15 +10,18 @@
 
 #import <GXPageView/GXPageView.h>
 #import "GXHomeRecommendVC.h"
+#import "GXHomeRecommendVCV2.h"
 #import "GXHomeLiveVC.h"
 #import "GXHomeBangumiVC.h"
+#import "BBPhonePegasusDataParser.h"
 
 #import <GXRuler/GXImageManager.h>
 
 @interface GXHomeViewController () <GXPageContainerChildVCDelegate>
 
 @property (nonatomic, strong) GXPageContainerView *pageContainerView;
-@property (nonatomic, strong) GXHomeRecommendVC *recommendVC;
+//@property (nonatomic, strong) GXHomeRecommendVC *recommendVC;
+@property (nonatomic, strong) GXHomeRecommendVCV2 *recommendVC;
 @property (nonatomic, strong) GXHomeLiveVC *liveVC;
 @property (nonatomic, strong) GXHomeBangumiVC *bangumiVC;
 
@@ -33,6 +36,7 @@
         self.tabBarItem.selectedImage = GXImageMake(GXHome,@"home_home_tab_s");
         self.tabBarItem.imageInsets = UIEdgeInsetsMake(6, 0, -6, 0);
         self.automaticallyAdjustsScrollViewInsets = NO;
+        [BBPhonePegasusDataParser updateDynamicData];
     }
     return self;
 }
@@ -92,10 +96,16 @@
     return _pageContainerView;
 }
 
-- (GXHomeRecommendVC *)recommendVC
-{
+//- (GXHomeRecommendVC *)recommendVC
+//{
+//    if (_recommendVC == nil) {
+//        _recommendVC = [[GXHomeRecommendVC alloc] init];
+//    }
+//    return _recommendVC;
+//}
+- (GXHomeRecommendVCV2 *)recommendVC {
     if (_recommendVC == nil) {
-        _recommendVC = [[GXHomeRecommendVC alloc] init];
+        _recommendVC = [[GXHomeRecommendVCV2 alloc] init];
     }
     return _recommendVC;
 }

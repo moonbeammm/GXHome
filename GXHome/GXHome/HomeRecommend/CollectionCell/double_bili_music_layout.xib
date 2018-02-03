@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="13529" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="13527"/>
+        <capability name="Aspect ratio constraints" minToolsVersion="5.1"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <collectionViewCell opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" id="yff-ut-IT1" customClass="BBPhonePegasusCollectionCell">
+            <rect key="frame" x="0.0" y="0.0" width="329" height="235"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <view key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" insetsLayoutMarginsFromSafeArea="NO">
+                <rect key="frame" x="0.0" y="0.0" width="329" height="235"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="AFq-Uo-SMB">
+                        <rect key="frame" x="0.0" y="0.0" width="329" height="185"/>
+                        <color key="backgroundColor" red="0.45927977869999997" green="0.51938473380000005" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstAttribute="width" secondItem="AFq-Uo-SMB" secondAttribute="height" multiplier="16:9" id="f05-Nl-MUp"/>
+                        </constraints>
+                    </imageView>
+                </subviews>
+            </view>
+            <color key="backgroundColor" red="0.31372549020000001" green="0.31372549020000001" blue="0.31372549020000001" alpha="1" colorSpace="calibratedRGB"/>
+            <constraints>
+                <constraint firstItem="AFq-Uo-SMB" firstAttribute="leading" secondItem="yff-ut-IT1" secondAttribute="leading" id="8qw-Ff-LV3"/>
+                <constraint firstAttribute="bottom" relation="greaterThanOrEqual" secondItem="AFq-Uo-SMB" secondAttribute="bottom" constant="50" id="Oxk-Ib-fdJ"/>
+                <constraint firstAttribute="trailing" secondItem="AFq-Uo-SMB" secondAttribute="trailing" id="Vnu-9H-E5G"/>
+                <constraint firstItem="AFq-Uo-SMB" firstAttribute="top" secondItem="yff-ut-IT1" secondAttribute="top" id="nhe-4g-ECQ"/>
+            </constraints>
+            <size key="customSize" width="329" height="235"/>
+            <userDefinedRuntimeAttributes>
+                <userDefinedRuntimeAttribute type="string" keyPath="bili_type" value="small"/>
+            </userDefinedRuntimeAttributes>
+            <point key="canvasLocation" x="94.5" y="53.5"/>
+        </collectionViewCell>
+    </objects>
+</document>

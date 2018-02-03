@@ -1,0 +1,10 @@
+{
+    "code":0,
+    "version":1.0,
+    "layouts":[
+               "bili_player_layout",
+               "bili_music_layout",
+               "bili_purchase_layout",
+               ],
+}
+

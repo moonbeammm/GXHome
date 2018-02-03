@@ -13,10 +13,32 @@
 		AA08D2E12000AACB0062C7CE /* GXPlayer.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AA08D2C52000AA380062C7CE /* GXPlayer.framework */; };
 		AA08D2E22000AACB0062C7CE /* GXPodContainer.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AA08D2BD2000AA310062C7CE /* GXPodContainer.framework */; };
 		AA08D2E32000AACB0062C7CE /* GXRuler.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AA08D2DA2000AA470062C7CE /* GXRuler.framework */; };
-		AA08D41F2000EE1F0062C7CE /* GXHomeRecGameCell.h in Headers */ = {isa = PBXBuildFile; fileRef = AA08D41C2000EE1F0062C7CE /* GXHomeRecGameCell.h */; };
-		AA08D4202000EE1F0062C7CE /* GXHomeRecGameCell.m in Sources */ = {isa = PBXBuildFile; fileRef = AA08D41D2000EE1F0062C7CE /* GXHomeRecGameCell.m */; };
+		AA3A84B120198921007C0019 /* single_bili_music_layout.xib in Resources */ = {isa = PBXBuildFile; fileRef = AA3A84AD20198920007C0019 /* single_bili_music_layout.xib */; };
+		AA3A84B220198921007C0019 /* single_bili_player_layout.xib in Resources */ = {isa = PBXBuildFile; fileRef = AA3A84AE20198920007C0019 /* single_bili_player_layout.xib */; };
+		AA3A84B320198921007C0019 /* single_bili_purchase_layout.xib in Resources */ = {isa = PBXBuildFile; fileRef = AA3A84AF20198920007C0019 /* single_bili_purchase_layout.xib */; };
+		AA3A84B420198921007C0019 /* layouts.json in Resources */ = {isa = PBXBuildFile; fileRef = AA3A84B020198920007C0019 /* layouts.json */; };
+		AA3A852D2019ACB9007C0019 /* BBPhonePegasusCollectionCell.h in Headers */ = {isa = PBXBuildFile; fileRef = AA3A852B2019ACB9007C0019 /* BBPhonePegasusCollectionCell.h */; };
+		AA3A852E2019ACB9007C0019 /* BBPhonePegasusCollectionCell.m in Sources */ = {isa = PBXBuildFile; fileRef = AA3A852C2019ACB9007C0019 /* BBPhonePegasusCollectionCell.m */; };
+		AA3A85322019AEC5007C0019 /* GXHomeRecommendVCV2.h in Headers */ = {isa = PBXBuildFile; fileRef = AA3A85302019AEC5007C0019 /* GXHomeRecommendVCV2.h */; };
+		AA3A85332019AEC5007C0019 /* GXHomeRecommendVCV2.m in Sources */ = {isa = PBXBuildFile; fileRef = AA3A85312019AEC5007C0019 /* GXHomeRecommendVCV2.m */; };
+		AA3A85522019B53B007C0019 /* double_bili_player_layout.xib in Resources */ = {isa = PBXBuildFile; fileRef = AA3A85512019B53B007C0019 /* double_bili_player_layout.xib */; };
+		AA3A855A201A14DA007C0019 /* double_bili_music_layout.xib in Resources */ = {isa = PBXBuildFile; fileRef = AA3A8559201A14DA007C0019 /* double_bili_music_layout.xib */; };
+		AA3A855D201A1688007C0019 /* BBPhonePegasusDynamicProtocol.h in Headers */ = {isa = PBXBuildFile; fileRef = AA3A855B201A1688007C0019 /* BBPhonePegasusDynamicProtocol.h */; };
+		AA3A8560201A194A007C0019 /* double_bili_purchase_layout.xib in Resources */ = {isa = PBXBuildFile; fileRef = AA3A855F201A194A007C0019 /* double_bili_purchase_layout.xib */; };
 		AA3C79861FFE693100FA1455 /* GXHomeRecommendVM.h in Headers */ = {isa = PBXBuildFile; fileRef = AA3C79841FFE693100FA1455 /* GXHomeRecommendVM.h */; };
 		AA3C79871FFE693100FA1455 /* GXHomeRecommendVM.m in Sources */ = {isa = PBXBuildFile; fileRef = AA3C79851FFE693100FA1455 /* GXHomeRecommendVM.m */; };
+		AA3F077B201719B200DC6579 /* BBPhonePegasusImageView.h in Headers */ = {isa = PBXBuildFile; fileRef = AA3F0773201719B100DC6579 /* BBPhonePegasusImageView.h */; };
+		AA3F077C201719B200DC6579 /* BBPhonePegasusView.m in Sources */ = {isa = PBXBuildFile; fileRef = AA3F0774201719B100DC6579 /* BBPhonePegasusView.m */; };
+		AA3F077D201719B200DC6579 /* BBPhonePegasusImageView.m in Sources */ = {isa = PBXBuildFile; fileRef = AA3F0775201719B100DC6579 /* BBPhonePegasusImageView.m */; };
+		AA3F077E201719B200DC6579 /* BBPhonePegasusLabel.m in Sources */ = {isa = PBXBuildFile; fileRef = AA3F0776201719B100DC6579 /* BBPhonePegasusLabel.m */; };
+		AA3F077F201719B200DC6579 /* BBPhonePegasusView.h in Headers */ = {isa = PBXBuildFile; fileRef = AA3F0777201719B200DC6579 /* BBPhonePegasusView.h */; };
+		AA3F0780201719B200DC6579 /* BBPhonePegasusCell.h in Headers */ = {isa = PBXBuildFile; fileRef = AA3F0778201719B200DC6579 /* BBPhonePegasusCell.h */; };
+		AA3F0781201719B200DC6579 /* BBPhonePegasusCell.m in Sources */ = {isa = PBXBuildFile; fileRef = AA3F0779201719B200DC6579 /* BBPhonePegasusCell.m */; };
+		AA3F0782201719B200DC6579 /* BBPhonePegasusLabel.h in Headers */ = {isa = PBXBuildFile; fileRef = AA3F077A201719B200DC6579 /* BBPhonePegasusLabel.h */; };
+		AA3F0787201719D000DC6579 /* NSDictionary+ParamParser.h in Headers */ = {isa = PBXBuildFile; fileRef = AA3F0783201719D000DC6579 /* NSDictionary+ParamParser.h */; };
+		AA3F0788201719D000DC6579 /* BBPhonePegasusDataParser.m in Sources */ = {isa = PBXBuildFile; fileRef = AA3F0784201719D000DC6579 /* BBPhonePegasusDataParser.m */; };
+		AA3F0789201719D000DC6579 /* NSDictionary+ParamParser.m in Sources */ = {isa = PBXBuildFile; fileRef = AA3F0785201719D000DC6579 /* NSDictionary+ParamParser.m */; };
+		AA3F078A201719D000DC6579 /* BBPhonePegasusDataParser.h in Headers */ = {isa = PBXBuildFile; fileRef = AA3F0786201719D000DC6579 /* BBPhonePegasusDataParser.h */; };
 		AA5F2B612007646900D73027 /* GXHomeVirtualFeedVC.h in Headers */ = {isa = PBXBuildFile; fileRef = AA5F2B0C2007646900D73027 /* GXHomeVirtualFeedVC.h */; };
 		AA5F2B622007646900D73027 /* GXHomeVirtualFeedVC.m in Sources */ = {isa = PBXBuildFile; fileRef = AA5F2B0D2007646900D73027 /* GXHomeVirtualFeedVC.m */; };
 		AA5F2BAC200769D900D73027 /* UIView+VirtualView.m in Sources */ = {isa = PBXBuildFile; fileRef = AA5F2B65200769D900D73027 /* UIView+VirtualView.m */; };
@@ -84,17 +106,14 @@
 		AA5F2BEA200769D900D73027 /* VVImageView.m in Sources */ = {isa = PBXBuildFile; fileRef = AA5F2BA9200769D900D73027 /* VVImageView.m */; };
 		AA5F2BEB200769D900D73027 /* VVPageView.m in Sources */ = {isa = PBXBuildFile; fileRef = AA5F2BAA200769D900D73027 /* VVPageView.m */; };
 		AA5F2BEC200769D900D73027 /* VVTextView.m in Sources */ = {isa = PBXBuildFile; fileRef = AA5F2BAB200769D900D73027 /* VVTextView.m */; };
-		AA7483DC2001EF69002EDBC9 /* GXHomeRecGameCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = AA7483D62001EF69002EDBC9 /* GXHomeRecGameCell.xib */; };
-		AA7483FF20021795002EDBC9 /* GXHomeRecSpecialCell.h in Headers */ = {isa = PBXBuildFile; fileRef = AA7483FC20021795002EDBC9 /* GXHomeRecSpecialCell.h */; };
-		AA74840020021795002EDBC9 /* GXHomeRecSpecialCell.m in Sources */ = {isa = PBXBuildFile; fileRef = AA7483FD20021795002EDBC9 /* GXHomeRecSpecialCell.m */; };
+		AA76D8752010978C000712AD /* GXAttributesParserTests.m in Sources */ = {isa = PBXBuildFile; fileRef = AA76D8742010978C000712AD /* GXAttributesParserTests.m */; };
 		AAC6A9F12008ADEE00F42383 /* AVX.out in Resources */ = {isa = PBXBuildFile; fileRef = AAC6A9F02008ADEE00F42383 /* AVX.out */; };
+		AAF4A7A82014919F003182BA /* IJKMediaFrameworkWithSSL.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AA08D2DD2000AAB90062C7CE /* IJKMediaFrameworkWithSSL.framework */; };
+		AAF4A7A92014919F003182BA /* IJKMediaFrameworkWithSSL.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = AA08D2DD2000AAB90062C7CE /* IJKMediaFrameworkWithSSL.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		AAF4A7AA201491C3003182BA /* IJKMediaFrameworkWithSSL.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AA08D2DD2000AAB90062C7CE /* IJKMediaFrameworkWithSSL.framework */; };
 		AAFFCE77200A156E00D1FBC8 /* AVX.xml in Resources */ = {isa = PBXBuildFile; fileRef = AAFFCE76200A156D00D1FBC8 /* AVX.xml */; };
 		AAFFCE7A200A162D00D1FBC8 /* GXHomeVirtualFeedCell.h in Headers */ = {isa = PBXBuildFile; fileRef = AAFFCE78200A162D00D1FBC8 /* GXHomeVirtualFeedCell.h */; };
 		AAFFCE7B200A162D00D1FBC8 /* GXHomeVirtualFeedCell.m in Sources */ = {isa = PBXBuildFile; fileRef = AAFFCE79200A162D00D1FBC8 /* GXHomeVirtualFeedCell.m */; };
-		AAFFCE87200A1E0200D1FBC8 /* GXLabel.h in Headers */ = {isa = PBXBuildFile; fileRef = AAFFCE85200A1E0200D1FBC8 /* GXLabel.h */; };
-		AAFFCE88200A1E0200D1FBC8 /* GXLabel.m in Sources */ = {isa = PBXBuildFile; fileRef = AAFFCE86200A1E0200D1FBC8 /* GXLabel.m */; };
-		AAFFCE8F200A2B9100D1FBC8 /* GXImageView.h in Headers */ = {isa = PBXBuildFile; fileRef = AAFFCE8D200A2B9100D1FBC8 /* GXImageView.h */; };
-		AAFFCE90200A2B9100D1FBC8 /* GXImageView.m in Sources */ = {isa = PBXBuildFile; fileRef = AAFFCE8E200A2B9100D1FBC8 /* GXImageView.m */; };
 		AAFFCE96200A3F8200D1FBC8 /* AV.out in Resources */ = {isa = PBXBuildFile; fileRef = AAFFCE95200A3F8200D1FBC8 /* AV.out */; };
 		B70FBCA21F99CCA9004A52F7 /* GXHomeLiveVC.h in Headers */ = {isa = PBXBuildFile; fileRef = B70FBC9E1F99CCA9004A52F7 /* GXHomeLiveVC.h */; };
 		B70FBCA31F99CCA9004A52F7 /* GXHomeLiveVC.m in Sources */ = {isa = PBXBuildFile; fileRef = B70FBC9F1F99CCA9004A52F7 /* GXHomeLiveVC.m */; };
@@ -137,9 +156,6 @@
 		B7C20D871F4EB97300F6E5F1 /* GXHomeRouter.m in Sources */ = {isa = PBXBuildFile; fileRef = B7C20D851F4EB97300F6E5F1 /* GXHomeRouter.m */; };
 		B7CCDC6F1F3DBD7E00B06BB3 /* GXHomeBus.h in Headers */ = {isa = PBXBuildFile; fileRef = B7CCDC6D1F3DBD7E00B06BB3 /* GXHomeBus.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		B7CCDC701F3DBD7E00B06BB3 /* GXHomeBus.m in Sources */ = {isa = PBXBuildFile; fileRef = B7CCDC6E1F3DBD7E00B06BB3 /* GXHomeBus.m */; };
-		E448DC402009155800AC5F00 /* GXHomeTableViewCell.h in Headers */ = {isa = PBXBuildFile; fileRef = E448DC3D2009155800AC5F00 /* GXHomeTableViewCell.h */; };
-		E448DC412009155800AC5F00 /* GXHomeTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = E448DC3E2009155800AC5F00 /* GXHomeTableViewCell.m */; };
-		E448DC422009155800AC5F00 /* GXHomeTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = E448DC3F2009155800AC5F00 /* GXHomeTableViewCell.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -271,6 +287,7 @@
 			dstPath = "";
 			dstSubfolderSpec = 10;
 			files = (
+				AAF4A7A92014919F003182BA /* IJKMediaFrameworkWithSSL.framework in Embed Frameworks */,
 				B78048771F736C9A004B5E5B /* GXHome.framework in Embed Frameworks */,
 			);
 			name = "Embed Frameworks";
@@ -285,10 +302,32 @@
 		AA08D2CA2000AA400062C7CE /* GXPageView.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = GXPageView.xcodeproj; path = "../../GXRuler-OC/GXPageView/GXPageView.xcodeproj"; sourceTree = "<group>"; };
 		AA08D2D32000AA460062C7CE /* GXRuler.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = GXRuler.xcodeproj; path = "../../GXRuler-OC/GXRuler/GXRuler.xcodeproj"; sourceTree = "<group>"; };
 		AA08D2DD2000AAB90062C7CE /* IJKMediaFrameworkWithSSL.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = IJKMediaFrameworkWithSSL.framework; path = "../../GXRuler-OC/IJKMediaFrameworkWithSSL.framework"; sourceTree = "<group>"; };
-		AA08D41C2000EE1F0062C7CE /* GXHomeRecGameCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GXHomeRecGameCell.h; sourceTree = "<group>"; };
-		AA08D41D2000EE1F0062C7CE /* GXHomeRecGameCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GXHomeRecGameCell.m; sourceTree = "<group>"; };
+		AA3A84AD20198920007C0019 /* single_bili_music_layout.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = single_bili_music_layout.xib; sourceTree = "<group>"; };
+		AA3A84AE20198920007C0019 /* single_bili_player_layout.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = single_bili_player_layout.xib; sourceTree = "<group>"; };
+		AA3A84AF20198920007C0019 /* single_bili_purchase_layout.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = single_bili_purchase_layout.xib; sourceTree = "<group>"; };
+		AA3A84B020198920007C0019 /* layouts.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = layouts.json; sourceTree = "<group>"; };
+		AA3A852B2019ACB9007C0019 /* BBPhonePegasusCollectionCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BBPhonePegasusCollectionCell.h; sourceTree = "<group>"; };
+		AA3A852C2019ACB9007C0019 /* BBPhonePegasusCollectionCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BBPhonePegasusCollectionCell.m; sourceTree = "<group>"; };
+		AA3A85302019AEC5007C0019 /* GXHomeRecommendVCV2.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GXHomeRecommendVCV2.h; sourceTree = "<group>"; };
+		AA3A85312019AEC5007C0019 /* GXHomeRecommendVCV2.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GXHomeRecommendVCV2.m; sourceTree = "<group>"; };
+		AA3A85512019B53B007C0019 /* double_bili_player_layout.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = double_bili_player_layout.xib; sourceTree = "<group>"; };
+		AA3A8559201A14DA007C0019 /* double_bili_music_layout.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = double_bili_music_layout.xib; sourceTree = "<group>"; };
+		AA3A855B201A1688007C0019 /* BBPhonePegasusDynamicProtocol.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BBPhonePegasusDynamicProtocol.h; sourceTree = "<group>"; };
+		AA3A855F201A194A007C0019 /* double_bili_purchase_layout.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = double_bili_purchase_layout.xib; sourceTree = "<group>"; };
 		AA3C79841FFE693100FA1455 /* GXHomeRecommendVM.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GXHomeRecommendVM.h; sourceTree = "<group>"; };
 		AA3C79851FFE693100FA1455 /* GXHomeRecommendVM.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GXHomeRecommendVM.m; sourceTree = "<group>"; };
+		AA3F0773201719B100DC6579 /* BBPhonePegasusImageView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BBPhonePegasusImageView.h; sourceTree = "<group>"; };
+		AA3F0774201719B100DC6579 /* BBPhonePegasusView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BBPhonePegasusView.m; sourceTree = "<group>"; };
+		AA3F0775201719B100DC6579 /* BBPhonePegasusImageView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BBPhonePegasusImageView.m; sourceTree = "<group>"; };
+		AA3F0776201719B100DC6579 /* BBPhonePegasusLabel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BBPhonePegasusLabel.m; sourceTree = "<group>"; };
+		AA3F0777201719B200DC6579 /* BBPhonePegasusView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BBPhonePegasusView.h; sourceTree = "<group>"; };
+		AA3F0778201719B200DC6579 /* BBPhonePegasusCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BBPhonePegasusCell.h; sourceTree = "<group>"; };
+		AA3F0779201719B200DC6579 /* BBPhonePegasusCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BBPhonePegasusCell.m; sourceTree = "<group>"; };
+		AA3F077A201719B200DC6579 /* BBPhonePegasusLabel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BBPhonePegasusLabel.h; sourceTree = "<group>"; };
+		AA3F0783201719D000DC6579 /* NSDictionary+ParamParser.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSDictionary+ParamParser.h"; sourceTree = "<group>"; };
+		AA3F0784201719D000DC6579 /* BBPhonePegasusDataParser.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BBPhonePegasusDataParser.m; sourceTree = "<group>"; };
+		AA3F0785201719D000DC6579 /* NSDictionary+ParamParser.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSDictionary+ParamParser.m"; sourceTree = "<group>"; };
+		AA3F0786201719D000DC6579 /* BBPhonePegasusDataParser.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BBPhonePegasusDataParser.h; sourceTree = "<group>"; };
 		AA5F2B0C2007646900D73027 /* GXHomeVirtualFeedVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GXHomeVirtualFeedVC.h; sourceTree = "<group>"; };
 		AA5F2B0D2007646900D73027 /* GXHomeVirtualFeedVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GXHomeVirtualFeedVC.m; sourceTree = "<group>"; };
 		AA5F2B65200769D900D73027 /* UIView+VirtualView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+VirtualView.m"; sourceTree = "<group>"; };
@@ -356,17 +395,11 @@
 		AA5F2BA9200769D900D73027 /* VVImageView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VVImageView.m; sourceTree = "<group>"; };
 		AA5F2BAA200769D900D73027 /* VVPageView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VVPageView.m; sourceTree = "<group>"; };
 		AA5F2BAB200769D900D73027 /* VVTextView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VVTextView.m; sourceTree = "<group>"; };
-		AA7483D62001EF69002EDBC9 /* GXHomeRecGameCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = GXHomeRecGameCell.xib; sourceTree = "<group>"; };
-		AA7483FC20021795002EDBC9 /* GXHomeRecSpecialCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GXHomeRecSpecialCell.h; sourceTree = "<group>"; };
-		AA7483FD20021795002EDBC9 /* GXHomeRecSpecialCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GXHomeRecSpecialCell.m; sourceTree = "<group>"; };
+		AA76D8742010978C000712AD /* GXAttributesParserTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GXAttributesParserTests.m; sourceTree = "<group>"; };
 		AAC6A9F02008ADEE00F42383 /* AVX.out */ = {isa = PBXFileReference; lastKnownFileType = file; path = AVX.out; sourceTree = "<group>"; };
 		AAFFCE76200A156D00D1FBC8 /* AVX.xml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = AVX.xml; sourceTree = "<group>"; };
 		AAFFCE78200A162D00D1FBC8 /* GXHomeVirtualFeedCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GXHomeVirtualFeedCell.h; sourceTree = "<group>"; };
 		AAFFCE79200A162D00D1FBC8 /* GXHomeVirtualFeedCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GXHomeVirtualFeedCell.m; sourceTree = "<group>"; };
-		AAFFCE85200A1E0200D1FBC8 /* GXLabel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GXLabel.h; sourceTree = "<group>"; };
-		AAFFCE86200A1E0200D1FBC8 /* GXLabel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GXLabel.m; sourceTree = "<group>"; };
-		AAFFCE8D200A2B9100D1FBC8 /* GXImageView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GXImageView.h; sourceTree = "<group>"; };
-		AAFFCE8E200A2B9100D1FBC8 /* GXImageView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GXImageView.m; sourceTree = "<group>"; };
 		AAFFCE95200A3F8200D1FBC8 /* AV.out */ = {isa = PBXFileReference; lastKnownFileType = file; path = AV.out; sourceTree = "<group>"; };
 		B70FBC9E1F99CCA9004A52F7 /* GXHomeLiveVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GXHomeLiveVC.h; sourceTree = "<group>"; };
 		B70FBC9F1F99CCA9004A52F7 /* GXHomeLiveVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GXHomeLiveVC.m; sourceTree = "<group>"; };
@@ -413,9 +446,6 @@
 		B7C20D851F4EB97300F6E5F1 /* GXHomeRouter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GXHomeRouter.m; sourceTree = "<group>"; };
 		B7CCDC6D1F3DBD7E00B06BB3 /* GXHomeBus.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GXHomeBus.h; sourceTree = "<group>"; };
 		B7CCDC6E1F3DBD7E00B06BB3 /* GXHomeBus.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GXHomeBus.m; sourceTree = "<group>"; };
-		E448DC3D2009155800AC5F00 /* GXHomeTableViewCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GXHomeTableViewCell.h; sourceTree = "<group>"; };
-		E448DC3E2009155800AC5F00 /* GXHomeTableViewCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GXHomeTableViewCell.m; sourceTree = "<group>"; };
-		E448DC3F2009155800AC5F00 /* GXHomeTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = GXHomeTableViewCell.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -436,6 +466,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				AAF4A7AA201491C3003182BA /* IJKMediaFrameworkWithSSL.framework in Frameworks */,
 				B755554D1F3C5823008D0D01 /* GXHome.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -444,6 +475,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				AAF4A7A82014919F003182BA /* IJKMediaFrameworkWithSSL.framework in Frameworks */,
 				B78048761F736C9A004B5E5B /* GXHome.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -494,6 +526,16 @@
 				AA08D2DC2000AA470062C7CE /* GXRulerTests.xctest */,
 			);
 			name = Products;
+			sourceTree = "<group>";
+		};
+		AA3A852F2019AD1B007C0019 /* CollectionCell */ = {
+			isa = PBXGroup;
+			children = (
+				AA3A8559201A14DA007C0019 /* double_bili_music_layout.xib */,
+				AA3A85512019B53B007C0019 /* double_bili_player_layout.xib */,
+				AA3A855F201A194A007C0019 /* double_bili_purchase_layout.xib */,
+			);
+			path = CollectionCell;
 			sourceTree = "<group>";
 		};
 		AA5F2AAD2007646900D73027 /* VirtualFeed */ = {
@@ -655,13 +697,31 @@
 			path = View;
 			sourceTree = "<group>";
 		};
+		AA76D86F2010967B000712AD /* Tool */ = {
+			isa = PBXGroup;
+			children = (
+				AA3F0786201719D000DC6579 /* BBPhonePegasusDataParser.h */,
+				AA3F0784201719D000DC6579 /* BBPhonePegasusDataParser.m */,
+				AA3F0783201719D000DC6579 /* NSDictionary+ParamParser.h */,
+				AA3F0785201719D000DC6579 /* NSDictionary+ParamParser.m */,
+			);
+			path = Tool;
+			sourceTree = "<group>";
+		};
 		AAFFCE84200A1DEF00D1FBC8 /* View */ = {
 			isa = PBXGroup;
 			children = (
-				AAFFCE85200A1E0200D1FBC8 /* GXLabel.h */,
-				AAFFCE86200A1E0200D1FBC8 /* GXLabel.m */,
-				AAFFCE8D200A2B9100D1FBC8 /* GXImageView.h */,
-				AAFFCE8E200A2B9100D1FBC8 /* GXImageView.m */,
+				AA3A855B201A1688007C0019 /* BBPhonePegasusDynamicProtocol.h */,
+				AA3F0778201719B200DC6579 /* BBPhonePegasusCell.h */,
+				AA3F0779201719B200DC6579 /* BBPhonePegasusCell.m */,
+				AA3A852B2019ACB9007C0019 /* BBPhonePegasusCollectionCell.h */,
+				AA3A852C2019ACB9007C0019 /* BBPhonePegasusCollectionCell.m */,
+				AA3F0773201719B100DC6579 /* BBPhonePegasusImageView.h */,
+				AA3F0775201719B100DC6579 /* BBPhonePegasusImageView.m */,
+				AA3F077A201719B200DC6579 /* BBPhonePegasusLabel.h */,
+				AA3F0776201719B100DC6579 /* BBPhonePegasusLabel.m */,
+				AA3F0777201719B200DC6579 /* BBPhonePegasusView.h */,
+				AA3F0774201719B100DC6579 /* BBPhonePegasusView.m */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -793,6 +853,7 @@
 			isa = PBXGroup;
 			children = (
 				B75555511F3C5823008D0D01 /* GXHomeTests.m */,
+				AA76D8742010978C000712AD /* GXAttributesParserTests.m */,
 				B75555531F3C5823008D0D01 /* Info.plist */,
 			);
 			path = GXHomeTests;
@@ -866,9 +927,13 @@
 			children = (
 				B78048BA1F73BFC9004B5E5B /* GXHomeRecommendVC.h */,
 				B78048BB1F73BFC9004B5E5B /* GXHomeRecommendVC.m */,
+				AA3A85302019AEC5007C0019 /* GXHomeRecommendVCV2.h */,
+				AA3A85312019AEC5007C0019 /* GXHomeRecommendVCV2.m */,
+				E4B83C8D1FFD3685000A4AFF /* VM */,
+				AA3A852F2019AD1B007C0019 /* CollectionCell */,
 				E4B83C8E1FFD3685000A4AFF /* Cell */,
 				AAFFCE84200A1DEF00D1FBC8 /* View */,
-				E4B83C8D1FFD3685000A4AFF /* VM */,
+				AA76D86F2010967B000712AD /* Tool */,
 			);
 			path = HomeRecommend;
 			sourceTree = "<group>";
@@ -878,9 +943,6 @@
 			children = (
 				B7B685301F41B2CC00306EF5 /* GXHomeViewController.h */,
 				B7B685311F41B2CC00306EF5 /* GXHomeViewController.m */,
-				E448DC3D2009155800AC5F00 /* GXHomeTableViewCell.h */,
-				E448DC3E2009155800AC5F00 /* GXHomeTableViewCell.m */,
-				E448DC3F2009155800AC5F00 /* GXHomeTableViewCell.xib */,
 			);
 			path = Home;
 			sourceTree = "<group>";
@@ -910,11 +972,10 @@
 		E4B83C8E1FFD3685000A4AFF /* Cell */ = {
 			isa = PBXGroup;
 			children = (
-				AA7483FC20021795002EDBC9 /* GXHomeRecSpecialCell.h */,
-				AA7483FD20021795002EDBC9 /* GXHomeRecSpecialCell.m */,
-				AA08D41C2000EE1F0062C7CE /* GXHomeRecGameCell.h */,
-				AA08D41D2000EE1F0062C7CE /* GXHomeRecGameCell.m */,
-				AA7483D62001EF69002EDBC9 /* GXHomeRecGameCell.xib */,
+				AA3A84AD20198920007C0019 /* single_bili_music_layout.xib */,
+				AA3A84AE20198920007C0019 /* single_bili_player_layout.xib */,
+				AA3A84AF20198920007C0019 /* single_bili_purchase_layout.xib */,
+				AA3A84B020198920007C0019 /* layouts.json */,
 			);
 			path = Cell;
 			sourceTree = "<group>";
@@ -929,14 +990,18 @@
 				B75081601F9DC47B0054ED21 /* GXHomeBangumiCell.h in Headers */,
 				AA5F2BD5200769D900D73027 /* VVLineView.h in Headers */,
 				B780484A1F7367D5004B5E5B /* GXHomePCH.pch in Headers */,
+				AA3F077F201719B200DC6579 /* BBPhonePegasusView.h in Headers */,
 				AA5F2BC0200769D900D73027 /* VVFrameLayout.h in Headers */,
 				AA5F2BB6200769D900D73027 /* VVLayer.h in Headers */,
+				AA3A855D201A1688007C0019 /* BBPhonePegasusDynamicProtocol.h in Headers */,
 				AA5F2BC3200769D900D73027 /* VVVHLayout.h in Headers */,
-				AA08D41F2000EE1F0062C7CE /* GXHomeRecGameCell.h in Headers */,
 				AA5F2BD0200769D900D73027 /* VVVersionModel.h in Headers */,
 				AA5F2BE0200769D900D73027 /* NVImageView.h in Headers */,
 				B70FBCA21F99CCA9004A52F7 /* GXHomeLiveVC.h in Headers */,
 				B70FBCAE1F99CD77004A52F7 /* GXHomeLiveCell.h in Headers */,
+				AA3F078A201719D000DC6579 /* BBPhonePegasusDataParser.h in Headers */,
+				AA3F0782201719B200DC6579 /* BBPhonePegasusLabel.h in Headers */,
+				AA3A85322019AEC5007C0019 /* GXHomeRecommendVCV2.h in Headers */,
 				B75555541F3C5823008D0D01 /* GXHome.h in Headers */,
 				B70FBCB61F99CEA8004A52F7 /* GXHomeNavigator.h in Headers */,
 				B75555701F3C616C008D0D01 /* GXHomeManager.h in Headers */,
@@ -948,16 +1013,17 @@
 				AA5F2BAF200769D900D73027 /* UIView+VirtualView.h in Headers */,
 				B75081581F9DC3AE0054ED21 /* GXHomeBangumiModel.h in Headers */,
 				AA5F2BDA200769D900D73027 /* VVTextView.h in Headers */,
-				AAFFCE87200A1E0200D1FBC8 /* GXLabel.h in Headers */,
 				AA5F2BDC200769D900D73027 /* VVImageView.h in Headers */,
 				B75081531F9DC3220054ED21 /* GXHomeBangumiViewModel.h in Headers */,
 				AA5F2BC2200769D900D73027 /* VVRatioLayout.h in Headers */,
 				AA5F2BBB200769D900D73027 /* VVGridLayout.h in Headers */,
 				AA5F2BE1200769D900D73027 /* NVCarouselPageView.h in Headers */,
+				AA3F077B201719B200DC6579 /* BBPhonePegasusImageView.h in Headers */,
 				B755556C1F3C604A008D0D01 /* GXHomeDefine.h in Headers */,
 				B70FBCAA1F99CD4D004A52F7 /* GXHomeLiveModel.h in Headers */,
 				AA5F2BB9200769D900D73027 /* VVLayout.h in Headers */,
 				AA5F2BAE200769D900D73027 /* UIColor+VirtualView.h in Headers */,
+				AA3A852D2019ACB9007C0019 /* BBPhonePegasusCollectionCell.h in Headers */,
 				AA5F2BCB200769D900D73027 /* VVLoader.h in Headers */,
 				AA5F2BCC200769D900D73027 /* VVBinaryLoader.h in Headers */,
 				AA5F2BAD200769D900D73027 /* VVCommTools.h in Headers */,
@@ -968,12 +1034,11 @@
 				B78048BC1F73BFC9004B5E5B /* GXHomeRecommendVC.h in Headers */,
 				AA5F2B612007646900D73027 /* GXHomeVirtualFeedVC.h in Headers */,
 				AA5F2BD6200769D900D73027 /* VVFoundationView.h in Headers */,
-				E448DC402009155800AC5F00 /* GXHomeTableViewCell.h in Headers */,
+				AA3F0780201719B200DC6579 /* BBPhonePegasusCell.h in Headers */,
 				B750815C1F9DC45A0054ED21 /* GXHomeBangumiVC.h in Headers */,
-				AA7483FF20021795002EDBC9 /* GXHomeRecSpecialCell.h in Headers */,
 				AA5F2BDF200769D900D73027 /* FrameView.h in Headers */,
 				AA5F2BB4200769D900D73027 /* VVSystemKey.h in Headers */,
-				AAFFCE8F200A2B9100D1FBC8 /* GXImageView.h in Headers */,
+				AA3F0787201719D000DC6579 /* NSDictionary+ParamParser.h in Headers */,
 				B7CCDC6F1F3DBD7E00B06BB3 /* GXHomeBus.h in Headers */,
 				AA5F2BD7200769D900D73027 /* VVSliderView.h in Headers */,
 				AA5F2BDE200769D900D73027 /* VVContainerView.h in Headers */,
@@ -1195,13 +1260,18 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				AA3A84B220198921007C0019 /* single_bili_player_layout.xib in Resources */,
+				AA3A84B320198921007C0019 /* single_bili_purchase_layout.xib in Resources */,
+				AA3A84B120198921007C0019 /* single_bili_music_layout.xib in Resources */,
 				AAC6A9F12008ADEE00F42383 /* AVX.out in Resources */,
+				AA3A855A201A14DA007C0019 /* double_bili_music_layout.xib in Resources */,
 				AAFFCE96200A3F8200D1FBC8 /* AV.out in Resources */,
-				AA7483DC2001EF69002EDBC9 /* GXHomeRecGameCell.xib in Resources */,
 				B7B685351F41B3D100306EF5 /* GXHome.xcassets in Resources */,
 				AAFFCE77200A156E00D1FBC8 /* AVX.xml in Resources */,
+				AA3A85522019B53B007C0019 /* double_bili_player_layout.xib in Resources */,
+				AA3A8560201A194A007C0019 /* double_bili_purchase_layout.xib in Resources */,
 				AA5F2BB8200769D900D73027 /* widgetCodeList.plist in Resources */,
-				E448DC422009155800AC5F00 /* GXHomeTableViewCell.xib in Resources */,
+				AA3A84B420198921007C0019 /* layouts.json in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -1230,8 +1300,10 @@
 			files = (
 				B70FBCAB1F99CD4D004A52F7 /* GXHomeLiveModel.m in Sources */,
 				B7C20D871F4EB97300F6E5F1 /* GXHomeRouter.m in Sources */,
+				AA3F0788201719D000DC6579 /* BBPhonePegasusDataParser.m in Sources */,
 				B75081611F9DC47B0054ED21 /* GXHomeBangumiCell.m in Sources */,
 				AA5F2BD4200769D900D73027 /* NVTextView.m in Sources */,
+				AA3A852E2019ACB9007C0019 /* BBPhonePegasusCollectionCell.m in Sources */,
 				B70FBCA31F99CCA9004A52F7 /* GXHomeLiveVC.m in Sources */,
 				AA5F2BD2200769D900D73027 /* NVCarouselPageView.m in Sources */,
 				AA5F2BB0200769D900D73027 /* VVCommTools.m in Sources */,
@@ -1239,29 +1311,29 @@
 				AA5F2BCF200769D900D73027 /* VVLoader.m in Sources */,
 				AA5F2BC4200769D900D73027 /* VVVH2Layout.m in Sources */,
 				AA5F2BE3200769D900D73027 /* VVSliderView.m in Sources */,
-				AA74840020021795002EDBC9 /* GXHomeRecSpecialCell.m in Sources */,
 				AA5F2BEB200769D900D73027 /* VVPageView.m in Sources */,
 				AA5F2BCE200769D900D73027 /* VVBinaryLoader.m in Sources */,
 				AA5F2BB2200769D900D73027 /* VVLayer.m in Sources */,
 				AA5F2BAC200769D900D73027 /* UIView+VirtualView.m in Sources */,
-				E448DC412009155800AC5F00 /* GXHomeTableViewCell.m in Sources */,
 				B78048BD1F73BFC9004B5E5B /* GXHomeRecommendVC.m in Sources */,
 				AA5F2BDD200769D900D73027 /* NVLineView.m in Sources */,
 				AA5F2BD1200769D900D73027 /* NVImageView.m in Sources */,
 				AA5F2BBA200769D900D73027 /* VVFrameLayout.m in Sources */,
+				AA3F0781201719B200DC6579 /* BBPhonePegasusCell.m in Sources */,
 				B755556D1F3C604A008D0D01 /* GXHomeDefine.m in Sources */,
 				B70FBCB31F99CE17004A52F7 /* GXHomeLiveVM.m in Sources */,
 				B750815D1F9DC45A0054ED21 /* GXHomeBangumiVC.m in Sources */,
 				AA5F2BEC200769D900D73027 /* VVTextView.m in Sources */,
+				AA3F077E201719B200DC6579 /* BBPhonePegasusLabel.m in Sources */,
 				AA5F2BD9200769D900D73027 /* NVFoundationView.m in Sources */,
 				AA5F2BE8200769D900D73027 /* VVContainerView.m in Sources */,
 				AA5F2BE5200769D900D73027 /* VVLineView.m in Sources */,
 				AA5F2B622007646900D73027 /* GXHomeVirtualFeedVC.m in Sources */,
 				B75081591F9DC3AE0054ED21 /* GXHomeBangumiModel.m in Sources */,
 				B70FBCB71F99CEA8004A52F7 /* GXHomeNavigator.m in Sources */,
-				AA08D4202000EE1F0062C7CE /* GXHomeRecGameCell.m in Sources */,
 				B7B685331F41B2CC00306EF5 /* GXHomeViewController.m in Sources */,
 				AA5F2BBF200769D900D73027 /* VVLayout.m in Sources */,
+				AA3F0789201719D000DC6579 /* NSDictionary+ParamParser.m in Sources */,
 				AA5F2BC1200769D900D73027 /* VVGridLayout.m in Sources */,
 				B75081541F9DC3220054ED21 /* GXHomeBangumiViewModel.m in Sources */,
 				AA5F2BCD200769D900D73027 /* VVVersionModel.m in Sources */,
@@ -1273,16 +1345,17 @@
 				B75555711F3C616C008D0D01 /* GXHomeManager.m in Sources */,
 				AA5F2BE4200769D900D73027 /* VVFoundationView.m in Sources */,
 				AA5F2BC6200769D900D73027 /* VVNavtiveViewContainer.m in Sources */,
+				AA3A85332019AEC5007C0019 /* GXHomeRecommendVCV2.m in Sources */,
+				AA3F077D201719B200DC6579 /* BBPhonePegasusImageView.m in Sources */,
 				B70FBCAF1F99CD77004A52F7 /* GXHomeLiveCell.m in Sources */,
 				AA5F2BB1200769D900D73027 /* UIColor+VirtualView.m in Sources */,
 				AA5F2BD3200769D900D73027 /* FrameView.m in Sources */,
 				AA5F2BE2200769D900D73027 /* VVGridView.m in Sources */,
 				AA3C79871FFE693100FA1455 /* GXHomeRecommendVM.m in Sources */,
+				AA3F077C201719B200DC6579 /* BBPhonePegasusView.m in Sources */,
 				AA5F2BB5200769D900D73027 /* VVViewObject.m in Sources */,
 				AA5F2BBE200769D900D73027 /* VVRatioLayout.m in Sources */,
-				AAFFCE90200A2B9100D1FBC8 /* GXImageView.m in Sources */,
 				AA5F2BEA200769D900D73027 /* VVImageView.m in Sources */,
-				AAFFCE88200A1E0200D1FBC8 /* GXLabel.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -1290,6 +1363,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				AA76D8752010978C000712AD /* GXAttributesParserTests.m in Sources */,
 				B75555521F3C5823008D0D01 /* GXHomeTests.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -1403,7 +1477,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				MTL_ENABLE_DEBUG_INFO = YES;
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = iphoneos;
@@ -1455,7 +1529,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				SDKROOT = iphoneos;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -1515,8 +1589,9 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				DEVELOPMENT_TEAM = VEE3B6HDQ5;
+				FRAMEWORK_SEARCH_PATHS = "$(SRCROOT)/../GXRuler-OC";
 				INFOPLIST_FILE = GXHomeTests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks $(SRCROOT)/../GXRuler-OC";
 				PRODUCT_BUNDLE_IDENTIFIER = com.sgx.GXHomeTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
@@ -1526,8 +1601,9 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				DEVELOPMENT_TEAM = VEE3B6HDQ5;
+				FRAMEWORK_SEARCH_PATHS = "$(SRCROOT)/../GXRuler-OC";
 				INFOPLIST_FILE = GXHomeTests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks $(SRCROOT)/../GXRuler-OC";
 				PRODUCT_BUNDLE_IDENTIFIER = com.sgx.GXHomeTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
@@ -1539,7 +1615,9 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = VEE3B6HDQ5;
 				ENABLE_BITCODE = NO;
+				FRAMEWORK_SEARCH_PATHS = "$(SRCROOT)/../GXRuler-OC";
 				INFOPLIST_FILE = GXHomeShell/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.sgx.GXHomeShell;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -1553,7 +1631,9 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = VEE3B6HDQ5;
 				ENABLE_BITCODE = NO;
+				FRAMEWORK_SEARCH_PATHS = "$(SRCROOT)/../GXRuler-OC";
 				INFOPLIST_FILE = GXHomeShell/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.sgx.GXHomeShell;
 				PRODUCT_NAME = "$(TARGET_NAME)";

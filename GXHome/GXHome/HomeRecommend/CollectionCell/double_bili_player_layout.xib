@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="13529" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="13527"/>
+        <capability name="Aspect ratio constraints" minToolsVersion="5.1"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <collectionViewCell opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" preservesSuperviewLayoutMargins="YES" layoutMarginsFollowReadableWidth="YES" reuseIdentifier="double_bili_player_layout" id="ZiS-2p-7KD" customClass="BBPhonePegasusCollectionCell">
+            <rect key="frame" x="0.0" y="0.0" width="124" height="273"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <view key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" insetsLayoutMarginsFromSafeArea="NO">
+                <rect key="frame" x="0.0" y="0.0" width="124" height="273"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <imageView contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="iY7-Cf-i90" customClass="BBPhonePegasusImageView">
+                        <rect key="frame" x="12" y="12" width="100" height="100"/>
+                        <color key="backgroundColor" red="1" green="0.45124829170000003" blue="0.81763169270000002" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstAttribute="width" secondItem="iY7-Cf-i90" secondAttribute="height" multiplier="1:1" id="yJ4-Sm-OV7"/>
+                        </constraints>
+                        <userDefinedRuntimeAttributes>
+                            <userDefinedRuntimeAttribute type="string" keyPath="bili_event" value="uri"/>
+                        </userDefinedRuntimeAttributes>
+                    </imageView>
+                </subviews>
+            </view>
+            <color key="backgroundColor" red="0.45927977869999997" green="0.51938473380000005" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+            <constraints>
+                <constraint firstAttribute="trailing" secondItem="iY7-Cf-i90" secondAttribute="trailing" constant="12" id="8dh-th-guf"/>
+                <constraint firstAttribute="bottom" relation="greaterThanOrEqual" secondItem="iY7-Cf-i90" secondAttribute="bottom" constant="12" id="Drr-5c-ZFr"/>
+                <constraint firstItem="iY7-Cf-i90" firstAttribute="leading" secondItem="ZiS-2p-7KD" secondAttribute="leading" constant="12" id="euy-LB-odT"/>
+                <constraint firstItem="iY7-Cf-i90" firstAttribute="top" secondItem="ZiS-2p-7KD" secondAttribute="top" constant="12" id="kwN-y0-OHR"/>
+            </constraints>
+            <size key="customSize" width="185" height="273"/>
+            <userDefinedRuntimeAttributes>
+                <userDefinedRuntimeAttribute type="string" keyPath="bili_type" value="large"/>
+            </userDefinedRuntimeAttributes>
+            <point key="canvasLocation" x="-475" y="66.5"/>
+        </collectionViewCell>
+    </objects>
+</document>

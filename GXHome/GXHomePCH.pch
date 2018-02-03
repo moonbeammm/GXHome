@@ -24,6 +24,9 @@
 
     #import "GXHomeNavigator.h"
 
+    /// 调试system trace
+    #import <sys/kdebug_signpost.h>
+
     #define GX_PINK_COLOR [UIColor colorWithRed:251./255 green:114./255 blue:153./255 alpha:1]
 #endif
 
