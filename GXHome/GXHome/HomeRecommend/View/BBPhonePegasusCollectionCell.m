@@ -7,7 +7,7 @@
 //
 
 #import "BBPhonePegasusCollectionCell.h"
-#import "NSDictionary+ParamParser.h"
+#import "BBPhoneExpression.h"
 
 @implementation BBPhonePegasusCollectionCell
 
@@ -96,7 +96,8 @@
         if ([subView respondsToSelector:@selector(bili_content)]) {
             NSString *content = [subView valueForKey:@"bili_content"];
             if (content && content.length > 0) {
-                [self configViewContent:subView content:[dict parserWithKey:content]];
+                id contentValue = [BBPhoneExpression expressionWithKey:content object:dict];
+                [self configViewContent:subView content:contentValue];
             }
         }
         /// 递归遍历

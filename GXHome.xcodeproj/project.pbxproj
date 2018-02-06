@@ -13,6 +13,9 @@
 		AA08D2E12000AACB0062C7CE /* GXPlayer.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AA08D2C52000AA380062C7CE /* GXPlayer.framework */; };
 		AA08D2E22000AACB0062C7CE /* GXPodContainer.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AA08D2BD2000AA310062C7CE /* GXPodContainer.framework */; };
 		AA08D2E32000AACB0062C7CE /* GXRuler.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AA08D2DA2000AA470062C7CE /* GXRuler.framework */; };
+		AA2C35A4202867B0004CA343 /* BBPhoneExpression.h in Headers */ = {isa = PBXBuildFile; fileRef = AA2C359D202867B0004CA343 /* BBPhoneExpression.h */; };
+		AA2C35A5202867B0004CA343 /* BBPhoneExpression.m in Sources */ = {isa = PBXBuildFile; fileRef = AA2C35A3202867B0004CA343 /* BBPhoneExpression.m */; };
+		AA2C35A7202867F2004CA343 /* GXExpressionTests.m in Sources */ = {isa = PBXBuildFile; fileRef = AA2C35A6202867F2004CA343 /* GXExpressionTests.m */; };
 		AA3A84B120198921007C0019 /* single_bili_music_layout.xib in Resources */ = {isa = PBXBuildFile; fileRef = AA3A84AD20198920007C0019 /* single_bili_music_layout.xib */; };
 		AA3A84B220198921007C0019 /* single_bili_player_layout.xib in Resources */ = {isa = PBXBuildFile; fileRef = AA3A84AE20198920007C0019 /* single_bili_player_layout.xib */; };
 		AA3A84B320198921007C0019 /* single_bili_purchase_layout.xib in Resources */ = {isa = PBXBuildFile; fileRef = AA3A84AF20198920007C0019 /* single_bili_purchase_layout.xib */; };
@@ -35,86 +38,11 @@
 		AA3F0780201719B200DC6579 /* BBPhonePegasusCell.h in Headers */ = {isa = PBXBuildFile; fileRef = AA3F0778201719B200DC6579 /* BBPhonePegasusCell.h */; };
 		AA3F0781201719B200DC6579 /* BBPhonePegasusCell.m in Sources */ = {isa = PBXBuildFile; fileRef = AA3F0779201719B200DC6579 /* BBPhonePegasusCell.m */; };
 		AA3F0782201719B200DC6579 /* BBPhonePegasusLabel.h in Headers */ = {isa = PBXBuildFile; fileRef = AA3F077A201719B200DC6579 /* BBPhonePegasusLabel.h */; };
-		AA3F0787201719D000DC6579 /* NSDictionary+ParamParser.h in Headers */ = {isa = PBXBuildFile; fileRef = AA3F0783201719D000DC6579 /* NSDictionary+ParamParser.h */; };
 		AA3F0788201719D000DC6579 /* BBPhonePegasusDataParser.m in Sources */ = {isa = PBXBuildFile; fileRef = AA3F0784201719D000DC6579 /* BBPhonePegasusDataParser.m */; };
-		AA3F0789201719D000DC6579 /* NSDictionary+ParamParser.m in Sources */ = {isa = PBXBuildFile; fileRef = AA3F0785201719D000DC6579 /* NSDictionary+ParamParser.m */; };
 		AA3F078A201719D000DC6579 /* BBPhonePegasusDataParser.h in Headers */ = {isa = PBXBuildFile; fileRef = AA3F0786201719D000DC6579 /* BBPhonePegasusDataParser.h */; };
-		AA5F2B612007646900D73027 /* GXHomeVirtualFeedVC.h in Headers */ = {isa = PBXBuildFile; fileRef = AA5F2B0C2007646900D73027 /* GXHomeVirtualFeedVC.h */; };
-		AA5F2B622007646900D73027 /* GXHomeVirtualFeedVC.m in Sources */ = {isa = PBXBuildFile; fileRef = AA5F2B0D2007646900D73027 /* GXHomeVirtualFeedVC.m */; };
-		AA5F2BAC200769D900D73027 /* UIView+VirtualView.m in Sources */ = {isa = PBXBuildFile; fileRef = AA5F2B65200769D900D73027 /* UIView+VirtualView.m */; };
-		AA5F2BAD200769D900D73027 /* VVCommTools.h in Headers */ = {isa = PBXBuildFile; fileRef = AA5F2B66200769D900D73027 /* VVCommTools.h */; };
-		AA5F2BAE200769D900D73027 /* UIColor+VirtualView.h in Headers */ = {isa = PBXBuildFile; fileRef = AA5F2B67200769D900D73027 /* UIColor+VirtualView.h */; };
-		AA5F2BAF200769D900D73027 /* UIView+VirtualView.h in Headers */ = {isa = PBXBuildFile; fileRef = AA5F2B68200769D900D73027 /* UIView+VirtualView.h */; };
-		AA5F2BB0200769D900D73027 /* VVCommTools.m in Sources */ = {isa = PBXBuildFile; fileRef = AA5F2B69200769D900D73027 /* VVCommTools.m */; };
-		AA5F2BB1200769D900D73027 /* UIColor+VirtualView.m in Sources */ = {isa = PBXBuildFile; fileRef = AA5F2B6A200769D900D73027 /* UIColor+VirtualView.m */; };
-		AA5F2BB2200769D900D73027 /* VVLayer.m in Sources */ = {isa = PBXBuildFile; fileRef = AA5F2B6C200769D900D73027 /* VVLayer.m */; };
-		AA5F2BB3200769D900D73027 /* VVViewObject.h in Headers */ = {isa = PBXBuildFile; fileRef = AA5F2B6D200769D900D73027 /* VVViewObject.h */; };
-		AA5F2BB4200769D900D73027 /* VVSystemKey.h in Headers */ = {isa = PBXBuildFile; fileRef = AA5F2B6E200769D900D73027 /* VVSystemKey.h */; };
-		AA5F2BB5200769D900D73027 /* VVViewObject.m in Sources */ = {isa = PBXBuildFile; fileRef = AA5F2B6F200769D900D73027 /* VVViewObject.m */; };
-		AA5F2BB6200769D900D73027 /* VVLayer.h in Headers */ = {isa = PBXBuildFile; fileRef = AA5F2B70200769D900D73027 /* VVLayer.h */; };
-		AA5F2BB7200769D900D73027 /* VVSystemKey.m in Sources */ = {isa = PBXBuildFile; fileRef = AA5F2B71200769D900D73027 /* VVSystemKey.m */; };
-		AA5F2BB8200769D900D73027 /* widgetCodeList.plist in Resources */ = {isa = PBXBuildFile; fileRef = AA5F2B73200769D900D73027 /* widgetCodeList.plist */; };
-		AA5F2BB9200769D900D73027 /* VVLayout.h in Headers */ = {isa = PBXBuildFile; fileRef = AA5F2B75200769D900D73027 /* VVLayout.h */; };
-		AA5F2BBA200769D900D73027 /* VVFrameLayout.m in Sources */ = {isa = PBXBuildFile; fileRef = AA5F2B76200769D900D73027 /* VVFrameLayout.m */; };
-		AA5F2BBB200769D900D73027 /* VVGridLayout.h in Headers */ = {isa = PBXBuildFile; fileRef = AA5F2B77200769D900D73027 /* VVGridLayout.h */; };
-		AA5F2BBC200769D900D73027 /* VVVH2Layout.h in Headers */ = {isa = PBXBuildFile; fileRef = AA5F2B78200769D900D73027 /* VVVH2Layout.h */; };
-		AA5F2BBD200769D900D73027 /* VVVHLayout.m in Sources */ = {isa = PBXBuildFile; fileRef = AA5F2B79200769D900D73027 /* VVVHLayout.m */; };
-		AA5F2BBE200769D900D73027 /* VVRatioLayout.m in Sources */ = {isa = PBXBuildFile; fileRef = AA5F2B7A200769D900D73027 /* VVRatioLayout.m */; };
-		AA5F2BBF200769D900D73027 /* VVLayout.m in Sources */ = {isa = PBXBuildFile; fileRef = AA5F2B7B200769D900D73027 /* VVLayout.m */; };
-		AA5F2BC0200769D900D73027 /* VVFrameLayout.h in Headers */ = {isa = PBXBuildFile; fileRef = AA5F2B7C200769D900D73027 /* VVFrameLayout.h */; };
-		AA5F2BC1200769D900D73027 /* VVGridLayout.m in Sources */ = {isa = PBXBuildFile; fileRef = AA5F2B7D200769D900D73027 /* VVGridLayout.m */; };
-		AA5F2BC2200769D900D73027 /* VVRatioLayout.h in Headers */ = {isa = PBXBuildFile; fileRef = AA5F2B7E200769D900D73027 /* VVRatioLayout.h */; };
-		AA5F2BC3200769D900D73027 /* VVVHLayout.h in Headers */ = {isa = PBXBuildFile; fileRef = AA5F2B7F200769D900D73027 /* VVVHLayout.h */; };
-		AA5F2BC4200769D900D73027 /* VVVH2Layout.m in Sources */ = {isa = PBXBuildFile; fileRef = AA5F2B80200769D900D73027 /* VVVH2Layout.m */; };
-		AA5F2BC5200769D900D73027 /* VVViewContainer.h in Headers */ = {isa = PBXBuildFile; fileRef = AA5F2B82200769D900D73027 /* VVViewContainer.h */; };
-		AA5F2BC6200769D900D73027 /* VVNavtiveViewContainer.m in Sources */ = {isa = PBXBuildFile; fileRef = AA5F2B83200769D900D73027 /* VVNavtiveViewContainer.m */; };
-		AA5F2BC7200769D900D73027 /* VVViewFactory.m in Sources */ = {isa = PBXBuildFile; fileRef = AA5F2B84200769D900D73027 /* VVViewFactory.m */; };
-		AA5F2BC8200769D900D73027 /* VVViewContainer.m in Sources */ = {isa = PBXBuildFile; fileRef = AA5F2B85200769D900D73027 /* VVViewContainer.m */; };
-		AA5F2BC9200769D900D73027 /* VVNavtiveViewContainer.h in Headers */ = {isa = PBXBuildFile; fileRef = AA5F2B86200769D900D73027 /* VVNavtiveViewContainer.h */; };
-		AA5F2BCA200769D900D73027 /* VVViewFactory.h in Headers */ = {isa = PBXBuildFile; fileRef = AA5F2B87200769D900D73027 /* VVViewFactory.h */; };
-		AA5F2BCB200769D900D73027 /* VVLoader.h in Headers */ = {isa = PBXBuildFile; fileRef = AA5F2B89200769D900D73027 /* VVLoader.h */; };
-		AA5F2BCC200769D900D73027 /* VVBinaryLoader.h in Headers */ = {isa = PBXBuildFile; fileRef = AA5F2B8A200769D900D73027 /* VVBinaryLoader.h */; };
-		AA5F2BCD200769D900D73027 /* VVVersionModel.m in Sources */ = {isa = PBXBuildFile; fileRef = AA5F2B8B200769D900D73027 /* VVVersionModel.m */; };
-		AA5F2BCE200769D900D73027 /* VVBinaryLoader.m in Sources */ = {isa = PBXBuildFile; fileRef = AA5F2B8C200769D900D73027 /* VVBinaryLoader.m */; };
-		AA5F2BCF200769D900D73027 /* VVLoader.m in Sources */ = {isa = PBXBuildFile; fileRef = AA5F2B8D200769D900D73027 /* VVLoader.m */; };
-		AA5F2BD0200769D900D73027 /* VVVersionModel.h in Headers */ = {isa = PBXBuildFile; fileRef = AA5F2B8E200769D900D73027 /* VVVersionModel.h */; };
-		AA5F2BD1200769D900D73027 /* NVImageView.m in Sources */ = {isa = PBXBuildFile; fileRef = AA5F2B90200769D900D73027 /* NVImageView.m */; };
-		AA5F2BD2200769D900D73027 /* NVCarouselPageView.m in Sources */ = {isa = PBXBuildFile; fileRef = AA5F2B91200769D900D73027 /* NVCarouselPageView.m */; };
-		AA5F2BD3200769D900D73027 /* FrameView.m in Sources */ = {isa = PBXBuildFile; fileRef = AA5F2B92200769D900D73027 /* FrameView.m */; };
-		AA5F2BD4200769D900D73027 /* NVTextView.m in Sources */ = {isa = PBXBuildFile; fileRef = AA5F2B93200769D900D73027 /* NVTextView.m */; };
-		AA5F2BD5200769D900D73027 /* VVLineView.h in Headers */ = {isa = PBXBuildFile; fileRef = AA5F2B94200769D900D73027 /* VVLineView.h */; };
-		AA5F2BD6200769D900D73027 /* VVFoundationView.h in Headers */ = {isa = PBXBuildFile; fileRef = AA5F2B95200769D900D73027 /* VVFoundationView.h */; };
-		AA5F2BD7200769D900D73027 /* VVSliderView.h in Headers */ = {isa = PBXBuildFile; fileRef = AA5F2B96200769D900D73027 /* VVSliderView.h */; };
-		AA5F2BD8200769D900D73027 /* VVGridView.h in Headers */ = {isa = PBXBuildFile; fileRef = AA5F2B97200769D900D73027 /* VVGridView.h */; };
-		AA5F2BD9200769D900D73027 /* NVFoundationView.m in Sources */ = {isa = PBXBuildFile; fileRef = AA5F2B98200769D900D73027 /* NVFoundationView.m */; };
-		AA5F2BDA200769D900D73027 /* VVTextView.h in Headers */ = {isa = PBXBuildFile; fileRef = AA5F2B99200769D900D73027 /* VVTextView.h */; };
-		AA5F2BDB200769D900D73027 /* VVPageView.h in Headers */ = {isa = PBXBuildFile; fileRef = AA5F2B9A200769D900D73027 /* VVPageView.h */; };
-		AA5F2BDC200769D900D73027 /* VVImageView.h in Headers */ = {isa = PBXBuildFile; fileRef = AA5F2B9B200769D900D73027 /* VVImageView.h */; };
-		AA5F2BDD200769D900D73027 /* NVLineView.m in Sources */ = {isa = PBXBuildFile; fileRef = AA5F2B9C200769D900D73027 /* NVLineView.m */; };
-		AA5F2BDE200769D900D73027 /* VVContainerView.h in Headers */ = {isa = PBXBuildFile; fileRef = AA5F2B9D200769D900D73027 /* VVContainerView.h */; };
-		AA5F2BDF200769D900D73027 /* FrameView.h in Headers */ = {isa = PBXBuildFile; fileRef = AA5F2B9E200769D900D73027 /* FrameView.h */; };
-		AA5F2BE0200769D900D73027 /* NVImageView.h in Headers */ = {isa = PBXBuildFile; fileRef = AA5F2B9F200769D900D73027 /* NVImageView.h */; };
-		AA5F2BE1200769D900D73027 /* NVCarouselPageView.h in Headers */ = {isa = PBXBuildFile; fileRef = AA5F2BA0200769D900D73027 /* NVCarouselPageView.h */; };
-		AA5F2BE2200769D900D73027 /* VVGridView.m in Sources */ = {isa = PBXBuildFile; fileRef = AA5F2BA1200769D900D73027 /* VVGridView.m */; };
-		AA5F2BE3200769D900D73027 /* VVSliderView.m in Sources */ = {isa = PBXBuildFile; fileRef = AA5F2BA2200769D900D73027 /* VVSliderView.m */; };
-		AA5F2BE4200769D900D73027 /* VVFoundationView.m in Sources */ = {isa = PBXBuildFile; fileRef = AA5F2BA3200769D900D73027 /* VVFoundationView.m */; };
-		AA5F2BE5200769D900D73027 /* VVLineView.m in Sources */ = {isa = PBXBuildFile; fileRef = AA5F2BA4200769D900D73027 /* VVLineView.m */; };
-		AA5F2BE6200769D900D73027 /* NVTextView.h in Headers */ = {isa = PBXBuildFile; fileRef = AA5F2BA5200769D900D73027 /* NVTextView.h */; };
-		AA5F2BE7200769D900D73027 /* NVFoundationView.h in Headers */ = {isa = PBXBuildFile; fileRef = AA5F2BA6200769D900D73027 /* NVFoundationView.h */; };
-		AA5F2BE8200769D900D73027 /* VVContainerView.m in Sources */ = {isa = PBXBuildFile; fileRef = AA5F2BA7200769D900D73027 /* VVContainerView.m */; };
-		AA5F2BE9200769D900D73027 /* NVLineView.h in Headers */ = {isa = PBXBuildFile; fileRef = AA5F2BA8200769D900D73027 /* NVLineView.h */; };
-		AA5F2BEA200769D900D73027 /* VVImageView.m in Sources */ = {isa = PBXBuildFile; fileRef = AA5F2BA9200769D900D73027 /* VVImageView.m */; };
-		AA5F2BEB200769D900D73027 /* VVPageView.m in Sources */ = {isa = PBXBuildFile; fileRef = AA5F2BAA200769D900D73027 /* VVPageView.m */; };
-		AA5F2BEC200769D900D73027 /* VVTextView.m in Sources */ = {isa = PBXBuildFile; fileRef = AA5F2BAB200769D900D73027 /* VVTextView.m */; };
-		AA76D8752010978C000712AD /* GXAttributesParserTests.m in Sources */ = {isa = PBXBuildFile; fileRef = AA76D8742010978C000712AD /* GXAttributesParserTests.m */; };
-		AAC6A9F12008ADEE00F42383 /* AVX.out in Resources */ = {isa = PBXBuildFile; fileRef = AAC6A9F02008ADEE00F42383 /* AVX.out */; };
 		AAF4A7A82014919F003182BA /* IJKMediaFrameworkWithSSL.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AA08D2DD2000AAB90062C7CE /* IJKMediaFrameworkWithSSL.framework */; };
 		AAF4A7A92014919F003182BA /* IJKMediaFrameworkWithSSL.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = AA08D2DD2000AAB90062C7CE /* IJKMediaFrameworkWithSSL.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		AAF4A7AA201491C3003182BA /* IJKMediaFrameworkWithSSL.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AA08D2DD2000AAB90062C7CE /* IJKMediaFrameworkWithSSL.framework */; };
-		AAFFCE77200A156E00D1FBC8 /* AVX.xml in Resources */ = {isa = PBXBuildFile; fileRef = AAFFCE76200A156D00D1FBC8 /* AVX.xml */; };
-		AAFFCE7A200A162D00D1FBC8 /* GXHomeVirtualFeedCell.h in Headers */ = {isa = PBXBuildFile; fileRef = AAFFCE78200A162D00D1FBC8 /* GXHomeVirtualFeedCell.h */; };
-		AAFFCE7B200A162D00D1FBC8 /* GXHomeVirtualFeedCell.m in Sources */ = {isa = PBXBuildFile; fileRef = AAFFCE79200A162D00D1FBC8 /* GXHomeVirtualFeedCell.m */; };
-		AAFFCE96200A3F8200D1FBC8 /* AV.out in Resources */ = {isa = PBXBuildFile; fileRef = AAFFCE95200A3F8200D1FBC8 /* AV.out */; };
 		B70FBCA21F99CCA9004A52F7 /* GXHomeLiveVC.h in Headers */ = {isa = PBXBuildFile; fileRef = B70FBC9E1F99CCA9004A52F7 /* GXHomeLiveVC.h */; };
 		B70FBCA31F99CCA9004A52F7 /* GXHomeLiveVC.m in Sources */ = {isa = PBXBuildFile; fileRef = B70FBC9F1F99CCA9004A52F7 /* GXHomeLiveVC.m */; };
 		B70FBCAA1F99CD4D004A52F7 /* GXHomeLiveModel.h in Headers */ = {isa = PBXBuildFile; fileRef = B70FBCA81F99CD4D004A52F7 /* GXHomeLiveModel.h */; };
@@ -302,6 +230,9 @@
 		AA08D2CA2000AA400062C7CE /* GXPageView.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = GXPageView.xcodeproj; path = "../../GXRuler-OC/GXPageView/GXPageView.xcodeproj"; sourceTree = "<group>"; };
 		AA08D2D32000AA460062C7CE /* GXRuler.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = GXRuler.xcodeproj; path = "../../GXRuler-OC/GXRuler/GXRuler.xcodeproj"; sourceTree = "<group>"; };
 		AA08D2DD2000AAB90062C7CE /* IJKMediaFrameworkWithSSL.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = IJKMediaFrameworkWithSSL.framework; path = "../../GXRuler-OC/IJKMediaFrameworkWithSSL.framework"; sourceTree = "<group>"; };
+		AA2C359D202867B0004CA343 /* BBPhoneExpression.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BBPhoneExpression.h; sourceTree = "<group>"; };
+		AA2C35A3202867B0004CA343 /* BBPhoneExpression.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BBPhoneExpression.m; sourceTree = "<group>"; };
+		AA2C35A6202867F2004CA343 /* GXExpressionTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GXExpressionTests.m; sourceTree = "<group>"; };
 		AA3A84AD20198920007C0019 /* single_bili_music_layout.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = single_bili_music_layout.xib; sourceTree = "<group>"; };
 		AA3A84AE20198920007C0019 /* single_bili_player_layout.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = single_bili_player_layout.xib; sourceTree = "<group>"; };
 		AA3A84AF20198920007C0019 /* single_bili_purchase_layout.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = single_bili_purchase_layout.xib; sourceTree = "<group>"; };
@@ -324,83 +255,8 @@
 		AA3F0778201719B200DC6579 /* BBPhonePegasusCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BBPhonePegasusCell.h; sourceTree = "<group>"; };
 		AA3F0779201719B200DC6579 /* BBPhonePegasusCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BBPhonePegasusCell.m; sourceTree = "<group>"; };
 		AA3F077A201719B200DC6579 /* BBPhonePegasusLabel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BBPhonePegasusLabel.h; sourceTree = "<group>"; };
-		AA3F0783201719D000DC6579 /* NSDictionary+ParamParser.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSDictionary+ParamParser.h"; sourceTree = "<group>"; };
 		AA3F0784201719D000DC6579 /* BBPhonePegasusDataParser.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BBPhonePegasusDataParser.m; sourceTree = "<group>"; };
-		AA3F0785201719D000DC6579 /* NSDictionary+ParamParser.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSDictionary+ParamParser.m"; sourceTree = "<group>"; };
 		AA3F0786201719D000DC6579 /* BBPhonePegasusDataParser.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BBPhonePegasusDataParser.h; sourceTree = "<group>"; };
-		AA5F2B0C2007646900D73027 /* GXHomeVirtualFeedVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GXHomeVirtualFeedVC.h; sourceTree = "<group>"; };
-		AA5F2B0D2007646900D73027 /* GXHomeVirtualFeedVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GXHomeVirtualFeedVC.m; sourceTree = "<group>"; };
-		AA5F2B65200769D900D73027 /* UIView+VirtualView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+VirtualView.m"; sourceTree = "<group>"; };
-		AA5F2B66200769D900D73027 /* VVCommTools.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VVCommTools.h; sourceTree = "<group>"; };
-		AA5F2B67200769D900D73027 /* UIColor+VirtualView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIColor+VirtualView.h"; sourceTree = "<group>"; };
-		AA5F2B68200769D900D73027 /* UIView+VirtualView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+VirtualView.h"; sourceTree = "<group>"; };
-		AA5F2B69200769D900D73027 /* VVCommTools.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VVCommTools.m; sourceTree = "<group>"; };
-		AA5F2B6A200769D900D73027 /* UIColor+VirtualView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIColor+VirtualView.m"; sourceTree = "<group>"; };
-		AA5F2B6C200769D900D73027 /* VVLayer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VVLayer.m; sourceTree = "<group>"; };
-		AA5F2B6D200769D900D73027 /* VVViewObject.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VVViewObject.h; sourceTree = "<group>"; };
-		AA5F2B6E200769D900D73027 /* VVSystemKey.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VVSystemKey.h; sourceTree = "<group>"; };
-		AA5F2B6F200769D900D73027 /* VVViewObject.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VVViewObject.m; sourceTree = "<group>"; };
-		AA5F2B70200769D900D73027 /* VVLayer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VVLayer.h; sourceTree = "<group>"; };
-		AA5F2B71200769D900D73027 /* VVSystemKey.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VVSystemKey.m; sourceTree = "<group>"; };
-		AA5F2B73200769D900D73027 /* widgetCodeList.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = widgetCodeList.plist; sourceTree = "<group>"; };
-		AA5F2B75200769D900D73027 /* VVLayout.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VVLayout.h; sourceTree = "<group>"; };
-		AA5F2B76200769D900D73027 /* VVFrameLayout.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VVFrameLayout.m; sourceTree = "<group>"; };
-		AA5F2B77200769D900D73027 /* VVGridLayout.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VVGridLayout.h; sourceTree = "<group>"; };
-		AA5F2B78200769D900D73027 /* VVVH2Layout.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VVVH2Layout.h; sourceTree = "<group>"; };
-		AA5F2B79200769D900D73027 /* VVVHLayout.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VVVHLayout.m; sourceTree = "<group>"; };
-		AA5F2B7A200769D900D73027 /* VVRatioLayout.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VVRatioLayout.m; sourceTree = "<group>"; };
-		AA5F2B7B200769D900D73027 /* VVLayout.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VVLayout.m; sourceTree = "<group>"; };
-		AA5F2B7C200769D900D73027 /* VVFrameLayout.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VVFrameLayout.h; sourceTree = "<group>"; };
-		AA5F2B7D200769D900D73027 /* VVGridLayout.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VVGridLayout.m; sourceTree = "<group>"; };
-		AA5F2B7E200769D900D73027 /* VVRatioLayout.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VVRatioLayout.h; sourceTree = "<group>"; };
-		AA5F2B7F200769D900D73027 /* VVVHLayout.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VVVHLayout.h; sourceTree = "<group>"; };
-		AA5F2B80200769D900D73027 /* VVVH2Layout.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VVVH2Layout.m; sourceTree = "<group>"; };
-		AA5F2B82200769D900D73027 /* VVViewContainer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VVViewContainer.h; sourceTree = "<group>"; };
-		AA5F2B83200769D900D73027 /* VVNavtiveViewContainer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VVNavtiveViewContainer.m; sourceTree = "<group>"; };
-		AA5F2B84200769D900D73027 /* VVViewFactory.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VVViewFactory.m; sourceTree = "<group>"; };
-		AA5F2B85200769D900D73027 /* VVViewContainer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VVViewContainer.m; sourceTree = "<group>"; };
-		AA5F2B86200769D900D73027 /* VVNavtiveViewContainer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VVNavtiveViewContainer.h; sourceTree = "<group>"; };
-		AA5F2B87200769D900D73027 /* VVViewFactory.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VVViewFactory.h; sourceTree = "<group>"; };
-		AA5F2B89200769D900D73027 /* VVLoader.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VVLoader.h; sourceTree = "<group>"; };
-		AA5F2B8A200769D900D73027 /* VVBinaryLoader.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VVBinaryLoader.h; sourceTree = "<group>"; };
-		AA5F2B8B200769D900D73027 /* VVVersionModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VVVersionModel.m; sourceTree = "<group>"; };
-		AA5F2B8C200769D900D73027 /* VVBinaryLoader.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VVBinaryLoader.m; sourceTree = "<group>"; };
-		AA5F2B8D200769D900D73027 /* VVLoader.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VVLoader.m; sourceTree = "<group>"; };
-		AA5F2B8E200769D900D73027 /* VVVersionModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VVVersionModel.h; sourceTree = "<group>"; };
-		AA5F2B90200769D900D73027 /* NVImageView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NVImageView.m; sourceTree = "<group>"; };
-		AA5F2B91200769D900D73027 /* NVCarouselPageView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NVCarouselPageView.m; sourceTree = "<group>"; };
-		AA5F2B92200769D900D73027 /* FrameView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FrameView.m; sourceTree = "<group>"; };
-		AA5F2B93200769D900D73027 /* NVTextView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NVTextView.m; sourceTree = "<group>"; };
-		AA5F2B94200769D900D73027 /* VVLineView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VVLineView.h; sourceTree = "<group>"; };
-		AA5F2B95200769D900D73027 /* VVFoundationView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VVFoundationView.h; sourceTree = "<group>"; };
-		AA5F2B96200769D900D73027 /* VVSliderView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VVSliderView.h; sourceTree = "<group>"; };
-		AA5F2B97200769D900D73027 /* VVGridView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VVGridView.h; sourceTree = "<group>"; };
-		AA5F2B98200769D900D73027 /* NVFoundationView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NVFoundationView.m; sourceTree = "<group>"; };
-		AA5F2B99200769D900D73027 /* VVTextView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VVTextView.h; sourceTree = "<group>"; };
-		AA5F2B9A200769D900D73027 /* VVPageView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VVPageView.h; sourceTree = "<group>"; };
-		AA5F2B9B200769D900D73027 /* VVImageView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VVImageView.h; sourceTree = "<group>"; };
-		AA5F2B9C200769D900D73027 /* NVLineView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NVLineView.m; sourceTree = "<group>"; };
-		AA5F2B9D200769D900D73027 /* VVContainerView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VVContainerView.h; sourceTree = "<group>"; };
-		AA5F2B9E200769D900D73027 /* FrameView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FrameView.h; sourceTree = "<group>"; };
-		AA5F2B9F200769D900D73027 /* NVImageView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NVImageView.h; sourceTree = "<group>"; };
-		AA5F2BA0200769D900D73027 /* NVCarouselPageView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NVCarouselPageView.h; sourceTree = "<group>"; };
-		AA5F2BA1200769D900D73027 /* VVGridView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VVGridView.m; sourceTree = "<group>"; };
-		AA5F2BA2200769D900D73027 /* VVSliderView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VVSliderView.m; sourceTree = "<group>"; };
-		AA5F2BA3200769D900D73027 /* VVFoundationView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VVFoundationView.m; sourceTree = "<group>"; };
-		AA5F2BA4200769D900D73027 /* VVLineView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VVLineView.m; sourceTree = "<group>"; };
-		AA5F2BA5200769D900D73027 /* NVTextView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NVTextView.h; sourceTree = "<group>"; };
-		AA5F2BA6200769D900D73027 /* NVFoundationView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NVFoundationView.h; sourceTree = "<group>"; };
-		AA5F2BA7200769D900D73027 /* VVContainerView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VVContainerView.m; sourceTree = "<group>"; };
-		AA5F2BA8200769D900D73027 /* NVLineView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NVLineView.h; sourceTree = "<group>"; };
-		AA5F2BA9200769D900D73027 /* VVImageView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VVImageView.m; sourceTree = "<group>"; };
-		AA5F2BAA200769D900D73027 /* VVPageView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VVPageView.m; sourceTree = "<group>"; };
-		AA5F2BAB200769D900D73027 /* VVTextView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VVTextView.m; sourceTree = "<group>"; };
-		AA76D8742010978C000712AD /* GXAttributesParserTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GXAttributesParserTests.m; sourceTree = "<group>"; };
-		AAC6A9F02008ADEE00F42383 /* AVX.out */ = {isa = PBXFileReference; lastKnownFileType = file; path = AVX.out; sourceTree = "<group>"; };
-		AAFFCE76200A156D00D1FBC8 /* AVX.xml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = AVX.xml; sourceTree = "<group>"; };
-		AAFFCE78200A162D00D1FBC8 /* GXHomeVirtualFeedCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GXHomeVirtualFeedCell.h; sourceTree = "<group>"; };
-		AAFFCE79200A162D00D1FBC8 /* GXHomeVirtualFeedCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GXHomeVirtualFeedCell.m; sourceTree = "<group>"; };
-		AAFFCE95200A3F8200D1FBC8 /* AV.out */ = {isa = PBXFileReference; lastKnownFileType = file; path = AV.out; sourceTree = "<group>"; };
 		B70FBC9E1F99CCA9004A52F7 /* GXHomeLiveVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GXHomeLiveVC.h; sourceTree = "<group>"; };
 		B70FBC9F1F99CCA9004A52F7 /* GXHomeLiveVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GXHomeLiveVC.m; sourceTree = "<group>"; };
 		B70FBCA81F99CD4D004A52F7 /* GXHomeLiveModel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GXHomeLiveModel.h; sourceTree = "<group>"; };
@@ -538,172 +394,13 @@
 			path = CollectionCell;
 			sourceTree = "<group>";
 		};
-		AA5F2AAD2007646900D73027 /* VirtualFeed */ = {
-			isa = PBXGroup;
-			children = (
-				AA5F2B63200769D900D73027 /* VirtualView */,
-				AA5F2AAE2007646900D73027 /* out */,
-				AA5F2B0B2007646900D73027 /* VC */,
-			);
-			path = VirtualFeed;
-			sourceTree = "<group>";
-		};
-		AA5F2AAE2007646900D73027 /* out */ = {
-			isa = PBXGroup;
-			children = (
-				AAFFCE95200A3F8200D1FBC8 /* AV.out */,
-				AAFFCE76200A156D00D1FBC8 /* AVX.xml */,
-				AAC6A9F02008ADEE00F42383 /* AVX.out */,
-			);
-			path = out;
-			sourceTree = "<group>";
-		};
-		AA5F2B0B2007646900D73027 /* VC */ = {
-			isa = PBXGroup;
-			children = (
-				AA5F2B0C2007646900D73027 /* GXHomeVirtualFeedVC.h */,
-				AA5F2B0D2007646900D73027 /* GXHomeVirtualFeedVC.m */,
-				AAFFCE78200A162D00D1FBC8 /* GXHomeVirtualFeedCell.h */,
-				AAFFCE79200A162D00D1FBC8 /* GXHomeVirtualFeedCell.m */,
-			);
-			path = VC;
-			sourceTree = "<group>";
-		};
-		AA5F2B63200769D900D73027 /* VirtualView */ = {
-			isa = PBXGroup;
-			children = (
-				AA5F2B64200769D900D73027 /* Tools */,
-				AA5F2B6B200769D900D73027 /* Core */,
-				AA5F2B72200769D900D73027 /* Resources */,
-				AA5F2B74200769D900D73027 /* LayoutView */,
-				AA5F2B81200769D900D73027 /* Manager */,
-				AA5F2B88200769D900D73027 /* Loader */,
-				AA5F2B8F200769D900D73027 /* View */,
-			);
-			path = VirtualView;
-			sourceTree = "<group>";
-		};
-		AA5F2B64200769D900D73027 /* Tools */ = {
-			isa = PBXGroup;
-			children = (
-				AA5F2B66200769D900D73027 /* VVCommTools.h */,
-				AA5F2B69200769D900D73027 /* VVCommTools.m */,
-				AA5F2B67200769D900D73027 /* UIColor+VirtualView.h */,
-				AA5F2B6A200769D900D73027 /* UIColor+VirtualView.m */,
-				AA5F2B68200769D900D73027 /* UIView+VirtualView.h */,
-				AA5F2B65200769D900D73027 /* UIView+VirtualView.m */,
-			);
-			path = Tools;
-			sourceTree = "<group>";
-		};
-		AA5F2B6B200769D900D73027 /* Core */ = {
-			isa = PBXGroup;
-			children = (
-				AA5F2B70200769D900D73027 /* VVLayer.h */,
-				AA5F2B6C200769D900D73027 /* VVLayer.m */,
-				AA5F2B6E200769D900D73027 /* VVSystemKey.h */,
-				AA5F2B71200769D900D73027 /* VVSystemKey.m */,
-				AA5F2B6D200769D900D73027 /* VVViewObject.h */,
-				AA5F2B6F200769D900D73027 /* VVViewObject.m */,
-			);
-			path = Core;
-			sourceTree = "<group>";
-		};
-		AA5F2B72200769D900D73027 /* Resources */ = {
-			isa = PBXGroup;
-			children = (
-				AA5F2B73200769D900D73027 /* widgetCodeList.plist */,
-			);
-			path = Resources;
-			sourceTree = "<group>";
-		};
-		AA5F2B74200769D900D73027 /* LayoutView */ = {
-			isa = PBXGroup;
-			children = (
-				AA5F2B75200769D900D73027 /* VVLayout.h */,
-				AA5F2B7B200769D900D73027 /* VVLayout.m */,
-				AA5F2B7C200769D900D73027 /* VVFrameLayout.h */,
-				AA5F2B76200769D900D73027 /* VVFrameLayout.m */,
-				AA5F2B77200769D900D73027 /* VVGridLayout.h */,
-				AA5F2B7D200769D900D73027 /* VVGridLayout.m */,
-				AA5F2B78200769D900D73027 /* VVVH2Layout.h */,
-				AA5F2B80200769D900D73027 /* VVVH2Layout.m */,
-				AA5F2B7F200769D900D73027 /* VVVHLayout.h */,
-				AA5F2B79200769D900D73027 /* VVVHLayout.m */,
-				AA5F2B7E200769D900D73027 /* VVRatioLayout.h */,
-				AA5F2B7A200769D900D73027 /* VVRatioLayout.m */,
-			);
-			path = LayoutView;
-			sourceTree = "<group>";
-		};
-		AA5F2B81200769D900D73027 /* Manager */ = {
-			isa = PBXGroup;
-			children = (
-				AA5F2B86200769D900D73027 /* VVNavtiveViewContainer.h */,
-				AA5F2B83200769D900D73027 /* VVNavtiveViewContainer.m */,
-				AA5F2B87200769D900D73027 /* VVViewFactory.h */,
-				AA5F2B84200769D900D73027 /* VVViewFactory.m */,
-				AA5F2B82200769D900D73027 /* VVViewContainer.h */,
-				AA5F2B85200769D900D73027 /* VVViewContainer.m */,
-			);
-			path = Manager;
-			sourceTree = "<group>";
-		};
-		AA5F2B88200769D900D73027 /* Loader */ = {
-			isa = PBXGroup;
-			children = (
-				AA5F2B89200769D900D73027 /* VVLoader.h */,
-				AA5F2B8D200769D900D73027 /* VVLoader.m */,
-				AA5F2B8A200769D900D73027 /* VVBinaryLoader.h */,
-				AA5F2B8C200769D900D73027 /* VVBinaryLoader.m */,
-				AA5F2B8E200769D900D73027 /* VVVersionModel.h */,
-				AA5F2B8B200769D900D73027 /* VVVersionModel.m */,
-			);
-			path = Loader;
-			sourceTree = "<group>";
-		};
-		AA5F2B8F200769D900D73027 /* View */ = {
-			isa = PBXGroup;
-			children = (
-				AA5F2BA6200769D900D73027 /* NVFoundationView.h */,
-				AA5F2B98200769D900D73027 /* NVFoundationView.m */,
-				AA5F2BA5200769D900D73027 /* NVTextView.h */,
-				AA5F2B93200769D900D73027 /* NVTextView.m */,
-				AA5F2B9E200769D900D73027 /* FrameView.h */,
-				AA5F2B92200769D900D73027 /* FrameView.m */,
-				AA5F2B9F200769D900D73027 /* NVImageView.h */,
-				AA5F2B90200769D900D73027 /* NVImageView.m */,
-				AA5F2BA0200769D900D73027 /* NVCarouselPageView.h */,
-				AA5F2B91200769D900D73027 /* NVCarouselPageView.m */,
-				AA5F2B97200769D900D73027 /* VVGridView.h */,
-				AA5F2BA1200769D900D73027 /* VVGridView.m */,
-				AA5F2B96200769D900D73027 /* VVSliderView.h */,
-				AA5F2BA2200769D900D73027 /* VVSliderView.m */,
-				AA5F2B94200769D900D73027 /* VVLineView.h */,
-				AA5F2BA4200769D900D73027 /* VVLineView.m */,
-				AA5F2B95200769D900D73027 /* VVFoundationView.h */,
-				AA5F2BA3200769D900D73027 /* VVFoundationView.m */,
-				AA5F2B9D200769D900D73027 /* VVContainerView.h */,
-				AA5F2BA7200769D900D73027 /* VVContainerView.m */,
-				AA5F2BA8200769D900D73027 /* NVLineView.h */,
-				AA5F2B9C200769D900D73027 /* NVLineView.m */,
-				AA5F2B9B200769D900D73027 /* VVImageView.h */,
-				AA5F2BA9200769D900D73027 /* VVImageView.m */,
-				AA5F2B9A200769D900D73027 /* VVPageView.h */,
-				AA5F2BAA200769D900D73027 /* VVPageView.m */,
-				AA5F2B99200769D900D73027 /* VVTextView.h */,
-				AA5F2BAB200769D900D73027 /* VVTextView.m */,
-			);
-			path = View;
-			sourceTree = "<group>";
-		};
 		AA76D86F2010967B000712AD /* Tool */ = {
 			isa = PBXGroup;
 			children = (
 				AA3F0786201719D000DC6579 /* BBPhonePegasusDataParser.h */,
 				AA3F0784201719D000DC6579 /* BBPhonePegasusDataParser.m */,
-				AA3F0783201719D000DC6579 /* NSDictionary+ParamParser.h */,
-				AA3F0785201719D000DC6579 /* NSDictionary+ParamParser.m */,
+				AA2C359D202867B0004CA343 /* BBPhoneExpression.h */,
+				AA2C35A3202867B0004CA343 /* BBPhoneExpression.m */,
 			);
 			path = Tool;
 			sourceTree = "<group>";
@@ -853,7 +550,7 @@
 			isa = PBXGroup;
 			children = (
 				B75555511F3C5823008D0D01 /* GXHomeTests.m */,
-				AA76D8742010978C000712AD /* GXAttributesParserTests.m */,
+				AA2C35A6202867F2004CA343 /* GXExpressionTests.m */,
 				B75555531F3C5823008D0D01 /* Info.plist */,
 			);
 			path = GXHomeTests;
@@ -862,7 +559,6 @@
 		B75555911F3C637D008D0D01 /* GXHome */ = {
 			isa = PBXGroup;
 			children = (
-				AA5F2AAD2007646900D73027 /* VirtualFeed */,
 				B78048B71F73BFA3004B5E5B /* HomeBangumi */,
 				B78048B81F73BFA3004B5E5B /* HomeLive */,
 				B78048B91F73BFA3004B5E5B /* HomeRecommend */,
@@ -988,15 +684,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				B75081601F9DC47B0054ED21 /* GXHomeBangumiCell.h in Headers */,
-				AA5F2BD5200769D900D73027 /* VVLineView.h in Headers */,
 				B780484A1F7367D5004B5E5B /* GXHomePCH.pch in Headers */,
 				AA3F077F201719B200DC6579 /* BBPhonePegasusView.h in Headers */,
-				AA5F2BC0200769D900D73027 /* VVFrameLayout.h in Headers */,
-				AA5F2BB6200769D900D73027 /* VVLayer.h in Headers */,
 				AA3A855D201A1688007C0019 /* BBPhonePegasusDynamicProtocol.h in Headers */,
-				AA5F2BC3200769D900D73027 /* VVVHLayout.h in Headers */,
-				AA5F2BD0200769D900D73027 /* VVVersionModel.h in Headers */,
-				AA5F2BE0200769D900D73027 /* NVImageView.h in Headers */,
 				B70FBCA21F99CCA9004A52F7 /* GXHomeLiveVC.h in Headers */,
 				B70FBCAE1F99CD77004A52F7 /* GXHomeLiveCell.h in Headers */,
 				AA3F078A201719D000DC6579 /* BBPhonePegasusDataParser.h in Headers */,
@@ -1005,48 +695,20 @@
 				B75555541F3C5823008D0D01 /* GXHome.h in Headers */,
 				B70FBCB61F99CEA8004A52F7 /* GXHomeNavigator.h in Headers */,
 				B75555701F3C616C008D0D01 /* GXHomeManager.h in Headers */,
-				AA5F2BE6200769D900D73027 /* NVTextView.h in Headers */,
-				AA5F2BC5200769D900D73027 /* VVViewContainer.h in Headers */,
-				AAFFCE7A200A162D00D1FBC8 /* GXHomeVirtualFeedCell.h in Headers */,
-				AA5F2BCA200769D900D73027 /* VVViewFactory.h in Headers */,
-				AA5F2BBC200769D900D73027 /* VVVH2Layout.h in Headers */,
-				AA5F2BAF200769D900D73027 /* UIView+VirtualView.h in Headers */,
 				B75081581F9DC3AE0054ED21 /* GXHomeBangumiModel.h in Headers */,
-				AA5F2BDA200769D900D73027 /* VVTextView.h in Headers */,
-				AA5F2BDC200769D900D73027 /* VVImageView.h in Headers */,
 				B75081531F9DC3220054ED21 /* GXHomeBangumiViewModel.h in Headers */,
-				AA5F2BC2200769D900D73027 /* VVRatioLayout.h in Headers */,
-				AA5F2BBB200769D900D73027 /* VVGridLayout.h in Headers */,
-				AA5F2BE1200769D900D73027 /* NVCarouselPageView.h in Headers */,
 				AA3F077B201719B200DC6579 /* BBPhonePegasusImageView.h in Headers */,
 				B755556C1F3C604A008D0D01 /* GXHomeDefine.h in Headers */,
 				B70FBCAA1F99CD4D004A52F7 /* GXHomeLiveModel.h in Headers */,
-				AA5F2BB9200769D900D73027 /* VVLayout.h in Headers */,
-				AA5F2BAE200769D900D73027 /* UIColor+VirtualView.h in Headers */,
 				AA3A852D2019ACB9007C0019 /* BBPhonePegasusCollectionCell.h in Headers */,
-				AA5F2BCB200769D900D73027 /* VVLoader.h in Headers */,
-				AA5F2BCC200769D900D73027 /* VVBinaryLoader.h in Headers */,
-				AA5F2BAD200769D900D73027 /* VVCommTools.h in Headers */,
-				AA5F2BD8200769D900D73027 /* VVGridView.h in Headers */,
-				AA5F2BB3200769D900D73027 /* VVViewObject.h in Headers */,
-				AA5F2BC9200769D900D73027 /* VVNavtiveViewContainer.h in Headers */,
 				AA3C79861FFE693100FA1455 /* GXHomeRecommendVM.h in Headers */,
 				B78048BC1F73BFC9004B5E5B /* GXHomeRecommendVC.h in Headers */,
-				AA5F2B612007646900D73027 /* GXHomeVirtualFeedVC.h in Headers */,
-				AA5F2BD6200769D900D73027 /* VVFoundationView.h in Headers */,
 				AA3F0780201719B200DC6579 /* BBPhonePegasusCell.h in Headers */,
 				B750815C1F9DC45A0054ED21 /* GXHomeBangumiVC.h in Headers */,
-				AA5F2BDF200769D900D73027 /* FrameView.h in Headers */,
-				AA5F2BB4200769D900D73027 /* VVSystemKey.h in Headers */,
-				AA3F0787201719D000DC6579 /* NSDictionary+ParamParser.h in Headers */,
 				B7CCDC6F1F3DBD7E00B06BB3 /* GXHomeBus.h in Headers */,
-				AA5F2BD7200769D900D73027 /* VVSliderView.h in Headers */,
-				AA5F2BDE200769D900D73027 /* VVContainerView.h in Headers */,
-				AA5F2BDB200769D900D73027 /* VVPageView.h in Headers */,
+				AA2C35A4202867B0004CA343 /* BBPhoneExpression.h in Headers */,
 				B7B685321F41B2CC00306EF5 /* GXHomeViewController.h in Headers */,
-				AA5F2BE9200769D900D73027 /* NVLineView.h in Headers */,
 				B70FBCB21F99CE17004A52F7 /* GXHomeLiveVM.h in Headers */,
-				AA5F2BE7200769D900D73027 /* NVFoundationView.h in Headers */,
 				B7C20D861F4EB97300F6E5F1 /* GXHomeRouter.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -1263,14 +925,10 @@
 				AA3A84B220198921007C0019 /* single_bili_player_layout.xib in Resources */,
 				AA3A84B320198921007C0019 /* single_bili_purchase_layout.xib in Resources */,
 				AA3A84B120198921007C0019 /* single_bili_music_layout.xib in Resources */,
-				AAC6A9F12008ADEE00F42383 /* AVX.out in Resources */,
 				AA3A855A201A14DA007C0019 /* double_bili_music_layout.xib in Resources */,
-				AAFFCE96200A3F8200D1FBC8 /* AV.out in Resources */,
 				B7B685351F41B3D100306EF5 /* GXHome.xcassets in Resources */,
-				AAFFCE77200A156E00D1FBC8 /* AVX.xml in Resources */,
 				AA3A85522019B53B007C0019 /* double_bili_player_layout.xib in Resources */,
 				AA3A8560201A194A007C0019 /* double_bili_purchase_layout.xib in Resources */,
-				AA5F2BB8200769D900D73027 /* widgetCodeList.plist in Resources */,
 				AA3A84B420198921007C0019 /* layouts.json in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -1302,60 +960,26 @@
 				B7C20D871F4EB97300F6E5F1 /* GXHomeRouter.m in Sources */,
 				AA3F0788201719D000DC6579 /* BBPhonePegasusDataParser.m in Sources */,
 				B75081611F9DC47B0054ED21 /* GXHomeBangumiCell.m in Sources */,
-				AA5F2BD4200769D900D73027 /* NVTextView.m in Sources */,
 				AA3A852E2019ACB9007C0019 /* BBPhonePegasusCollectionCell.m in Sources */,
 				B70FBCA31F99CCA9004A52F7 /* GXHomeLiveVC.m in Sources */,
-				AA5F2BD2200769D900D73027 /* NVCarouselPageView.m in Sources */,
-				AA5F2BB0200769D900D73027 /* VVCommTools.m in Sources */,
-				AAFFCE7B200A162D00D1FBC8 /* GXHomeVirtualFeedCell.m in Sources */,
-				AA5F2BCF200769D900D73027 /* VVLoader.m in Sources */,
-				AA5F2BC4200769D900D73027 /* VVVH2Layout.m in Sources */,
-				AA5F2BE3200769D900D73027 /* VVSliderView.m in Sources */,
-				AA5F2BEB200769D900D73027 /* VVPageView.m in Sources */,
-				AA5F2BCE200769D900D73027 /* VVBinaryLoader.m in Sources */,
-				AA5F2BB2200769D900D73027 /* VVLayer.m in Sources */,
-				AA5F2BAC200769D900D73027 /* UIView+VirtualView.m in Sources */,
+				AA2C35A5202867B0004CA343 /* BBPhoneExpression.m in Sources */,
 				B78048BD1F73BFC9004B5E5B /* GXHomeRecommendVC.m in Sources */,
-				AA5F2BDD200769D900D73027 /* NVLineView.m in Sources */,
-				AA5F2BD1200769D900D73027 /* NVImageView.m in Sources */,
-				AA5F2BBA200769D900D73027 /* VVFrameLayout.m in Sources */,
 				AA3F0781201719B200DC6579 /* BBPhonePegasusCell.m in Sources */,
 				B755556D1F3C604A008D0D01 /* GXHomeDefine.m in Sources */,
 				B70FBCB31F99CE17004A52F7 /* GXHomeLiveVM.m in Sources */,
 				B750815D1F9DC45A0054ED21 /* GXHomeBangumiVC.m in Sources */,
-				AA5F2BEC200769D900D73027 /* VVTextView.m in Sources */,
 				AA3F077E201719B200DC6579 /* BBPhonePegasusLabel.m in Sources */,
-				AA5F2BD9200769D900D73027 /* NVFoundationView.m in Sources */,
-				AA5F2BE8200769D900D73027 /* VVContainerView.m in Sources */,
-				AA5F2BE5200769D900D73027 /* VVLineView.m in Sources */,
-				AA5F2B622007646900D73027 /* GXHomeVirtualFeedVC.m in Sources */,
 				B75081591F9DC3AE0054ED21 /* GXHomeBangumiModel.m in Sources */,
 				B70FBCB71F99CEA8004A52F7 /* GXHomeNavigator.m in Sources */,
 				B7B685331F41B2CC00306EF5 /* GXHomeViewController.m in Sources */,
-				AA5F2BBF200769D900D73027 /* VVLayout.m in Sources */,
-				AA3F0789201719D000DC6579 /* NSDictionary+ParamParser.m in Sources */,
-				AA5F2BC1200769D900D73027 /* VVGridLayout.m in Sources */,
 				B75081541F9DC3220054ED21 /* GXHomeBangumiViewModel.m in Sources */,
-				AA5F2BCD200769D900D73027 /* VVVersionModel.m in Sources */,
-				AA5F2BB7200769D900D73027 /* VVSystemKey.m in Sources */,
-				AA5F2BBD200769D900D73027 /* VVVHLayout.m in Sources */,
-				AA5F2BC7200769D900D73027 /* VVViewFactory.m in Sources */,
 				B7CCDC701F3DBD7E00B06BB3 /* GXHomeBus.m in Sources */,
-				AA5F2BC8200769D900D73027 /* VVViewContainer.m in Sources */,
 				B75555711F3C616C008D0D01 /* GXHomeManager.m in Sources */,
-				AA5F2BE4200769D900D73027 /* VVFoundationView.m in Sources */,
-				AA5F2BC6200769D900D73027 /* VVNavtiveViewContainer.m in Sources */,
 				AA3A85332019AEC5007C0019 /* GXHomeRecommendVCV2.m in Sources */,
 				AA3F077D201719B200DC6579 /* BBPhonePegasusImageView.m in Sources */,
 				B70FBCAF1F99CD77004A52F7 /* GXHomeLiveCell.m in Sources */,
-				AA5F2BB1200769D900D73027 /* UIColor+VirtualView.m in Sources */,
-				AA5F2BD3200769D900D73027 /* FrameView.m in Sources */,
-				AA5F2BE2200769D900D73027 /* VVGridView.m in Sources */,
 				AA3C79871FFE693100FA1455 /* GXHomeRecommendVM.m in Sources */,
 				AA3F077C201719B200DC6579 /* BBPhonePegasusView.m in Sources */,
-				AA5F2BB5200769D900D73027 /* VVViewObject.m in Sources */,
-				AA5F2BBE200769D900D73027 /* VVRatioLayout.m in Sources */,
-				AA5F2BEA200769D900D73027 /* VVImageView.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -1363,7 +987,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				AA76D8752010978C000712AD /* GXAttributesParserTests.m in Sources */,
+				AA2C35A7202867F2004CA343 /* GXExpressionTests.m in Sources */,
 				B75555521F3C5823008D0D01 /* GXHomeTests.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
