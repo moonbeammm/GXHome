@@ -70,7 +70,7 @@
     NSString *result = nil;
     NSString *key = nil;
     
-    key = @"${user.play.bili_transform}+人观看";
+    key = @"77777/+${user.play.bili_transform_time}/+人观看";
     result = (id)[BBPhoneExpression expressionWithKey:key object:self.result];
     XCTAssert([result isEqualToString:@"12.0万人观看"],@"支持");
 }

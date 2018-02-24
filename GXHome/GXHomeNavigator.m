@@ -10,8 +10,6 @@
 #import <GXPlayer/GXPlayerDetailVC.h>
 #import <GXRuler/GXRouter.h>
 
-#import "GXHomeVirtualFeedVC.h"
-
 @implementation GXHomeNavigator
 
 + (GXHomeNavigator *)shared
@@ -27,12 +25,6 @@
 - (void)showPlayerDetailVCWithUrl:(NSString *)url
 {
     GXPlayerDetailVC *vc = [[GXPlayerDetailVC alloc] initWithUrl:url];
-    [[GXRouter navigationController] pushViewController:vc animated:YES];
-}
-
-- (void)showVirtualFeedVC
-{
-    GXHomeVirtualFeedVC *vc = [[GXHomeVirtualFeedVC alloc] init];
     [[GXRouter navigationController] pushViewController:vc animated:YES];
 }
 

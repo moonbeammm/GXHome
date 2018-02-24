@@ -13,6 +13,5 @@
 + (GXHomeNavigator *)shared;
 
 - (void)showPlayerDetailVCWithUrl:(NSString *)url;
-- (void)showVirtualFeedVC;
 
 @end

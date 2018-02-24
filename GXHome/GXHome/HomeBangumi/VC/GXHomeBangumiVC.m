@@ -75,7 +75,6 @@
 }
 
 - (void)tableView:(UITableView *)tableView didSelectRowAtIndexPath:(NSIndexPath *)indexPath {
-    [[GXHomeNavigator shared] showVirtualFeedVC];
 }
 
 #pragma mark - Initialize Method
