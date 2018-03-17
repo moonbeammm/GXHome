@@ -29,8 +29,7 @@
         if ([validator validateModel:model]) {
             // viewModel/from为外界传进来的参数
             // NSObject *viewModel = (NSObject *)[model viewModelValueForKey:@"viewModel"];
-            NSString *from = (NSString *)[model stringValueForKey:@"from"];
-            NSLog(@"GXPhoneBus-callFunction-url:%@,from:%@",function,from);
+            // NSString *from = (NSString *)[model stringValueForKey:@"from"];
             // 创建vc
             UIViewController *vc = [[GXHomeViewController alloc] init];
             // 通过vc和params创建保存vc的busModel
