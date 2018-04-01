@@ -20,8 +20,8 @@
 @interface GXHomeViewController () <GXPageContainerChildVCDelegate>
 
 @property (nonatomic, strong) GXPageContainerView *pageContainerView;
-//@property (nonatomic, strong) GXHomeRecommendVC *recommendVC;
-@property (nonatomic, strong) GXHomeRecommendVCV2 *recommendVC;
+@property (nonatomic, strong) GXHomeRecommendVC *recommendVC;
+//@property (nonatomic, strong) GXHomeRecommendVCV2 *recommendVC;
 @property (nonatomic, strong) GXHomeLiveVC *liveVC;
 @property (nonatomic, strong) GXHomeBangumiVC *bangumiVC;
 
@@ -96,19 +96,19 @@
     return _pageContainerView;
 }
 
-//- (GXHomeRecommendVC *)recommendVC
-//{
-//    if (_recommendVC == nil) {
-//        _recommendVC = [[GXHomeRecommendVC alloc] init];
-//    }
-//    return _recommendVC;
-//}
-- (GXHomeRecommendVCV2 *)recommendVC {
+- (GXHomeRecommendVC *)recommendVC
+{
     if (_recommendVC == nil) {
-        _recommendVC = [[GXHomeRecommendVCV2 alloc] init];
+        _recommendVC = [[GXHomeRecommendVC alloc] init];
     }
     return _recommendVC;
 }
+//- (GXHomeRecommendVCV2 *)recommendVC {
+//    if (_recommendVC == nil) {
+//        _recommendVC = [[GXHomeRecommendVCV2 alloc] init];
+//    }
+//    return _recommendVC;
+//}
 
 - (GXHomeLiveVC *)liveVC
 {

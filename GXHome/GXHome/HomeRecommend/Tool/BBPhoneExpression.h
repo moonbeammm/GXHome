@@ -2,8 +2,8 @@
 //  BBPhoneExpression.h
 //  BBPhone
 //
-//  Created by bilibili on 2018/1/21.
-//  Copyright © 2018年 Bilibili. All rights reserved.
+//  Created by gx on 2018/1/21.
+//  Copyright © 2018年 gx. All rights reserved.
 //
 
 #import <Foundation/Foundation.h>

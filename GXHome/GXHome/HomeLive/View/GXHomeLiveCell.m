@@ -29,9 +29,23 @@
 
 - (void)installWithModel:(GXHomeLiveModel *)model params:(NSDictionary *)params {
     self.data = model;
-    [self.coverImagView gx_setImageWithURL:model.cover.src ptSize:CGSizeZero placeholderImage:nil options:0 progress:nil completed:nil];
+    self.coverImagView.image = nil;
+    
+    /*
+     用runloop优化图片加载
+     在滑动的时候就不加载图片
+     但是因为cell复用的问题.
+     这样做会导致图片显示错误.
+     只是一个思路罢了.
+     */
+//    [self.coverImagView gx_setImageWithURL:model.cover.src ptSize:CGSizeZero placeholderImage:nil options:0 progress:nil completed:nil];
+    [self performSelector:@selector(setImage) withObject:nil afterDelay:0 inModes:@[NSDefaultRunLoopMode]];
     self.titleLabel.text = model.title;
     self.descLabel.text = model.area_v2_name;
+}
+
+- (void)setImage {
+    [self.coverImagView gx_setImageWithURL:self.data.cover.src ptSize:CGSizeZero placeholderImage:nil options:0 progress:nil completed:nil];
 }
 
 + (NSUInteger)getHeigthWithModel:(id)model params:(NSDictionary *)params {

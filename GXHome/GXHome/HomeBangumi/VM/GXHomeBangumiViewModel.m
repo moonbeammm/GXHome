@@ -16,13 +16,15 @@
 {
     [super loadData];
     GXApiOptions *options = [[GXApiOptions alloc] init];
-    options.baseUrl = @"http://www.sunxxxxx.com/sgx/app_rank_origin";
-    options.modelDescriptions = @[[GXApiModelDescription modelWith:@"data" mappingClass:[GXHomeBangumiModel class] isArray:YES]];
+    options.baseUrl = @"http://gateway.marvel.com/v1/public/characters?ts=1526464061&hash=32d7b786abd35db4b1828a7863303c38&apikey=aaee6fa40625a68298d42a9bb9dcd09d";
+    options.modelDescriptions = @[[GXApiModelDescription modelWith:@"/data" mappingClass:[GXHomeBangumiModel class] isArray:YES]];
     @weakify(self);
     GXNetworkManager *manager = [[GXNetworkManager alloc] initWithOptions:options success:^(NSDictionary * _Nullable result, NSURLResponse * _Nullable response) {
         @strongify(self);
         self.objects = [self fakeArray];
-    } failure:nil];
+    } failure:^(NSDictionary * _Nullable result, NSError * _Nullable error) {
+        NSLog(@"ss");
+    }];
     [manager requestAsync];
 }
 

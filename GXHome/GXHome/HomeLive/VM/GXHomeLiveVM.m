@@ -16,7 +16,7 @@
 {
     [super loadData];
     GXApiOptions *options = [[GXApiOptions alloc] init];
-    options.baseUrl = @"https://api.live.bilibili.com/mobile/rooms";
+    options.baseUrl = @"https://api.live.gx.com/mobile/rooms";
     options.params = @{@"page":@"1",
                        @"platform":@"ios",
                        @"sort":@"hottest"

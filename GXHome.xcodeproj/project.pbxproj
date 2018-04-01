@@ -40,6 +40,9 @@
 		AA3F0782201719B200DC6579 /* BBPhonePegasusLabel.h in Headers */ = {isa = PBXBuildFile; fileRef = AA3F077A201719B200DC6579 /* BBPhonePegasusLabel.h */; };
 		AA3F0788201719D000DC6579 /* BBPhonePegasusDataParser.m in Sources */ = {isa = PBXBuildFile; fileRef = AA3F0784201719D000DC6579 /* BBPhonePegasusDataParser.m */; };
 		AA3F078A201719D000DC6579 /* BBPhonePegasusDataParser.h in Headers */ = {isa = PBXBuildFile; fileRef = AA3F0786201719D000DC6579 /* BBPhonePegasusDataParser.h */; };
+		AA8D255120B941A000807AAD /* BBPhoneConstraint.h in Headers */ = {isa = PBXBuildFile; fileRef = AA8D254F20B941A000807AAD /* BBPhoneConstraint.h */; };
+		AA8D255220B941A000807AAD /* BBPhoneConstraint.m in Sources */ = {isa = PBXBuildFile; fileRef = AA8D255020B941A000807AAD /* BBPhoneConstraint.m */; };
+		AA8D256820B95FA800807AAD /* testStackView.xib in Resources */ = {isa = PBXBuildFile; fileRef = AA8D256720B95FA800807AAD /* testStackView.xib */; };
 		AAF4A7A82014919F003182BA /* IJKMediaFrameworkWithSSL.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AA08D2DD2000AAB90062C7CE /* IJKMediaFrameworkWithSSL.framework */; };
 		AAF4A7A92014919F003182BA /* IJKMediaFrameworkWithSSL.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = AA08D2DD2000AAB90062C7CE /* IJKMediaFrameworkWithSSL.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		AAF4A7AA201491C3003182BA /* IJKMediaFrameworkWithSSL.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AA08D2DD2000AAB90062C7CE /* IJKMediaFrameworkWithSSL.framework */; };
@@ -257,6 +260,9 @@
 		AA3F077A201719B200DC6579 /* BBPhonePegasusLabel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BBPhonePegasusLabel.h; sourceTree = "<group>"; };
 		AA3F0784201719D000DC6579 /* BBPhonePegasusDataParser.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BBPhonePegasusDataParser.m; sourceTree = "<group>"; };
 		AA3F0786201719D000DC6579 /* BBPhonePegasusDataParser.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BBPhonePegasusDataParser.h; sourceTree = "<group>"; };
+		AA8D254F20B941A000807AAD /* BBPhoneConstraint.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BBPhoneConstraint.h; sourceTree = "<group>"; };
+		AA8D255020B941A000807AAD /* BBPhoneConstraint.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BBPhoneConstraint.m; sourceTree = "<group>"; };
+		AA8D256720B95FA800807AAD /* testStackView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = testStackView.xib; sourceTree = "<group>"; };
 		B70FBC9E1F99CCA9004A52F7 /* GXHomeLiveVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GXHomeLiveVC.h; sourceTree = "<group>"; };
 		B70FBC9F1F99CCA9004A52F7 /* GXHomeLiveVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GXHomeLiveVC.m; sourceTree = "<group>"; };
 		B70FBCA81F99CD4D004A52F7 /* GXHomeLiveModel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GXHomeLiveModel.h; sourceTree = "<group>"; };
@@ -419,6 +425,8 @@
 				AA3F0776201719B100DC6579 /* BBPhonePegasusLabel.m */,
 				AA3F0777201719B200DC6579 /* BBPhonePegasusView.h */,
 				AA3F0774201719B100DC6579 /* BBPhonePegasusView.m */,
+				AA8D254F20B941A000807AAD /* BBPhoneConstraint.h */,
+				AA8D255020B941A000807AAD /* BBPhoneConstraint.m */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -671,6 +679,7 @@
 				AA3A84AD20198920007C0019 /* single_bili_music_layout.xib */,
 				AA3A84AE20198920007C0019 /* single_bili_player_layout.xib */,
 				AA3A84AF20198920007C0019 /* single_bili_purchase_layout.xib */,
+				AA8D256720B95FA800807AAD /* testStackView.xib */,
 				AA3A84B020198920007C0019 /* layouts.json */,
 			);
 			path = Cell;
@@ -695,6 +704,7 @@
 				B75555541F3C5823008D0D01 /* GXHome.h in Headers */,
 				B70FBCB61F99CEA8004A52F7 /* GXHomeNavigator.h in Headers */,
 				B75555701F3C616C008D0D01 /* GXHomeManager.h in Headers */,
+				AA8D255120B941A000807AAD /* BBPhoneConstraint.h in Headers */,
 				B75081581F9DC3AE0054ED21 /* GXHomeBangumiModel.h in Headers */,
 				B75081531F9DC3220054ED21 /* GXHomeBangumiViewModel.h in Headers */,
 				AA3F077B201719B200DC6579 /* BBPhonePegasusImageView.h in Headers */,
@@ -924,6 +934,7 @@
 			files = (
 				AA3A84B220198921007C0019 /* single_bili_player_layout.xib in Resources */,
 				AA3A84B320198921007C0019 /* single_bili_purchase_layout.xib in Resources */,
+				AA8D256820B95FA800807AAD /* testStackView.xib in Resources */,
 				AA3A84B120198921007C0019 /* single_bili_music_layout.xib in Resources */,
 				AA3A855A201A14DA007C0019 /* double_bili_music_layout.xib in Resources */,
 				B7B685351F41B3D100306EF5 /* GXHome.xcassets in Resources */,
@@ -967,6 +978,7 @@
 				AA3F0781201719B200DC6579 /* BBPhonePegasusCell.m in Sources */,
 				B755556D1F3C604A008D0D01 /* GXHomeDefine.m in Sources */,
 				B70FBCB31F99CE17004A52F7 /* GXHomeLiveVM.m in Sources */,
+				AA8D255220B941A000807AAD /* BBPhoneConstraint.m in Sources */,
 				B750815D1F9DC45A0054ED21 /* GXHomeBangumiVC.m in Sources */,
 				AA3F077E201719B200DC6579 /* BBPhonePegasusLabel.m in Sources */,
 				B75081591F9DC3AE0054ED21 /* GXHomeBangumiModel.m in Sources */,
